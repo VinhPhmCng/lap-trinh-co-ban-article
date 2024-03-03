@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
+  <title>Phụ Lục</title>
+
+  <xi:include href="./appendix-playground.ptx"/>
+  <xi:include href="./appendix-whats-next.ptx" />
+  <xi:include href="./appendix-gfdl.ptx"/>
+  
+  <index>
+    <title>Đề Mục</title>
+    <index-list />
+  </index>
+
+  <colophon xml:id="colophon">
+    <p>
+      Được viết bằng <pretext />. Được triển khai bằng Github Pages.
+    </p>
+
+    <p>
+      Ngôn ngữ:
+      <ol>
+        <li>
+          <url href="https://vinhphmcng.github.io/basic-programming-article/" visual="vinhphmcng.github.io/basic-programming-article">English</url>
+        </li>
+        <li>
+          Tiếng Việt
+        </li>
+      </ol>
+    </p>
+  </colophon>
+</backmatter>
+

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <docinfo>
+    <!-- Renaming elements (tentative) -->
+    <rename element='abstract'>Bản Quyền</rename>
+    <rename element='warning'>TL;DR</rename>
+    <rename element='problem'>Output</rename>
+    <rename element='technology'>Cú Pháp</rename>
+    <rename element='investigation'>Giải Thích</rename>
+    <rename element='exploration'>Video</rename>
+    <rename element='evaluate'>Chạy Code</rename>
+    <rename element='objectives'>Mục Tiêu</rename>
+    <rename element='note'>Chú Ý</rename>
+    <rename element='insight'>Lưu Ý</rename>
+    <rename element='definition'>Khái Niệm</rename>
+    <rename element='convention'>Quy Ước</rename>
+    <rename element='appendix'>Phụ Lục</rename>
+    <rename element='section'>Phần</rename>
+    <rename element='subsection'>Mục</rename>
+  </docinfo>
+
+  <article xml:id="basic-programming">
+    <title>Lập Trình Cơ Bản</title>
+    <subtitle>Dành Cho Người Mới Bắt Đầu</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include sections -->
+    <xi:include href="./sec-introduction.ptx" />
+    <xi:include href="./sec-pro-environment.ptx" />
+    <xi:include href="./sec-pro-language.ptx" />
+    <xi:include href="./sec-comment.ptx" />
+    <xi:include href="./sec-variable.ptx" />
+    <xi:include href="./sec-data-type.ptx" />
+    <xi:include href="./sec-data-structure.ptx" />
+    <xi:include href="./sec-operator.ptx" />
+    <xi:include href="./sec-attribute.ptx" />
+    <xi:include href="./sec-function.ptx" />
+
+    <xi:include href="./sec-error.ptx" />
+    <xi:include href="./sec-personal-experience.ptx" />
+
+    <xi:include href="./sec-conditional.ptx" />
+    <xi:include href="./sec-loop.ptx" />
+    <xi:include href="./sec-scope.ptx" />
+    <xi:include href="./sec-declare-function.ptx" />
+    <xi:include href="./sec-class.ptx" />
+    <xi:include href="./sec-using-list.ptx" />
+    <xi:include href="./sec-using-dictionary.ptx" />
+
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </article>
+
+</pretext>

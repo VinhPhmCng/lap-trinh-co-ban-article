@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-data-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Cấu Trúc Dữ Liệu</title>
+
+  <objectives>
+    <ul>
+      <li>Tìm hiểu các cấu trúc dữ liệu.</li>
+      <li>Quan sát hai ví dụ<mdash /><term>danh sách</term> và <term>từ điển</term>.</li>
+    </ul>
+  </objectives>
+
+  <introduction>
+
+    <p>
+      <idx><h>Ví dụ code</h><h>không dùng danh sách</h></idx>
+      Cho đến nay, biến luôn chứa một giá trị duy nhất. Giả sử ta có một chương trình để chứa 100 số chính phương. Nó có thể trông như sau:
+    </p>
+
+    <program language="python">
+      <input>
+        ps1 = 0
+        ps2 = 1
+        ps3 = 4
+        ps4 = 9
+        # ...
+        ps100 = 9801
+      </input>
+    </program>
+
+    <p>
+      Đoạn code trên không thực tế cho lắm. Để giảm số lượng biến, ta có thể sử dụng một đối tượng mới<mdash /><term>cấu trúc dữ liệu</term>.
+    </p>
+
+    <definition xml:id="def-data-structure">
+      <idx><h>Khái niệm</h><h>cấu trúc dữ liệu</h></idx>
+      <statement>
+        <p>
+          <term>Cấu trúc dữ liệu</term> là một dữ liệu có khả năng chứa cùng một lúc nhiều dữ liệu khác.
+        </p>
+        <p>
+          Các dữ liệu <q>con</q> của một cấu trúc dữ liệu được gọi là <term>phần tử</term>.
+        </p>
+        <p>
+          Cấu trúc dữ liệu được xây dựng <em>dựa trên</em> kiểu dữ liệu, vì vậy những kiến thức ở <xref ref="sec-data-type"/> có thể được áp dụng.
+        </p>
+      </statement>
+    </definition>
+    
+    <p>
+      <idx><h>Ví dụ code</h><h>dùng danh sách</h></idx>
+      Từ đó, ta có thể cải thiện chương trình trên như sau:
+    </p>
+    
+    <program language="python">
+      <input>
+        ps = [0, 1, 4, 9, ..., 9801]
+      </input>
+    </program>
+
+    <p>
+      Mặc dù vẫn không mấy thực tế (ta vẫn phải gõ 100 số), phiên bản này tốt hơn trước rất nhiều. Thay vì tạo ra 100 biến khác nhau, ta chỉ cần một biến có khả năng chứa 100 giá trị. (Đây là một <term>danh sách</term>, sẽ được bàn tới dưới đây.)
+    </p>
+
+    <p>
+      Mỗi ngôn ngữ lập trình đều có tập hợp các cấu trúc dữ liệu của riêng mình. Mỗi cấu trúc dữ liệu đều có điểm mạnh và điểm yếu của mình.
+    </p>
+
+    <p>
+      Bây giờ ta sẽ tìm hiểu hai cấu trúc dữ liệu phổ biến nhất<mdash /><term>danh sách (mảng)</term> và <term>từ điển</term>.
+    </p>
+
+    <note>
+      <idx><h>Chú ý</h><h>tìm hiểu cấu trúc dữ liệu</h></idx>
+      <p>
+        Hai tiểu mục sắp tới sẽ chỉ <em>giới thiệu sơ bộ</em> hai đối tượng trên. <!-- If you are interested in their syntax or how to work with them, please refer to <xref ref="appendix-whats-next" text="title"/>. -->
+      </p>
+    </note>
+  </introduction>
+
+  <subsection xml:id="subsec-list">
+    <title>Danh Sách (Mảng)</title>
+
+    <definition xml:id="def-list">
+      <idx><h>Khái niệm</h><h>danh sách</h></idx>
+      <statement>
+        <p>
+          <term>Danh sách</term> có thể chứa nhiều giá trị cùng một lúc.
+        </p>
+        <p>
+          Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu <em>khác nhau</em>.
+        </p>
+      </statement>
+    </definition>
+
+    <aside>
+      <title>Có thể bạn sẽ hứng thú</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <idx><h>Liên kết</h><h>Python danh sách vs mảng</h></idx>
+              <url href="https://www.google.com/search?q=Python+lists+vs+arrays" visual="google.com/search?q=Python+lists+vs+arrays">"Python lists vs arrays"</url>
+            </p>
+          </li>
+        </ul>
+      </p> 
+    </aside>
+
+    <note>
+      <idx><h>Chú ý</h><h>danh sách vs mảng</h></idx>
+      <p>
+        Trong một vài ngôn ngữ lập trình khác, có một kiểu dữ liệu tên là <term>mảng</term>. Nó hoạt động tương tự một danh sách trong Python.
+      </p>
+
+      <p>
+        Python cũng có mảng, nhưng với một cách hoạt động hơi khác so với mảng trong các ngôn ngữ khác. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.
+      </p>
+
+      <p>
+        Thông thường thì cái tên <q>mảng</q> được biết đến nhiều hơn <q>danh sách</q>.
+      </p>
+    </note>
+
+    <p>
+      Ví dụ:
+    </p>
+
+    <aside>
+      <title>Thí Nghiệm Vui</title>
+      
+      <p>
+        Thêm phần tử vào danh sách.
+      </p> 
+    </aside>
+
+    <sage language="python">
+      <input>
+        li1 = [1, 2, 3]
+        li2 = [1, 2.5, 3]
+        li3 = [1, "test", 3]
+
+        print(li1, type(li1))
+        print(li2, type(li2))
+        print(li3, type(li3))
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        [1 2 3] &lt;class 'list'&gt;
+        [1 2.5 3] &lt;class 'list'&gt;
+        [1 'test' 3] &lt;class 'list'&gt;
+      </pre>
+    </problem>
+    <investigation>
+      <idx><h>Ví dụ code</h><h>dùng danh sách</h></idx>
+      <p></p>
+      <p>
+        Ta khai báo 3 danh sách. Mỗi danh sách có 3 phần tử.
+      </p>
+      <p>
+        Các phần tử của <c>l1</c> đều là số nguyên.
+      </p>
+      <p>
+        Danh sách <c>l2</c> chứa hai <c>int</c> và một <c>float</c>.
+      </p>
+      <p>
+        Danh sách <c>l3</c> có hai <c>int</c> và một <c>str</c>.
+      </p>
+      <p>
+        Lệnh <c>type()</c> cho ta biết kiểu dữ liệu của chúng là <c>list</c>.
+      </p>
+    </investigation>
+
+    <note>
+      <idx><h>Chú ý</h><h>dùng danh sách</h></idx>
+      <p>
+        Có thể thấy, danh sách có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo <xref ref="sec-using-list" text="type-local"/> để tìm hiểu thêm về danh sách.
+      </p>
+    </note>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-dictionary">
+    <title>Từ Điển</title>
+
+    <definition xml:id="def-dictionary">
+      <idx><h>Khái niệm</h><h>từ điển</h></idx>
+      <statement>
+        <p>
+          <term>Từ điển</term> có thể chứa nhiều cặp <term>từ khóa:giá trị (key:value</term>).
+        </p>
+        <p>
+          Nó thường được dùng để lưu trữ thông tin miêu tả.
+        </p>
+      </statement>
+    </definition>
+
+    <p>Ví dụ:</p>
+
+    <aside>
+      <title>Thí Nghiệm Vui</title>
+      
+      <p>
+        Thêm thông tin miêu tả Steve.
+      </p> 
+    </aside>
+
+    <sage language="python">
+      <input>
+        info_of_student = {
+          "name": "Steve",
+          "gender": "male",
+          "dob": 1980, 
+          "hobbies": ["apples", "swimming", "programming"],
+          5: "random",
+        }
+
+        print(info_of_student)
+        print(type(info_of_student))
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        {'name': 'Steve', 'gender': 'male', 'dob': 1980, 'hobbies': ['apples', 'swimming', 'programming'], 5: 'random'}
+        &lt;class 'dict'&gt;
+      </pre>
+    </problem>
+    <investigation>
+      <idx><h>Ví dụ code</h><h>dùng từ điển</h></idx>
+      <p></p>
+      <p>
+        Ta khai báo một từ điển với 5 phần tử là các cặp key:value.
+      </p>
+      <p>
+        Có thể thấy, các từ khóa và giá trị có thể thuộc các kiểu dữ liệu khác nhau.
+      </p>
+      <p>
+        Lệnh <c>type()</c> cho ta biết kiểu dữ liệu của nó là <c>dict</c>.
+      </p>
+    </investigation>
+    
+    <note>
+      <idx><h>Chú ý</h><h>dùng từ điển</h></idx>
+      <p>
+        Một lần nữa, từ điển có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo <xref ref="sec-using-dictionary" text="type-local"/> để tìm hiểu thêm về từ điển.
+      </p>
+    </note>
+    
+  </subsection>
+
+  <conclusion>
+    <p>
+      <cd>
+      </cd>
+    </p>
+
+    <exploration>
+      <title>Basic Programming <mdash /> Part 7: Data Structures</title>
+      <idx><h>Video</h><h>phần 07</h></idx>
+    
+      <video youtube="iMXToAm9a0c"/>
+      
+    </exploration>
+
+  </conclusion>
+
+</section>

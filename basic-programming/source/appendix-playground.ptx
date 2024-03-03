@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<appendix xml:id="appendix-playground" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sân Chơi</title>
+
+  <introduction>
+    <p>
+      Nhờ <pretext />, phụ lục này giúp bạn thử nghiệm với một vài ngôn ngữ lập trình. Qua đó, bạn sẽ có một cái nhìn tốt hơn về ý tưởng rằng <q>dù cú pháp của các ngôn ngữ có thể hơi, hoặc rất, khác nhau, thì các khái niệm cốt lõi vẫn luôn hiện hữu</q>.
+    </p>
+
+    <p>
+      Một cách thú vị để thử một ngôn ngữ là tra mạng những ví dụ code, ví dụ như <q>python code examples</q>. Ngày nay, có rất nhiều trang web tích hợp môi trường lập trình và biên dịch. Bạn có thể dùng chúng, hoặc bạn cũng có thể sao chép và dán chúng vào đây để chạy.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-python-play">
+    <title>Python</title>
+
+    <p>
+      Python là một trong những ngôn ngữ lập trình hiện đại phổ biến nhất. Nó là một ngôn ngữ bậc cao và đa mục đích.
+    </p>
+
+    <p>
+      <idx><h>Liên kết</h><h>ví dụ Python</h></idx>
+      <url href="https://www.google.com/search?q=Python+code+examples" visual="google.com/search?q=Python+code+examples">Search for Python code examples.</url>
+    </p>
+
+    <sage language="python">
+      <input>
+        # This is a Python cell
+        # Write and run your Python code here
+
+        print("Hello world!")
+      </input>
+    </sage>
+
+    <p>
+      Dưới đây là một môi trường Python phức tạp hơn một tí. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút <q>CodeLens</q> kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.
+    </p>
+
+    <program language="python" interactive="activecode">
+      <input>
+        # This is a Python cell
+        # Write and run your Python code here
+
+        print("Hello world!")
+      </input>
+    </program>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-javascript-play">
+    <title>Javascript</title>
+
+    <p>
+      Hầu hết mọi trang web hiện đại đều có mã Javascript. Tác dụng chính của nó là cung cấp tính tương tác cho trang web.
+    </p>
+
+    <p>
+      <idx><h>Liên kết</h><h>ví dụ Javascript</h></idx>
+      <url href="https://www.google.com/search?q=Javascript+code+examples" visual="google.com/search?q=Javascript+code+examples">Search for Javascript code examples.</url>
+    </p>
+
+    <program language="javascript" interactive="activecode">
+      <input>
+        // This is a Javascript cell
+        // Write and run your Javascript code here
+
+        alert("Hello world!");
+      </input>
+    </program>
+
+    <note>
+      <p>
+        Output của code Javascript có thể sẽ không xuất hiện ở dưới. Thay vào đó, hãy mở bảng <q>Element Inspect</q> bằng cách chuột phải trên trang web và chọn <q>Inspect</q>. Sau đó, mở tab <q>Console</q>. Khi chạy Javascript thì output sẽ xuất hiện ở đó.
+      </p>
+    </note>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-html-play">
+    <title>HTML</title>
+
+    <p>
+      Về mặt kỹ thuật, HTML (HyperText Markup Language) <em>không</em> phải là một ngôn ngữ lập trình, mà là một <term>ngôn ngữ đánh dấu</term>. Mặc vậy, việc thí nghiệm với HTML, hoặc các ngôn ngữ đánh dấu khác, có nhiều lợi ích, đặc biệt đối với người mới bắt đầu. (P.S. Article này được viết bằng <pretext />, một ngôn ngữ đánh dấu.)
+    </p>
+
+    <aside>
+      <title>Có thể bạn sẽ hứng thú</title>
+      
+      <p>
+        <idx><h>Liên kết</h><h>ngôn ngữ đánh dấu</h></idx>
+        <url href="https://www.google.com/search?q=what+is+a+markup+language" visual="google.com/search?q=what+is+a+markup+language">"what is a markup language"</url>
+      </p>
+    </aside>
+
+    <p>
+      <idx><h>Liên kết</h><h>ví dụ HTML</h></idx>
+      <url href="https://www.google.com/search?q=html+code+examples" visual="google.com/search?q=html+code+examples">Search for HTML code examples.</url>
+    </p>
+
+    <sage language="html">
+      <input>
+        <![CDATA[<!DOCTYPE html>
+        <html>
+        <body>
+
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <p style="text-align:center;">Centered paragraph.</p>
+
+        </body>
+        </html>]]>
+      </input>
+    </sage>
+
+  </subsection>
+
+  <subsection xml:id="subsec-sage-play">
+    <title>Sage</title>
+
+    <p>
+      Sage là một phần của SageMath, một hệ thống phần mềm toán học mã nguồn mở. Nó được phát triển dựa trên Python, nên phần lớn cú pháp của chúng giống nhau.
+    </p>
+    
+    <p>
+      <idx><h>Liên kết</h><h>ví dụ SageMath</h></idx>
+      <url href="https://www.google.com/search?q=SageMath+code+examples" visual="google.com/search?q=SageMath+code+examples">Search for SageMath code examples.</url>
+    </p>
+
+    <sage>
+      <input>
+        # This is a Sage cell
+        # Write and run your Sage code here
+
+        show(sqrt(2))
+      </input>
+    </sage>
+
+  </subsection>
+
+</appendix>

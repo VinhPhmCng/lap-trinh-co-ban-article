@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lời Mở Đầu</title>
+
+  <introduction>
+    <p>
+      Welcome my friend! This is an article on <term>programming</term> and its most <term>fundamental concepts</term>, as you can see in the Table of Contents to your left. The knowledge is designed to be as beginner-friendly as possible, making each section a 5 to 10-minute read.
+    </p>
+    
+    <p>
+      <idx><h>Liên kết</h><h>series Youtube</h></idx>
+      This article is also adapted into videos, which are <url href="https://www.youtube.com/" visual="youtube.com">available on Youtube</url> and also embedded into the corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial. (P.S. The videos are short and quite silly because I'm new to editing.)
+    </p>
+
+    <p>
+      That's it! Going forward I hope I can give you a good first impression of the wonderful world of programming. Despite the title, I hope this article will be useful and entertaining to both complete novices and those who've had minimal contact with programming.
+    </p>
+
+  </introduction>
+
+  <subsection xml:id="subsec-how-to-follow-along">
+    <title>Hướng Dẫn Sử Dụng</title>
+    <idx><h>Khái quát</h></idx>
+
+    <p>
+      <idx><h>Khái quát</h><h>nội dung</h></idx>
+      An overview of the contents:
+
+      <ul>
+        <li>
+          <term>Sections 1 and 2</term>: An introduction to the article.
+        </li>
+        <li>
+          <term>Sections 3 to 10</term>: Fundamental concepts of programming.
+        </li>
+        <li>
+          <term>Sections 11 and 12</term>: My personal experiences.
+        </li>
+        <li>
+          <p>
+            <term>Sections 13 to 19 (under development, tentative)</term>: Slightly more advanced fundamental concepts.
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      New concepts will be introduced with the following structure:
+      <ol>
+        <li>
+          Definition
+        </li>
+        <li>
+          Ví dụ code
+        </li>
+        <li>
+          Explanations for examples
+        </li>
+      </ol>
+
+      When running <em>code examples</em>, you should <term>simultaneously</term> read the corresponding explanations for the best learning experience.
+    </p>
+
+    <p>
+      You can also watch the videos, before or after reading each section. They have cool visuals and present ideas in a different way.
+    </p>
+
+    <p>
+      Bạn có thể tìm thấy các ngôn ngữ khả dụng trong <xref ref="colophon" text="title"/>.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-support">
+    <title>Ủng Hộ Dự Án</title>
+    <idx><h>Ủng hộ</h></idx>
+    <p>
+      <idx><h>Liên kết</h><h>mã nguồn</h></idx>
+      This is an open-source project, meaning its source code is available on Github<mdash /><url href="https://github.com/VinhPhmCng/basic-programming-article" visual="github.com/VinhPhmCng/basic-programming-article">here</url>.
+    </p>
+
+    <p>
+      <idx><h>Ủng hộ</h><h>trực tiếp</h></idx>
+      <idx><h>Liên kết</h><h>đóng góp</h></idx>
+      Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details.
+    </p>
+
+    <p>
+      <idx><h>Ủng hộ</h><h>công cụ</h></idx>
+      This page is built with <pretext />, which features built-in interactive code cells, enhancing your experience. Please support them as well!
+    </p>
+
+    <p>
+      <idx><h>Ủng hộ</h><h>các video</h></idx>
+      <idx><h>Liên kết</h><h>công cụ</h></idx>
+      Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project. More details on the tools and resources used to create the videos can be found <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos">here</url>.
+    </p>
+
+    <p>
+      <idx><h>Ủng hộ</h><h></h></idx>
+      <idx><h>Liên kết</h><h>ủng hộ</h></idx>
+      And if you really appreciate the contents, consider leaving a donation <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq">here</url>. Thanks a bunch!
+    </p>
+
+    <p>
+      Now then, let's get started, shall we?
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-what-is-programming">
+    <title>Lập Trình Là Gì?</title>
+    <idx><h>Khái niệm</h><h>lập trình</h></idx>
+
+    <p>
+      <cd>
+      </cd>
+    </p>
+    
+    <exploration>
+      <title>Basic Programming <mdash /> Part 1: Introduction</title>
+      <idx><h>Video</h><h>phần 01</h></idx>
+      
+      <video youtube="iMXToAm9a0c"/>
+       
+    </exploration>
+  </subsection>
+
+</section>

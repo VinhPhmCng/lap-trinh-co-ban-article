@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-operator" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Toán Tử</title>
+
+  <objectives>
+    <ul>
+      <li>Tìm hiểu bốn loại toán tử chính.</li>
+      <li>Hiểu rõ toán tử gán qua ví dụ.</li>
+    </ul>
+  </objectives>
+
+  <introduction>
+
+    <definition xml:id="def-operator">
+      <idx><h>Khái niệm</h><h>toán tử</h></idx>
+      <statement>
+        <p>
+          Trong lập trình, <term>toán tử</term> là một ký tự miêu tả phép gán, phép toán, phép quan hệ, hoặc phép logic.
+        </p>
+        <p>
+          Nói cách khác, toán tử miêu tả một tương tác dữ liệu.
+        </p>
+      </statement>
+    </definition>
+    
+    <p>
+      Ở các phần trước, trong các ví dụ thường xuyên xuất hiện hai toán tử <c>=</c> và <c>+</c>. Ta cùng tìm hiểu những toán tử cơ bản nhé.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-op-arithmetic">
+    <title>Toán Tử Số Học</title>
+
+    <p>
+      Bốn toán tử số học cơ bản nhất là:
+    </p>
+
+    <aside>
+      <title>Thí Nghiệm Vui</title>
+      
+      <p>
+        Trong bốn toán tử này, bạn nghĩ cái nào có thể hoạt động với các <xref ref="subsec-list" text="title" />?
+      </p> 
+    </aside>
+
+    <sage language="python">
+      <input>
+        print(5 + 3) # Addition
+        print(5 - 3) # Subtraction
+        print(5 * 3) # Multiplication
+        print(5 / 3) # Division
+
+        # String concatenation
+        print("string 1 " + "string 2")
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        8
+        2
+        15
+        1.6666666666666667
+        string 1 string 2
+      </pre>
+    </problem>
+    <investigation>
+      <idx><h>Ví dụ code</h><h>toán tử số học</h></idx>
+      <idx><h>Ví dụ code</h><h>phép nối chuỗi</h></idx>
+      <p></p>
+      <p>
+        Bốn dòng đầu là các phép tính như trong toán học.
+      </p>
+      <p>
+        Ở dòng 7, toán tử <c>+</c> được dùng để ghép hai chuỗi ký tự với nhau.
+      </p>
+    </investigation>
+    
+    <p>
+      Ta cũng có một vài toán tử khác ít phổ biến hơn như:
+    </p>
+
+    <sage language="python">
+      <input>        
+        print(5 // 3) # Floor division
+        print(5 ** 3) # Exponentiation
+        print(5 % 3) # Modulus
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        1
+        125
+        2
+      </pre>
+    </problem>
+    <investigation>
+      <idx><h>Ví dụ code</h><h>toán tử số học</h></idx>
+      <p></p>
+      <p>
+        Bạn có thể tra mạng để tìm hiểu thêm nhé.
+      </p>
+    </investigation>
+
+    <p>
+      Và một kiến thức quan trọng bạn nên nhớ là <xref ref="def-dtype-interaction"/>.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-op-assignment">
+    <title>Toán Tử Gán</title>
+
+    <p>
+      Bạn đã thấy <c>=</c> được sử dụng rất thường xuyên. Đây là <term>toán tử gán</term> <em>quan trọng nhất</em> mà bạn cần biết.
+    </p>
+
+    <definition xml:id="def-op-assignment">
+      <idx><h>Khái niệm</h><h>toán tử gán</h></idx>
+      <statement>
+        <p>
+          <term>Toán tử gán</term> được dùng để khai báo biến hoặc cập nhật giá trị của biến.
+        </p>
+        <p>
+          Giá trị của một biến thay đổi <em>khi và chỉ khi</em> ta sử dụng toán tử gán.
+        </p>
+      </statement>
+    </definition>
+    
+    <note>
+      <idx><h>Chú ý</h><h>đẳng thức</h></idx>
+      <p>
+        Trong lập trình, toán tử gán <c>=</c> không bao giờ mang nghĩa của đẳng thức.
+      </p>
+    </note>
+
+    <p>Ví dụ (nên dùng CodeLens):</p>
+
+    <program language="python" interactive="activecode">
+      <input>
+        a = 5
+        print(a)
+
+        a + 1
+        print(a)
+
+        a = a + 1
+        print(a)
+      </input>
+    </program>
+    <problem>
+      <pre>
+        5
+        5
+        6
+      </pre>
+    </problem>
+    <investigation>
+      <idx><h>Ví dụ code</h><h>khai báo</h></idx>
+      <idx><h>Ví dụ code</h><h>gán</h></idx>
+      <idx><h>Ví dụ code</h><h>cập nhật biến</h></idx>
+      <p></p>
+      <p>
+        Đầu tiên, ta khai báo <c>a</c> có giá trị bằng <c>5</c>.
+      </p>
+      <p>
+        Ở dòng 4, ta có <c>a + 1</c>, nhưng khi ta truy cập giá trị của <c>a</c> ở dòng 5, kết quả vẫn là <c>5</c>.
+      </p>
+      <p>
+        Ở dòng 7, ta <em>cập nhật</em> biến với <c>a = a + 1</c>. Vì vậy, ở dòng 8 <c>a</c> mới có giá trị bằng <c>6</c>.
+      </p>
+    </investigation>
+    
+    <p>
+      <idx><h>Chú ý</h><h>toán tử gán</h></idx>
+      Về lý thuyết, <c>=</c> là toán tử gán duy nhất bạn cần biết. Nhưng ta cũng có những toán tử gán khác giúp bạn viết nhanh phép gán:
+    </p>
+
+    <aside>
+      <title>Thí Nghiệm Vui</title>
+      
+      <p>
+        Bạn thử dùng chúng nhé.
+      </p>
+    </aside>
+
+    <p>
+      <dl>
+        <li>
+          <title><c>x += 5</c></title>
+          <p>
+            Tương đương với <c>x = x + 5</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x -= 5</c></title>
+          <p>
+            Tương đương với <c>x = x - 5</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x *= 5</c></title>
+          <p>
+            Tương đương với <c>x = x * 5</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x /= 5</c></title>
+          <p>
+            Tương đương với <c>x = x / 5</c> 
+          </p>
+        </li>
+      </dl>
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-op-relational">
+    <title>Toán Tử Quan Hệ</title>
+
+    <p>
+      <term>Toán tử quan hệ</term> được sử dụng chủ yếu trong các câu lệnh điều kiện, vì vậy nó sẽ được trình bày rõ hơn ở <xref ref="sec-conditional" text="type-local"/>.
+    </p>
+
+    <aside>
+      <title>Có thể bạn sẽ hứng thú</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <idx><h>Liên kết</h><h>Python = vs ==</h></idx>
+              <url href="https://www.google.com/search?q=Python+=+vs+==" visual="google.com/search?q=Python+=+vs+==">"Python = vs =="</url>
+            </p>
+          </li>
+        </ul>
+      </p> 
+    </aside>
+
+    <p>
+      <idx><h>Khái quát</h><h>toán tử quan hệ</h></idx>
+      Tóm tắt sơ bộ:
+
+      <dl>
+        <li>
+          <title><c>x == y</c></title>
+          <p>
+            Trả lại <c>True</c> nếu x bằng y
+          </p>
+          <p>
+            Trả lại <c>False</c> nếu x <em>không</em> bằng y
+          </p>
+        </li>
+        <li>
+          <title><c>x != y</c></title>
+          <p>
+            Ngược lại với <c>x == y</c>
+          </p>
+        </li>
+        <li>
+          <title><c>x &lt; y</c></title>
+          <p>
+            Trả lại <c>True</c> nếu x nhỏ hơn y
+          </p>
+          <p>
+            Trả lại <c>False</c> nếu x lớn hơn hoặc bằng y
+          </p>
+        </li>
+        <li>
+          <title><c>x &gt; y </c></title>
+          <p>
+            Trả lại <c>True</c> nếu x lớn hơn y
+          </p>
+          <p>
+            Trả lại <c>False</c> nếu x nhỏ hơn hoặc bằng y
+          </p>
+        </li>
+        <li>
+          <title><c>x &lt;= y </c></title>
+          <p>
+            Ngược lại với <c>x &gt; y</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x &gt;= y</c></title>
+          <p>
+            Ngược lại với <c>x &lt; y</c> 
+          </p>
+        </li>
+      </dl>
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-op-logical">
+    <title>Toán Tử Logic</title>
+    
+    <p>
+      <term>Toán tử logic</term> được sử dụng chủ yếu trong các câu lệnh điều kiện, vì vậy nó sẽ được trình bày rõ hơn ở <xref ref="sec-conditional" text="type-local"/>.
+    </p>
+
+    <p>
+      <idx><h>Khái quát</h><h>toán tử logic</h></idx>
+      Tóm tắt sơ bộ:
+      <dl>
+        <li>
+          <title><c>x and y</c></title>
+          <p>
+            Trả lại <c>True</c> nếu cả hai biểu thức đều bằng <c>True</c>
+          </p>
+          <p>
+            Trả lại <c>False</c> nếu ít nhất một trong hai biểu thức bằng <c>False</c>
+          </p>
+        </li>
+        <li>
+          <title><c>x or y</c></title>
+          <p>
+            Trả lại <c>True</c> nếu ít nhất một trong hai biểu thức bằng <c>True</c>
+          </p>
+          <p>
+            Trả lại <c>False</c> nếu cả hai biểu thức đều bằng <c>False</c>
+          </p>
+        </li>
+        <li>
+          <title><c>not x</c></title>
+          <p>
+            Đảo ngược Boolean
+          </p>
+          <p>
+            Trả lại <c>True</c> nếu x bằng <c>False</c> và ngược lại.
+          </p>
+        </li>
+      </dl>
+    </p>
+    
+  </subsection>
+
+  <conclusion>
+    <p>
+      <cd>
+      </cd>
+    </p>
+
+    <exploration>
+      <title>Basic Programming <mdash /> Part 8: Operators</title>
+      <idx><h>Video</h><h>phần 08</h></idx>
+    
+      <video youtube="iMXToAm9a0c"/>
+      
+    </exploration>
+
+  </conclusion>
+
+</section>

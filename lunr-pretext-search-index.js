@@ -4,9 +4,9 @@ var ptx_lunr_docs = [
   "id": "frontmatter",
   "level": "1",
   "url": "frontmatter.html",
-  "type": "Front Matter",
+  "type": "Mặt Trước",
   "number": "",
-  "title": "Front Matter",
+  "title": "Mặt Trước",
   "body": "   Phạm Công Vinh  github.com\/VinhPhmCng   vinhpcdev@gmail.com        copyright 2024 Phạm Công Vinh  Permission is granted to copy, distribute and\/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled GNU Free Documentation License .   "
 },
 {
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "1",
   "title": "Lời Mở Đầu",
-  "body": " Lời Mở Đầu   Welcome my friend! This is an article on programming and its most fundamental concepts , as you can see in the Table of Contents to your left. The knowledge is designed to be as beginner-friendly as possible, making each section a 5 to 10-minute read.   Liên kết series Youtube This article is also adapted into videos, which are available on Youtube and also embedded into the corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial. (P.S. The videos are short and quite silly because I'm new to editing.)  That's it! Going forward I hope I can give you a good first impression of the wonderful world of programming. Despite the title, I hope this article will be useful and entertaining to both complete novices and those who've had minimal contact with programming.    Hướng Dẫn Sử Dụng  Khái quát   Khái quát nội dung An overview of the contents:   Sections 1 and 2 : An introduction to the article.   Sections 3 to 10 : Fundamental concepts of programming.   Sections 11 and 12 : My personal experiences.    Sections 13 to 19 (under development, tentative) : Slightly more advanced fundamental concepts.     New concepts will be introduced with the following structure:  Definition  Ví dụ code  Explanations for examples  When running code examples , you should simultaneously read the corresponding explanations for the best learning experience.  You can also watch the videos, before or after reading each section. They have cool visuals and present ideas in a different way.  Bạn có thể tìm thấy các ngôn ngữ khả dụng trong .    Ủng Hộ Dự Án  Ủng hộ   Liên kết mã nguồn This is an open-source project, meaning its source code is available on Github here .   Ủng hộ trực tiếp  Liên kết đóng góp Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to Contributing for more details.   Ủng hộ công cụ This page is built with PreTeXt , which features built-in interactive code cells, enhancing your experience. Please support them as well!   Ủng hộ các video  Liên kết công cụ Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project. More details on the tools and resources used to create the videos can be found here .   Ủng hộ  Liên kết ủng hộ And if you really appreciate the contents, consider leaving a donation here . Thanks a bunch!  Now then, let's get started, shall we?    Lập Trình Là Gì?  Khái niệm lập trình       Basic Programming Part 1: Introduction  Video phần 01     "
+  "body": " Lời Mở Đầu   Welcome my friend! Đây là một bài viết về lập trình và các khái niệm cơ bản nhất của nó, như bạn có thể thấy ở bảng Mục lục phía bên trái. Các kiến thức được thiết kế sao cho thân thiện với người mới bắt đầu nhất có thể. Vì vậy, mỗi phần có thời lượng đọc từ 5 đến 10 phút.   Liên kết series Youtube Bài viết cũng được chuyển thể thành các video trên Youtube, và chúng cũng được nhúng vào từng phần tương ứng. Bằng cách này, dù bạn là visual learner hay auditory learner, hay cả hai, bạn có thể tìm ra cách học tập thoải mái nhất. (P.S. Các video khá ngắn và ngớ ngẩn, vì tôi mới bắt đầu tập tành editing.)  OK! Trong các phần tiếp theo, tôi mong tôi có thể mang lại cho bạn một ấn tượng đầu tốt về thế giới của lập trình. Dù tiêu đề là cho người mới , tôi mong bài viết này sẽ thật hữu ích và giải trí cho mọi đối tượng độc giả người mới hoàn toàn hay người đã có tiếp xúc với lập trình.    Hướng Dẫn Sử Dụng  Khái quát   Khái quát nội dung Khái quát nội dung:   Phần 1 và 2 : Giới thiệu.   Phần 3 đến 10 : Các khái niệm lập trình cơ bản.   Phần 11 và 12 : Kinh nghiệm cá nhân.    Phần 13 đến 19 (đang phát triển) : Các khái niệm lập trình cơ bản khó hơn một chút.     Các khái niệm mới sẽ được trình bày với cấu trúc sau:  Định nghĩa  Ví dụ code  Lời giải thích cho ví dụ  Khi chạy các ví dụ code , bạn nên song song đọc lời giải thích để dễ dàng tiếp thu vấn đề.  Bạn cũng có thể xem bản video trước hoặc sau khi đọc mỗi phần. Chúng có nhiều hiệu ứng thú vị và trình bày ý tưởng theo một hướng khác.  Bạn có thể tìm thấy các ngôn ngữ khả dụng ở .    Ủng Hộ Dự Án  Ủng hộ   Liên kết mã nguồn Đây là dự án mã nguồn mở, được lưu trữ trên Github ở đây .   Ủng hộ trực tiếp  Liên kết đóng góp Độc giả có thể tạo một tài khoản Github miễn phí và trực tiếp đưa ra phản hồi hay đề xuất. Nếu bạn là một lập trình viên, bạn có thể đóng góp bằng cách dịch bài viết này sang ngôn ngữ của bạn. Tham khảo Đóng Góp để biết thêm thông tin chi tiết. (P.S. Ước gì ai đó sẽ cải thiện văn phong của article này. Tôi viết văn tệ vl.)   Ủng hộ công cụ Trang web này được phát triển bằng PreTeXt . Bạn hãy ủng hộ cho họ nữa nhé!   Ủng hộ các video  Liên kết công cụ Thưởng thức Youtube series của dự án không chỉ là một cách học hiệu quả, mà còn là một cách tuyệt vời để hỗ trợ dự án. Bạn có thể tìm hiểu thêm thông tin về các công cụ và tài nguyên được sử dụng để làm video ở đây .   Ủng hộ  Liên kết ủng hộ Và nếu bạn thực sự đánh giá cao content, bạn có thể cân nhắc donate tại đây . Xin chân thành cảm ơn!  OK then, let's gooo!    Lập Trình Là Gì?  Khái niệm lập trình       Basic Programming Part 1: Introduction  Video phần 01     "
 },
 {
   "id": "sec-introduction-2-1",
@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "programming fundamental concepts "
+  "body": "lập trình khái niệm cơ bản "
 },
 {
   "id": "subsec-how-to-follow-along-3",
@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Sections 1 and 2 Sections 3 to 10 Sections 11 and 12 Sections 13 to 19 (under development, tentative) "
+  "body": "Phần 1 và 2 Phần 3 đến 10 Phần 11 và 12 Phần 13 đến 19 (đang phát triển) "
 },
 {
   "id": "subsec-how-to-follow-along-4",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "simultaneously "
+  "body": "song song "
 },
 {
   "id": "subsec-what-is-programming-4",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "2",
   "title": "Môi Trường Lập Trình",
-  "body": " Môi Trường Lập Trình  Môi trường lập trình    Tìm hiểu cách sử dụng những thành phần cơ bản của môi trường lập trình.    Để viết code, bạn cần một môi trường làm việc phù hợp. Chắc chắn là bạn sẽ không mở trình soạn thảo Word để lập trình rồi, phải không nào? Thay vào đó, ta sẽ sử dụng một trình soạn thảo và biên dịch code .   Môi trường lập trình phiên bản 1 Trong bản online của quyển sách này, trình soạn thảo và biên dịch của chúng ta nhìn như sau:   Thí Nghiệm Vui    Chạy đoạn code.  Thay đổi code tùy ý và chạy lại.       8    Ví dụ code phiên bản 1  Hàm print()   Lệnh print() có nhiệm vụ rất đơn giản là đưa dữ liệu ở bên trong hai dấu ngoặc đơn ra terminal. Ở đây, dữ liệu đó là kết quả của phép toán a + b .    Khái quát môi trường lập trình Môi trường trên có những thành phần sau:    Ô soạn thảo Nơi viết code. Trên bản Online, bạn có thể chỉnh sửa và thí nghiệm với code.     Nút Chạy Code (Online) Ấn để chạy chương trình.     Terminal (Online) Nơi hiển thị kết quả hoặc lỗi, nếu có, khi chạy đoạn code.     Output Nơi hiển thị kết quả tĩnh . Được thiết kế cho bản cứng hoặc PDF, nhưng cũng có thể giúp người dùng bản Online, trong trường hợp trình biên dịch có vấn đề.     Giải Thích Nơi đưa ra lời giải thích cho ví dụ code.      Môi trường lập trình phiên bản 2 Một phiên bản khác của ô code nhìn như sau:   a = 3 b = 5 print(a + b)    8    Ví dụ code phiên bản 2  Giống như trên.   Môi trường này chạy tương tự, nhưng nó bổ sung thêm hai chức năng. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút CodeLens kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.   Lưu ý chọn môi trường lập trình  Tùy vào khái niệm đang nói đến, môi trường phù hợp hơn để trình bày nó sẽ được sử dụng.    Có thể bạn sẽ hứng thú:      Liên kết khảo sát IDEs phổ biến năm 2023  stackoverflow's 2023 survey on the most popular IDEs        Chú ý thay đổi code  Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal mới được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.   Trong quyển sách này, để đảm bảo sự đơn giản , môi trường lập trình của chúng ta được hạn chế xuống những thành phần đó. Những môi trường lập trình phức tạp hơn sẽ có rất nhiều chức năng giúp các lập trình viên sáng tạo, nhưng đối với người mới bắt đầu, chúng là không cần thiết. Ngoài ra, cài đặt những công cụ nâng cao thường rất phức tạp, vì thế dễ làm bạn nản lòng.  Những đoạn code ví dụ được cung cấp có thể được chạy trực tiếp hoặc cắt, dán, và chạy ở các ô code trong . Chúng cũng có thể được biên dịch và chạy ở những mỗi trường bên ngoài, nhưng quyển sách này sẽ không hướng dẫn việc đó.   Chú ý ô code nối tiếp  Những ô code trong quyển sách này có thể nối tiếp những ô code ngay trước nó. Việc này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.    Quy ước ô code nối tiếp  Nếu một ô code là phần nối tiếp thì nó có dòng đầu tiên như sau:     -2    Ví dụ code ô code nối tiếp   Tại sao a - b lại có kết quả bằng -2 ? Nếu bạn nhìn lên ô code đầu tiên, bạn sẽ thấy a = 3 và b = 5 . Vậy ô code này đang nối tiếp ô code phía trên.    Chú ý đầu ra không mong muốn  Vậy, khi bạn chạy một ô code bắt đầu với # ... mà xuất hiện lỗi hoặc kết quả ngoài ý muốn, thì khả năng cao là do bạn chưa chạy những ô code trước nó.        Basic Programming Part 2: Our Programming Environment  Video phần 02    "
+  "body": " Môi Trường Lập Trình  Môi trường lập trình    Tìm hiểu cách sử dụng những thành phần cơ bản của môi trường lập trình.    Để viết code, bạn cần một môi trường làm việc phù hợp. Chắc chắn là bạn sẽ không mở trình soạn thảo Word để lập trình rồi, phải không nào? Thay vào đó, ta sẽ sử dụng một trình soạn thảo và biên dịch code .   Môi trường lập trình phiên bản 1 Trong bản online của quyển sách này, trình soạn thảo và biên dịch của chúng ta nhìn như sau:   Thí Nghiệm Vui    Chạy đoạn code.  Thay đổi code tùy ý và chạy lại.       8    Ví dụ code phiên bản 1  Hàm print()   Lệnh print() có nhiệm vụ rất đơn giản là đưa dữ liệu ở bên trong hai dấu ngoặc đơn ra terminal. Ở đây, dữ liệu đó là kết quả của phép toán a + b .    Khái quát môi trường lập trình Môi trường trên có những thành phần sau:    Ô soạn thảo Nơi viết code. Trên bản Online, bạn có thể chỉnh sửa và thí nghiệm với code.     Nút Chạy Code (Online) Ấn để chạy chương trình.     Terminal (Online) Nơi hiển thị kết quả hoặc lỗi, nếu có, khi chạy đoạn code.     Output Nơi hiển thị kết quả tĩnh . Được thiết kế cho bản cứng hoặc PDF, nhưng cũng có thể giúp người dùng bản Online, trong trường hợp trình biên dịch có vấn đề.     Giải Thích Nơi đưa ra lời giải thích cho ví dụ code.      Môi trường lập trình phiên bản 2 Một phiên bản khác của ô code nhìn như sau:   a = 3 b = 5 print(a + b)    8    Ví dụ code phiên bản 2  Giống như trên.   Môi trường này chạy tương tự, nhưng nó bổ sung thêm hai chức năng. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút CodeLens kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.  Thật ra, nó còn một lợi ích nhỏ nữa. Tham khảo nếu bạn có hứng thú.   Chia sẻ chọn môi trường lập trình  Tùy vào khái niệm đang nói đến, môi trường phù hợp hơn để trình bày nó sẽ được sử dụng.    Có thể bạn sẽ hứng thú:      Liên kết khảo sát IDE phổ biến năm 2023  stackoverflow's 2023 survey on the most popular IDE        Chú ý thay đổi code  Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.   Trong quyển sách này, để đảm bảo sự đơn giản , môi trường lập trình của chúng ta được hạn chế xuống những thành phần đó. Những môi trường lập trình phức tạp hơn có rất nhiều chức năng giúp các lập trình viên sáng tạo, nhưng đối với người mới bắt đầu, chúng là không cần thiết. Ngoài ra, cài đặt những công cụ nâng cao thường rất phức tạp, vì thế dễ làm bạn nản lòng.  Những đoạn code ví dụ được cung cấp có thể được chạy trực tiếp. Hoặc bạn có thể cắt, dán, và chạy chúng ở các ô code trong . Chúng cũng có thể được biên dịch và chạy ở những môi trường bên ngoài, nhưng quyển sách này sẽ không hướng dẫn việc đó.   Chú ý ô code nối tiếp  Một ô code có thể nối tiếp những ô code ở trước nó. Chức năng này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.    Quy ước ô code nối tiếp  Nếu một ô code là phần nối tiếp thì nó có dòng đầu tiên như sau:     -2    Ví dụ code ô code nối tiếp   Tại sao a - b lại có kết quả bằng -2 ? Nếu bạn nhìn lên ô code đầu tiên, bạn sẽ thấy a = 3 và b = 5 . Vậy ô code này đang nối tiếp ô code phía trên.    Chú ý đầu ra không mong muốn  Vậy, khi bạn chạy một ô code bắt đầu với # ... mà xuất hiện lỗi hoặc kết quả ngoài ý muốn, thì khả năng cao là do bạn chưa chạy những ô code trước nó.        Basic Programming Part 2: Our Programming Environment  Video phần 02    "
 },
 {
   "id": "sec-pro-environment-3",
@@ -127,81 +127,81 @@ var ptx_lunr_docs = [
   "body": " Ví dụ code phiên bản 2  Giống như trên.  "
 },
 {
-  "id": "sec-pro-environment-16",
+  "id": "sec-pro-environment-17",
   "level": "2",
-  "url": "sec-pro-environment.html#sec-pro-environment-16",
-  "type": "Lưu Ý",
+  "url": "sec-pro-environment.html#sec-pro-environment-17",
+  "type": "Chia Sẻ",
   "number": "2.3",
   "title": "",
-  "body": " Lưu ý chọn môi trường lập trình  Tùy vào khái niệm đang nói đến, môi trường phù hợp hơn để trình bày nó sẽ được sử dụng.  "
-},
-{
-  "id": "sec-pro-environment-18",
-  "level": "2",
-  "url": "sec-pro-environment.html#sec-pro-environment-18",
-  "type": "Chú Ý",
-  "number": "2.4",
-  "title": "",
-  "body": " Chú ý thay đổi code  Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal mới được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.  "
+  "body": " Chia sẻ chọn môi trường lập trình  Tùy vào khái niệm đang nói đến, môi trường phù hợp hơn để trình bày nó sẽ được sử dụng.  "
 },
 {
   "id": "sec-pro-environment-19",
   "level": "2",
   "url": "sec-pro-environment.html#sec-pro-environment-19",
+  "type": "Chú Ý",
+  "number": "2.4",
+  "title": "",
+  "body": " Chú ý thay đổi code  Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.  "
+},
+{
+  "id": "sec-pro-environment-20",
+  "level": "2",
+  "url": "sec-pro-environment.html#sec-pro-environment-20",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "sự đơn giản "
 },
 {
-  "id": "sec-pro-environment-21",
-  "level": "2",
-  "url": "sec-pro-environment.html#sec-pro-environment-21",
-  "type": "Chú Ý",
-  "number": "2.5",
-  "title": "",
-  "body": " Chú ý ô code nối tiếp  Những ô code trong quyển sách này có thể nối tiếp những ô code ngay trước nó. Việc này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.  "
-},
-{
   "id": "sec-pro-environment-22",
   "level": "2",
   "url": "sec-pro-environment.html#sec-pro-environment-22",
+  "type": "Chú Ý",
+  "number": "2.5",
+  "title": "",
+  "body": " Chú ý ô code nối tiếp  Một ô code có thể nối tiếp những ô code ở trước nó. Chức năng này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.  "
+},
+{
+  "id": "sec-pro-environment-23",
+  "level": "2",
+  "url": "sec-pro-environment.html#sec-pro-environment-23",
   "type": "Quy Ước",
   "number": "2.6",
   "title": "",
   "body": " Quy ước ô code nối tiếp  Nếu một ô code là phần nối tiếp thì nó có dòng đầu tiên như sau:  "
 },
 {
-  "id": "sec-pro-environment-24",
+  "id": "sec-pro-environment-25",
   "level": "2",
-  "url": "sec-pro-environment.html#sec-pro-environment-24",
+  "url": "sec-pro-environment.html#sec-pro-environment-25",
   "type": "Output",
   "number": "2.7",
   "title": "",
   "body": " -2  "
 },
 {
-  "id": "sec-pro-environment-25",
+  "id": "sec-pro-environment-26",
   "level": "2",
-  "url": "sec-pro-environment.html#sec-pro-environment-25",
+  "url": "sec-pro-environment.html#sec-pro-environment-26",
   "type": "Giải Thích",
   "number": "2.3",
   "title": "",
   "body": " Ví dụ code ô code nối tiếp   Tại sao a - b lại có kết quả bằng -2 ? Nếu bạn nhìn lên ô code đầu tiên, bạn sẽ thấy a = 3 và b = 5 . Vậy ô code này đang nối tiếp ô code phía trên.  "
 },
 {
-  "id": "sec-pro-environment-26",
+  "id": "sec-pro-environment-27",
   "level": "2",
-  "url": "sec-pro-environment.html#sec-pro-environment-26",
+  "url": "sec-pro-environment.html#sec-pro-environment-27",
   "type": "Chú Ý",
   "number": "2.8",
   "title": "",
   "body": " Chú ý đầu ra không mong muốn  Vậy, khi bạn chạy một ô code bắt đầu với # ... mà xuất hiện lỗi hoặc kết quả ngoài ý muốn, thì khả năng cao là do bạn chưa chạy những ô code trước nó.  "
 },
 {
-  "id": "sec-pro-environment-28",
+  "id": "sec-pro-environment-29",
   "level": "2",
-  "url": "sec-pro-environment.html#sec-pro-environment-28",
+  "url": "sec-pro-environment.html#sec-pro-environment-29",
   "type": "Video",
   "number": "2.4",
   "title": "Basic Programming — Part 2: Our Programming Environment.",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "3",
   "title": "Ngôn Ngữ Lập Trình",
-  "body": " Ngôn Ngữ Lập Trình    Quan sát một vài ví dụ về các ngôn ngữ lập trình.  Tìm hiểu ngôn ngữ lập trình bậc cao và bậc thấp .     Khái niệm ngôn ngữ lập trình    Ngôn ngữ lập trình là một hệ thống các ký hiệu giúp con người tạo ra các chương trình máy tính, cũng chính là đưa ra chỉ dẫn cho máy tính.  Mỗi ngôn ngữ lập trình có bộ cú pháp của riêng nó.   Cú pháp đơn giản là ngữ pháp của một ngôn ngữ lập trình. Nó đóng vai trò thiết yếu trong quá trình máy tính dịch và chạy code.    Dưới đây là một đoạn code được viết bằng Python một trong những ngôn ngữ lập trình phổ biến nhất trong những năm gần đây. Hãy chạy dòng code sau và xem kết quả nhé.    Hello World!    Ví dụ code bậc cao  Hàm print()   Lệnh print() có nhiệm vụ rất đơn giản là đưa dữ liệu ra terminal. Ở đây, dữ liệu đó là dòng chữ Hello World! .    Ví dụ code bậc cao Đây là một đoạn code nữa được viết bằng Python (Bạn chưa cần phải hiểu đoạn code này, nhưng bạn có thể đoán xem nó đang làm gì không?)   Thí Nghiệm Vui  Sao chép và dán đoạn code bên vào một ô code và chạy nó.    a = 0 while a < 10: print(a, end=\" \") if a % 2 == 0: print(\"is even\") else: print(\"is odd\") a += 1   Dễ thấy, có những từ khóa như while , print  end , if , và else . Ngoài chúng ra, cú pháp của Python có rất nhiều từ khóa và đặc điểm gần gũi với ngôn ngữ tiếng Anh.   Khái niệm ngôn ngữ bậc cao   Python được coi là một ngôn ngữ lập trình bậc cao vì cú pháp của nó gần gũi với tiếng Anh.    Vì vậy, Python thường được đề xuất tới người mới học lập trình, và cũng chính là một trong những lí do nó là một trong những ngôn ngữ lập trình phổ biến nhất.   Ví dụ code bậc thấp Tiếp theo, ta có một đoạn code được viết bằng Assembly . Khi chạy, ta cũng thu được dòng chữ Hello World! . (Một lần nữa, đừng cố hiểu đoạn code này. Cái này tôi cũng chịu.)   Thí Nghiệm Vui  Đây là một trình biên dịch Assembly nếu bạn muốn thử chạy nó.    section .data hello: db 'Hello World!',10 helloLen: equ $-hello section .text global _start _start: mov eax,4 mov ebx,1 mov ecx,hello mov edx,helloLen int 80h mov eax,1 mov ebx,0 int 80h;   Như bạn có thể thấy, đây gần như là ngôn ngữ máy tính. Assembly cần đến 14 dòng code để làm điều mà Python có thể thực hiện với một dòng.   Khái niệm ngôn ngữ bậc thấp   Assembly được coi là một ngôn ngữ lập trình bậc thấp vì cú pháp của nó gần với ngôn ngữ máy tính.    Vậy, ngôn ngữ bậc cao có cú pháp ngắn gọn và thân thiện hơn ngôn ngữ bậc thấp. Có thể bạn sẽ hỏi Vậy khi nào thì ta dùng ngôn ngữ bậc thấp?   Có nhiều lý do, và trong đó tốc độ là đương nhiên nhất. Về cơ bản, code được viết với ngôn ngữ bậc cao phải đi qua nhiều bước trung gian hơn trước khi được dịch thành ngôn ngữ máy tính (nhị phân). Vì vậy, ngôn ngữ bậc thấp có lợi thế về tốc độ.  Một vài lý do khác là chuyên môn, thao tác dữ liệu chính xác, hệ thống kế thừa, v.v.   Lưu ý bậc cao vs bậc thấp  Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển được.  Và hiển nhiên rồi, đổi lại chiếc xe đua F1 bậc thấp sẽ có tốc độ vượt xa chiếc xe ô tô bậc cao .   Nhưng, đối với người mới học, lợi thế tốc độ này không thực sự quan trọng lắm. Vì vậy, các ngôn ngữ bậc cao là nơi để bạn bắt đầu.   Chú ý ví dụ code  Trong bài viết này, các ví dụ code được viết bằng Python, giúp bạn theo dõi và thí nghiệm dễ dàng hơn.  Nhưng bạn cũng có thể thử các ngôn ngữ khác trong .    Có thể bạn sẽ hứng thú:      Liên kết khảo sát ngôn ngữ phổ biến năm 2023  stackoverflow's 2023 survey on the most popular languages       Thiết kế của một ngôn ngữ phụ thuộc vào mục đích của nó. Ví dụ như Guido van Rossum, ông đã ưu tiên sự dễ hiểu và dễ sử dụng khi ông tạo ra Python. Vì vậy, cú pháp của nó giúp lập trình viên viết code một cách sáng suốt.   Chọn Một Ngôn Ngữ Lập Trình  Lưu ý chọn một ngôn ngữ  Khi một người mới bắt đầu học lập trình, họ thường xuyên gặp phải những câu hỏi hay chủ đề như:   Nên bắt đầu với ngôn ngữ lập trình nào?    Ngôn ngữ lập trình nào nên học trong năm 2024?    Ngôn ngữ lập trình nào nên học để có việc lương cao?   v.v.  Theo tôi, đây là những câu hỏi không mấy thiết thực, và tôi khuyên bạn không nên có lối suy nghĩ như vậy. Thay vào đó, những câu hỏi bạn nên hỏi là:   Mục đích của mình khi học một ngôn ngữ lập trình mới là gì?    Với mục đích đó thì ngôn ngữ lập trình nào là phù hợp?    Mình muốn ngôn ngữ lập trình ấy là bậc cao hay bậc thấp?   v.v.  Số lượng ngôn ngữ lập trình ngày càng tăng, và mỗi một trong số đó đều có mục đích, điểm mạnh và điểm yếu riêng biệt .        Basic Programming Part 3: Programming Languages  Video phần 03    "
+  "body": " Ngôn Ngữ Lập Trình    Quan sát một vài ví dụ về các ngôn ngữ lập trình.  Tìm hiểu ngôn ngữ lập trình bậc cao và bậc thấp .     Khái niệm ngôn ngữ lập trình    Ngôn ngữ lập trình là một hệ thống ký hiệu giúp con người tạo ra các chương trình máy tính.  Mỗi ngôn ngữ lập trình có bộ cú pháp của riêng nó.   Cú pháp đơn giản là ngữ pháp của một ngôn ngữ lập trình. Nó đóng vai trò thiết yếu trong quá trình máy tính dịch và chạy code.    Dưới đây là một đoạn code được viết bằng Python một trong những ngôn ngữ lập trình phổ biến nhất trong những năm gần đây. Hãy chạy dòng code sau và xem kết quả nhé.    Hello World!    Ví dụ code bậc cao  Hàm print()   Lệnh print() có nhiệm vụ rất đơn giản là đưa dữ liệu ra terminal. Ở đây, dữ liệu đó là dòng chữ Hello World! .    Ví dụ code bậc cao Đây là một đoạn code nữa được viết bằng Python (Bạn chưa cần phải hiểu đoạn code này, nhưng bạn có thể đoán xem nó đang làm gì không?)   Thí Nghiệm Vui  Sao chép và dán đoạn code bên vào một ô code và chạy nó.    a = 0 while a < 10: print(a, end=\" \") if a % 2 == 0: print(\"is even\") else: print(\"is odd\") a += 1   Dễ thấy, có những từ khóa như while , print  end , if , và else . Ngoài chúng ra, cú pháp của Python có rất nhiều từ khóa và đặc điểm gần gũi với ngôn ngữ tiếng Anh.   Khái niệm ngôn ngữ bậc cao   Python được coi là một ngôn ngữ lập trình bậc cao vì cú pháp của nó gần gũi với tiếng Anh.    Vì vậy, Python thường được đề xuất tới người mới học lập trình, và cũng chính là một trong những lí do nó là một trong những ngôn ngữ lập trình phổ biến nhất.   Ví dụ code bậc thấp Tiếp theo, ta có một đoạn code được viết bằng Assembly . Khi chạy, ta cũng thu được dòng chữ Hello World! . (Một lần nữa, đừng cố hiểu đoạn code này. Cái này tôi cũng chịu.)   Thí Nghiệm Vui  Đây là một trình biên dịch Assembly nếu bạn muốn thử chạy nó.    section .data hello: db 'Hello World!',10 helloLen: equ $-hello section .text global _start _start: mov eax,4 mov ebx,1 mov ecx,hello mov edx,helloLen int 80h mov eax,1 mov ebx,0 int 80h;   Như bạn có thể thấy, đây gần như là ngôn ngữ máy tính. Assembly cần đến 14 dòng code để làm điều mà Python có thể thực hiện với một dòng.   Khái niệm ngôn ngữ bậc thấp   Assembly được coi là một ngôn ngữ lập trình bậc thấp vì cú pháp của nó gần với ngôn ngữ máy tính.    Vậy, ngôn ngữ bậc cao có cú pháp ngắn gọn và thân thiện hơn ngôn ngữ bậc thấp. Có thể bạn sẽ hỏi Vậy khi nào thì ta dùng ngôn ngữ bậc thấp?   Có nhiều lý do, và trong đó tốc độ là đương nhiên nhất. Về cơ bản, code được viết bằng ngôn ngữ bậc cao phải đi qua nhiều bước trung gian hơn trước khi được dịch thành ngôn ngữ máy tính (nhị phân). Vì vậy, ngôn ngữ bậc thấp có lợi thế về tốc độ.  Một vài lý do khác là chuyên môn, thao tác dữ liệu chính xác, hệ thống kế thừa, v.v.   Chia sẻ bậc cao vs bậc thấp  Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển.  Và hiển nhiên rồi, đổi lại chiếc xe đua F1 bậc thấp sẽ có tốc độ vượt xa chiếc xe ô tô bậc cao .   Nhưng, đối với người mới học, lợi thế tốc độ này không thực sự quan trọng lắm. Vì vậy, các ngôn ngữ bậc cao là hoàn hảo dành cho bạn.   Chú ý ví dụ code  Trong bài viết này, các ví dụ code được viết bằng Python, giúp bạn theo dõi và thí nghiệm dễ dàng hơn.  Nhưng bạn cũng có thể thử các ngôn ngữ khác trong .    Có thể bạn sẽ hứng thú:      Liên kết khảo sát ngôn ngữ phổ biến năm 2023  stackoverflow's 2023 survey on the most popular languages       Thiết kế của một ngôn ngữ phụ thuộc vào mục đích của nó. Ví dụ như Guido van Rossum, ông đã ưu tiên sự dễ hiểu và dễ sử dụng khi ông tạo ra Python. Vì vậy, cú pháp của nó giúp lập trình viên viết code một cách sáng suốt.   Chọn Một Ngôn Ngữ Lập Trình  Chia sẻ chọn một ngôn ngữ  Khi một người mới bắt đầu học lập trình, họ thường xuyên gặp phải những câu hỏi hay chủ đề như:   Nên bắt đầu với ngôn ngữ lập trình nào?    Ngôn ngữ lập trình nào nên học trong năm 2024?    Ngôn ngữ lập trình nào nên học để có việc lương cao?   v.v.  Theo tôi, đây là những câu hỏi không mấy thiết thực, và tôi khuyên bạn không nên có lối suy nghĩ như vậy. Thay vào đó, những câu hỏi bạn nên hỏi là:   Mục đích của mình khi học một ngôn ngữ lập trình mới là gì?    Với mục đích đó thì ngôn ngữ lập trình nào là phù hợp?    Mình muốn ngôn ngữ lập trình ấy là bậc cao hay bậc thấp?   v.v.  Số lượng ngôn ngữ lập trình ngày càng tăng, và mỗi một trong số đó đều có mục đích, điểm mạnh và điểm yếu riêng biệt .        Basic Programming Part 3: Programming Languages  Video phần 03    "
 },
 {
   "id": "sec-pro-language-2",
@@ -232,7 +232,7 @@ var ptx_lunr_docs = [
   "type": "Khái Niệm",
   "number": "3.1",
   "title": "",
-  "body": " Khái niệm ngôn ngữ lập trình    Ngôn ngữ lập trình là một hệ thống các ký hiệu giúp con người tạo ra các chương trình máy tính, cũng chính là đưa ra chỉ dẫn cho máy tính.  Mỗi ngôn ngữ lập trình có bộ cú pháp của riêng nó.   Cú pháp đơn giản là ngữ pháp của một ngôn ngữ lập trình. Nó đóng vai trò thiết yếu trong quá trình máy tính dịch và chạy code.   "
+  "body": " Khái niệm ngôn ngữ lập trình    Ngôn ngữ lập trình là một hệ thống ký hiệu giúp con người tạo ra các chương trình máy tính.  Mỗi ngôn ngữ lập trình có bộ cú pháp của riêng nó.   Cú pháp đơn giản là ngữ pháp của một ngôn ngữ lập trình. Nó đóng vai trò thiết yếu trong quá trình máy tính dịch và chạy code.   "
 },
 {
   "id": "sec-pro-language-4",
@@ -301,10 +301,10 @@ var ptx_lunr_docs = [
   "id": "sec-pro-language-22",
   "level": "2",
   "url": "sec-pro-language.html#sec-pro-language-22",
-  "type": "Lưu Ý",
+  "type": "Chia Sẻ",
   "number": "3.5",
   "title": "",
-  "body": " Lưu ý bậc cao vs bậc thấp  Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển được.  Và hiển nhiên rồi, đổi lại chiếc xe đua F1 bậc thấp sẽ có tốc độ vượt xa chiếc xe ô tô bậc cao .  "
+  "body": " Chia sẻ bậc cao vs bậc thấp  Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển.  Và hiển nhiên rồi, đổi lại chiếc xe đua F1 bậc thấp sẽ có tốc độ vượt xa chiếc xe ô tô bậc cao .  "
 },
 {
   "id": "sec-pro-language-24",
@@ -316,13 +316,22 @@ var ptx_lunr_docs = [
   "body": " Chú ý ví dụ code  Trong bài viết này, các ví dụ code được viết bằng Python, giúp bạn theo dõi và thí nghiệm dễ dàng hơn.  Nhưng bạn cũng có thể thử các ngôn ngữ khác trong .  "
 },
 {
+  "id": "sec-pro-language-26",
+  "level": "2",
+  "url": "sec-pro-language.html#sec-pro-language-26",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "mục đích "
+},
+{
   "id": "insight-choose-pro-language",
   "level": "2",
   "url": "sec-pro-language.html#insight-choose-pro-language",
-  "type": "Lưu Ý",
+  "type": "Chia Sẻ",
   "number": "3.7",
   "title": "Chọn Một Ngôn Ngữ Lập Trình.",
-  "body": " Chọn Một Ngôn Ngữ Lập Trình  Lưu ý chọn một ngôn ngữ  Khi một người mới bắt đầu học lập trình, họ thường xuyên gặp phải những câu hỏi hay chủ đề như:   Nên bắt đầu với ngôn ngữ lập trình nào?    Ngôn ngữ lập trình nào nên học trong năm 2024?    Ngôn ngữ lập trình nào nên học để có việc lương cao?   v.v.  Theo tôi, đây là những câu hỏi không mấy thiết thực, và tôi khuyên bạn không nên có lối suy nghĩ như vậy. Thay vào đó, những câu hỏi bạn nên hỏi là:   Mục đích của mình khi học một ngôn ngữ lập trình mới là gì?    Với mục đích đó thì ngôn ngữ lập trình nào là phù hợp?    Mình muốn ngôn ngữ lập trình ấy là bậc cao hay bậc thấp?   v.v.  Số lượng ngôn ngữ lập trình ngày càng tăng, và mỗi một trong số đó đều có mục đích, điểm mạnh và điểm yếu riêng biệt .  "
+  "body": " Chọn Một Ngôn Ngữ Lập Trình  Chia sẻ chọn một ngôn ngữ  Khi một người mới bắt đầu học lập trình, họ thường xuyên gặp phải những câu hỏi hay chủ đề như:   Nên bắt đầu với ngôn ngữ lập trình nào?    Ngôn ngữ lập trình nào nên học trong năm 2024?    Ngôn ngữ lập trình nào nên học để có việc lương cao?   v.v.  Theo tôi, đây là những câu hỏi không mấy thiết thực, và tôi khuyên bạn không nên có lối suy nghĩ như vậy. Thay vào đó, những câu hỏi bạn nên hỏi là:   Mục đích của mình khi học một ngôn ngữ lập trình mới là gì?    Với mục đích đó thì ngôn ngữ lập trình nào là phù hợp?    Mình muốn ngôn ngữ lập trình ấy là bậc cao hay bậc thấp?   v.v.  Số lượng ngôn ngữ lập trình ngày càng tăng, và mỗi một trong số đó đều có mục đích, điểm mạnh và điểm yếu riêng biệt .  "
 },
 {
   "id": "sec-pro-language-29",
@@ -340,7 +349,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "4",
   "title": "Ghi Chú",
-  "body": " Ghi Chú    Nhận biết và sử dụng ghi chú trong code.    Khi viết code, có những lúc bạn muốn sử dụng văn bản thường, thay vì code. Có thể bạn muốn để lại ghi chú hay giải thích cho một thuật toán nào đó, hay ghi chép lại luồng suy nghĩ bản thân khi đó. Khi code của bạn ngày càng dài và phức tạp hơn, những ghi chú này bổ sung ngữ cảnh cần thiết.   Khái niệm ghi chú    Ghi chú là những mẩu văn bản thường, không được chạy bởi trình biên dịch.  Để viết một ghi chú trong Python, sử dụng dấu thăng # . Những gì ở sau nó (trên cùng dòng) sẽ được coi là văn bản thô.     Có thể bạn sẽ hứng thú:      Liên kết các cú pháp ghi chú  \"comments in different programming languages\"      Liên kết ghi chú nhiều dòng  \"multiline comments\"        Lưu ý tắt code  Ghi chú cũng được sử dụng để tạm thời vô hiệu hóa một dòng code.   Ví dụ:    Thí Nghiệm Vui  Xóa dấu # ở dòng 5 và chạy lại đoạn code.    This is code More code    Ví dụ code ghi chú   Dòng 1 là một ghi chú dùng để chú thích.  Dòng 3 và 7 là code bình thường.  Dòng 5 là một ghi chú dùng để tắt code.        Basic Programming Part 4: Comments  Video phần 04    "
+  "body": " Ghi Chú    Nhận biết và sử dụng ghi chú trong code.    Khi viết code, có những lúc bạn muốn sử dụng văn bản thường, thay vì code. Có thể bạn muốn để lại ghi chú hay giải thích cho một thuật toán nào đó, hay ghi chép lại luồng suy nghĩ của bản thân khi đó.  Khi code ngày càng dài và phức tạp hơn, những ghi chú này bổ sung ngữ cảnh cần thiết cho bạn, hoặc cho người khác đang đọc code của bạn.   Khái niệm ghi chú    Ghi chú là những mẩu văn bản thường, không được chạy bởi trình biên dịch.  Để viết một ghi chú trong Python, sử dụng dấu thăng # . Những gì ở sau nó (trên cùng dòng) sẽ được coi là văn bản thô.     Có thể bạn sẽ hứng thú:      Liên kết các cú pháp ghi chú  \"comments in different programming languages\"      Liên kết ghi chú nhiều dòng  \"multiline comments\"        Chia sẻ tắt code  Ghi chú cũng được sử dụng để tạm thời vô hiệu hóa một dòng code.   Ví dụ:    Thí Nghiệm Vui  Xóa dấu # ở dòng 5 và chạy lại đoạn code.    This is code More code    Ví dụ code ghi chú   Dòng 1 là một ghi chú dùng để chú thích.  Dòng 3 và 7 là code bình thường.  Dòng 5 là một ghi chú dùng để tắt code.        Basic Programming Part 4: Comments  Video phần 04    "
 },
 {
   "id": "sec-comment-2",
@@ -361,36 +370,36 @@ var ptx_lunr_docs = [
   "body": " Khái niệm ghi chú    Ghi chú là những mẩu văn bản thường, không được chạy bởi trình biên dịch.  Để viết một ghi chú trong Python, sử dụng dấu thăng # . Những gì ở sau nó (trên cùng dòng) sẽ được coi là văn bản thô.   "
 },
 {
-  "id": "sec-comment-6",
+  "id": "sec-comment-7",
   "level": "2",
-  "url": "sec-comment.html#sec-comment-6",
-  "type": "Lưu Ý",
+  "url": "sec-comment.html#sec-comment-7",
+  "type": "Chia Sẻ",
   "number": "4.2",
   "title": "",
-  "body": " Lưu ý tắt code  Ghi chú cũng được sử dụng để tạm thời vô hiệu hóa một dòng code.  "
+  "body": " Chia sẻ tắt code  Ghi chú cũng được sử dụng để tạm thời vô hiệu hóa một dòng code.  "
 },
 {
-  "id": "sec-comment-10",
+  "id": "sec-comment-11",
   "level": "2",
-  "url": "sec-comment.html#sec-comment-10",
+  "url": "sec-comment.html#sec-comment-11",
   "type": "Output",
   "number": "4.3",
   "title": "",
   "body": " This is code More code  "
 },
 {
-  "id": "sec-comment-11",
+  "id": "sec-comment-12",
   "level": "2",
-  "url": "sec-comment.html#sec-comment-11",
+  "url": "sec-comment.html#sec-comment-12",
   "type": "Giải Thích",
   "number": "4.1",
   "title": "",
   "body": " Ví dụ code ghi chú   Dòng 1 là một ghi chú dùng để chú thích.  Dòng 3 và 7 là code bình thường.  Dòng 5 là một ghi chú dùng để tắt code.  "
 },
 {
-  "id": "sec-comment-13",
+  "id": "sec-comment-14",
   "level": "2",
-  "url": "sec-comment.html#sec-comment-13",
+  "url": "sec-comment.html#sec-comment-14",
   "type": "Video",
   "number": "4.2",
   "title": "Basic Programming — Part 4: Comments.",
@@ -403,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "5",
   "title": "Biến",
-  "body": " Biến    Tìm hiểu biến và cách dùng biến.  Hiểu rằng dấu bằng = không liên quan đến đẳng thức trong lập trình.     Biến là một trong những khái niệm cơ bản và quan trọng nhất của lập trình.  Trong toán học, ta thường hay thấy biến số trong các hàm số, ví dụ như: Ở đây, biến có nghĩa là có thể thay đổi và không cố định.   Khái niệm biến   Trong lập trình, biến được dùng để lưu trữ dữ liệu.  Dữ liệu được chứa trong biến được gọi là giá trị của biến, và nó thường xuyên được cập nhật trong quá trình chương trình chạy.  Thuật ngữ để chỉ việc tạo ra một biến mới là khai báo .  Thuật ngữ để chỉ việc cập nhật giá trị của một biến đã tồn tại là gán .     Khai bào và gán  Cú pháp khai báo  Cú pháp gán  Để khai báo biến hoặc gán cho biết giá trị mới, ta đều sử dụng dấu = :   Vì vậy, dấu bằng = trong lập trình không bao giờ được dùng theo nghĩa của đẳng thức.   Ví dụ (nên dùng CodeLens):   a = 1 b = a print(a) print(b) # Update variable a = 2 print(a) print(b)    1 1 2 1    Ví dụ code gán  Ví dụ code khai báo   Đầu tiên, ta khai báo biến a và gán cho nó giá trị là 1 .  Tiếp, ta khai báo b và gán cho nó giá trị bằng giá trị hiện tại của a , vậy b cũng có giá trị là 1 .  Ta sử dụng lệnh print() để truy cập và hiển thị giá trị hiện tại của hai biến ra terminal.  Sau đó, ta gán cho a giá trị mới là 2 , nhưng ta không động đến b .   Thí Nghiệm Vui  Nếu sau khi cập nhật biến a , ta muốn biến b lại có giá trị bằng a , thì ta phải cập nhật b một lần nữa.    Chú ý đẳng thức  Chú ý : Nếu đến bước này bạn nghĩ rằng cả a và b đều có giá trị là 2 , thì bạn vẫn đang hiểu dấu bằng theo nghĩa của đẳng thức. Điều này là không đúng đối với lập trình.  Cuối cùng, ta lại dùng print() để quan sát sự khác biệt.    Lưu ý đẳng thức  Ví dụ trên về biến, dù đơn giản, đã làm rối não nhiều người mới bắt đầu, đặc biệt là những ai có bộ não toán học. Vì họ thấy b = a nên họ nghĩ đây là một đẳng thức luôn đúng trong suốt vòng đời của chương trình. Nhưng lối suy nghĩ đó là sai đối với lập trình.    Đặt tên cho biến  Chú ý tên biến  Quy ước tên biến   Có thể bạn sẽ hứng thú:      Liên kết tên biến hợp lệ  \"what variable names are allowed in Python\"      Liên kết Python quy ước đặt tên biến  \"variable naming conventions in Python\"       Tên của một biến có một vài quy tắc. Những tên biến sau sẽ làm xuất hiện lỗi cú pháp:   my var = 5 (chứa khoảng trắng)   #my_var = 5 (chứa ký tự đặc biệt)   1st_var = 5 (bắt đầu với chữ số)   print = 5 (trùng với một từ khóa có sẵn)    Tránh những trường hợp trên, và bạn có thể đặt tên biến tùy thích. Vì vậy, tùy vào cá thể lập trình viên, tên biến sẽ rất đa dạng:  house_address  houseAddress  HouseAddress  ha  hAddress  house_add       Trong thế giới lập trình, có rất nhiều quy ước khác nhau về cách đặt tên biến.  Đặt tên biến cho phù hợp là một kỹ năng, nhưng bài viết này sẽ không hướng dẫn việc đó. Tên biến trong các ví dụ code ưu tiên sự ngắn gọn và dễ hiểu .        Basic Programming Part 5: Variables  Video phần 05    "
+  "body": " Biến    Tìm hiểu biến và cách dùng biến.  Hiểu rằng dấu bằng = không liên quan đến đẳng thức trong lập trình.     Biến là một trong những khái niệm cơ bản và quan trọng nhất của lập trình.  Trong toán học, ta thường hay thấy biến số trong các hàm số, ví dụ như: Ở đây, biến có nghĩa là có thể thay đổi và không cố định.   Khái niệm biến   Trong lập trình, biến được dùng để lưu trữ dữ liệu.  Dữ liệu được chứa trong biến được gọi là giá trị của biến, và nó thường xuyên được cập nhật trong quá trình chương trình chạy.  Thuật ngữ để chỉ việc tạo ra một biến mới là khai báo .  Thuật ngữ để chỉ việc cập nhật giá trị của một biến đã tồn tại là gán .     Khai bào và gán  Cú pháp khai báo  Cú pháp gán  Để khai báo biến hoặc gán cho biết giá trị mới, ta đều sử dụng dấu = :   Vì vậy, dấu bằng = trong lập trình không bao giờ được dùng theo nghĩa của đẳng thức.   Ví dụ (nên dùng CodeLens):   a = 1 b = a print(a) print(b) # Update variable a = 2 print(a) print(b)    1 1 2 1    Ví dụ code gán  Ví dụ code khai báo   Đầu tiên, ta khai báo biến a và gán cho nó giá trị là 1 .  Tiếp, ta khai báo b và gán cho nó giá trị bằng giá trị hiện tại của a , vậy b cũng có giá trị là 1 .  Ta sử dụng lệnh print() để truy cập và hiển thị giá trị hiện tại của hai biến ra terminal.  Sau đó, ta gán cho a giá trị mới là 2 , nhưng ta không động đến b .   Thí Nghiệm Vui  Nếu sau khi cập nhật biến a , ta muốn biến b lại có giá trị bằng a , thì ta phải cập nhật b một lần nữa.    Chú ý đẳng thức  Chú ý : Nếu đến bước này bạn nghĩ rằng cả a và b đều có giá trị là 2 , thì bạn vẫn đang hiểu dấu bằng theo nghĩa của đẳng thức. Điều này là không đúng đối với lập trình.  Cuối cùng, ta lại dùng print() để quan sát sự khác biệt.    Chia sẻ đẳng thức  Ví dụ trên về biến, dù đơn giản, đã làm rối não nhiều người mới bắt đầu, đặc biệt là những ai có bộ não toán học. Vì họ thấy b = a nên họ nghĩ đây là một đẳng thức luôn đúng trong suốt vòng đời của chương trình. Nhưng lối suy nghĩ đó là sai đối với lập trình.    Đặt tên cho biến  Chú ý tên biến  Quy ước tên biến   Có thể bạn sẽ hứng thú:      Liên kết tên biến hợp lệ  \"what variable names are allowed in Python\"      Liên kết Python quy ước đặt tên biến  \"variable naming conventions in Python\"       Tên của một biến có một vài quy tắc. Những tên biến sau sẽ làm xuất hiện lỗi cú pháp:   my var = 5 (chứa khoảng trắng)   #my_var = 5 (chứa ký tự đặc biệt)   1st_var = 5 (bắt đầu với chữ số)   print = 5 (trùng với một từ khóa có sẵn)    Tránh những trường hợp trên, và bạn có thể đặt tên biến tùy thích. Vì vậy, tùy vào cá thể lập trình viên, tên biến sẽ rất đa dạng:  house_address  houseAddress  HouseAddress  ha  hAddress  house_add       Trong thế giới lập trình, có rất nhiều quy ước khác nhau về cách đặt tên biến.  Đặt tên biến cho phù hợp là một kỹ năng, nhưng bài viết này sẽ không hướng dẫn việc đó. Tên biến trong các ví dụ code ưu tiên sự ngắn gọn và dễ hiểu .        Basic Programming Part 5: Variables  Video phần 05    "
 },
 {
   "id": "sec-variable-2",
@@ -463,10 +472,10 @@ var ptx_lunr_docs = [
   "id": "sec-variable-11",
   "level": "2",
   "url": "sec-variable.html#sec-variable-11",
-  "type": "Lưu Ý",
+  "type": "Chia Sẻ",
   "number": "5.4",
   "title": "",
-  "body": " Lưu ý đẳng thức  Ví dụ trên về biến, dù đơn giản, đã làm rối não nhiều người mới bắt đầu, đặc biệt là những ai có bộ não toán học. Vì họ thấy b = a nên họ nghĩ đây là một đẳng thức luôn đúng trong suốt vòng đời của chương trình. Nhưng lối suy nghĩ đó là sai đối với lập trình.  "
+  "body": " Chia sẻ đẳng thức  Ví dụ trên về biến, dù đơn giản, đã làm rối não nhiều người mới bắt đầu, đặc biệt là những ai có bộ não toán học. Vì họ thấy b = a nên họ nghĩ đây là một đẳng thức luôn đúng trong suốt vòng đời của chương trình. Nhưng lối suy nghĩ đó là sai đối với lập trình.  "
 },
 {
   "id": "sec-variable-12",
@@ -493,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "6",
   "title": "Kiểu Dữ Liệu",
-  "body": " Kiểu Dữ Liệu    Tìm hiểu các kiểu dữ liệu và cách dùng chúng.  Tìm hiểu các tương tác giữa các kiểu dữ liệu.    Hầu hết mọi thứ trên thế giới này đều có thể được lưu trữ thành dữ liệu từ số liệu và chữ cái đến thông tin về một mẫu xe ô tô.   Khái niệm kiểu dữ liệu   Và để phân loại các dữ liệu đó, ta cần đến các kiểu dữ liệu .     Khái quát kiểu dữ liệu Hầu hết các ngôn ngữ lập trình hiện đại đều có các kiểu dữ liệu sau:   str   Chuỗi ký tự . Được bao quanh bởi dấu ngoặc kép \"\" hoặc dấu ngoặc kép đơn '' .    int   Số nguyên . Là một số thực không có các chữ số thập phân.    float   Số dấu phẩy động . Là một số thực có một hoặc nhiều chữ số thập phân.    bool   Boolean chỉ chứa một trong hai giá trị True hoặc False . Được dùng chủ yếu trong những câu lệnh điều kiện.      Có thể bạn sẽ hứng thú      Liên kết Python là dynamically typed  \"Python is dynamically typed\"        Liên kết static vs dynamic typing  example of static vs dynamic typing        Chú ý xác định kiểu dữ liệu  Python là một ngôn ngữ dynamically typed. Điều này nghĩa là khi một biết được khai báo hoặc cập nhật, kiểu dữ liệu của nó được xác định, hoặc tái xác định, một cách tự động .   Ví dụ (nên dùng CodeLens):   a = 5 b = type(a) print(a, b) a = \"5\" b = type(a) print(a, b)    5 <class 'int'> 5 <class 'str'>    Ví dụ code kiểu dữ liệu  Hàm type()   Lệnh type(a) cho kết quả là kiểu dữ liệu của biến a , được ghi trong dấu ngoặc kép đơn.  (Bạn không cần băn khoăn về từ khóa class ở đây. Bạn có thể hiểu nó đang viết tắt cho từ classify , nghĩa là phân loại . Nhưng chính xác hơn thì nó đang đề cập tới Lớp , một chủ đề nâng cao hơn được bàn bạc ở .)   Thí Nghiệm Vui   5 có khác so với 5.0 không?   Vậy, khi khai báo a = 5 , biến a có kiểu int .  Còn khi gán cho a giá trị mới là \"5\" , nó tự động cập nhật thành kiểu str .   Từ ví dụ trên, ta thấy a = \"5\" rất khác so với a = 5 . Khi dữ liệu được bao quanh bởi hai dấu ngoặc kép (đơn), nó chắc chắn thuộc kiểu str . Từ đó, ta có định nghĩa sau:   Khái niệm cú pháp kiểu dữ liệu   Kiểu dữ liệu khác nhau có cú pháp khác nhau.    Một vài ví dụ về các kiểu dữ liệu chính:    <class 'int'> <class 'float'> <class 'str'> <class 'bool'>    Ví dụ code kiểu dữ liệu   Giống như trên.  Một lần nữa, bạn chưa cần quan tấm đến class .   Tiếp theo, ta có:   Khái niệm tương tác giữa dữ liệu   Kiểu dữ liệu quyết định các tương tác có thể giữa dữ liệu.  Nói cách khác, có rất nhiều loại tương tác có thể xảy ra giữa dữ liệu (phép toán, phép nối chuỗi, v.v.), và chúng thay đổi dựa vào kiểu dữ liệu.    Ví dụ:    3 9.1 8.5    Ví dụ code tương tác giữa dữ liệu   Ta biết cả a và b đều có kiểu int . Vì vậy, cộng chúng lại là có lý và được phép.  Tương tự, c và d đều là float , vì vậy phép cộng là hợp lệ.  Dòng cuối cùng thú vị hơn một chút, vì ta vẫn có thể thực hiện phép cộng giữa int và float .   Ta cũng có thể cộng hai hay nhiều str với nhau. Việc này ghép chúng lại thành một chuỗi mới. Ví dụ:    HelloJack Hello Jane    Ví dụ code phép nối chuỗi    s1 + s2 là một tương tác hợp lệ và sẽ ghép chúng lại thành một chuỗi mới. Tương tự với s1 + s3 .  Ta thấy chuỗi s2 và s3 có một chi tiết khác nhau. Sự khác biệt này được làm rõ qua phép nối chuỗi.   Nhưng ta không thể cộng int với str . Làm vậy sẽ xuất hiện lỗi :   Có thể bạn sẽ hứng thú      Liên kết Python nối int với chuỗi  \"Python how to add int to string\"         TypeError Cell In [1], line 3 ... TypeError: unsupported operand type(s) for +: 'int' and 'str'    Ví dụ code tương tác dữ liệu không hợp lệ   Phép + là một tương tác không hợp lệ cho hai kiểu dữ liệu int và str .        Basic Programming Part 6: Data Types  Video phần 06    "
+  "body": " Kiểu Dữ Liệu    Tìm hiểu các kiểu dữ liệu và cách dùng chúng.  Tìm hiểu các tương tác giữa các kiểu dữ liệu.    Hầu hết mọi thứ trên thế giới này đều có thể được lưu trữ thành dữ liệu từ số liệu và chữ cái đến thông tin về một mẫu xe ô tô.   Khái niệm kiểu dữ liệu   Và để phân loại các dữ liệu đó, ta cần đến các kiểu dữ liệu .     Khái quát kiểu dữ liệu Hầu hết các ngôn ngữ lập trình hiện đại đều có các kiểu dữ liệu sau:   str   Chuỗi ký tự . Được bao quanh bởi dấu ngoặc kép \"\" hoặc dấu ngoặc kép đơn '' .    int   Số nguyên . Là một số thực không có các chữ số thập phân.    float   Số dấu phẩy động . Là một số thực có một hoặc nhiều chữ số thập phân.    bool   Boolean chỉ chứa một trong hai giá trị True hoặc False . Được dùng chủ yếu trong những câu lệnh điều kiện.      Có thể bạn sẽ hứng thú      Liên kết Python là dynamically typed  \"Python is dynamically typed\"        Liên kết static vs dynamic typing  example of static vs dynamic typing        Chú ý xác định kiểu dữ liệu  Python là một ngôn ngữ dynamically typed. Điều này nghĩa là khi một biến được khai báo hoặc cập nhật, kiểu dữ liệu của nó được xác định, hoặc tái xác định, một cách tự động .   Ví dụ (nên dùng CodeLens):   a = 5 b = type(a) print(a, b) a = \"5\" b = type(a) print(a, b)    5 <class 'int'> 5 <class 'str'>    Ví dụ code kiểu dữ liệu  Hàm type()   Lệnh type(a) cho kết quả là kiểu dữ liệu của biến a , được ghi trong dấu ngoặc kép đơn.  (Bạn không cần băn khoăn về từ khóa class ở đây. Bạn có thể hiểu nó đang viết tắt cho từ classify , nghĩa là phân loại . Nhưng chính xác hơn thì nó đang đề cập tới Lớp , một chủ đề nâng cao hơn được bàn bạc ở .)   Thí Nghiệm Vui   5 có khác so với 5.0 không?   Vậy, khi khai báo a = 5 , biến a có kiểu int .  Còn khi gán cho a giá trị mới là \"5\" , nó tự động cập nhật thành kiểu str .   Từ ví dụ trên, ta thấy a = \"5\" rất khác so với a = 5 . Khi dữ liệu được bao quanh bởi hai dấu ngoặc kép (đơn), nó chắc chắn thuộc kiểu str . Từ đó, ta có định nghĩa sau:   Khái niệm cú pháp kiểu dữ liệu   Kiểu dữ liệu khác nhau có cú pháp khác nhau.    Một vài ví dụ về các kiểu dữ liệu chính:    <class 'int'> <class 'float'> <class 'str'> <class 'bool'>    Ví dụ code kiểu dữ liệu   Giống như trên.  Một lần nữa, bạn chưa cần quan tấm đến class .   Tiếp theo, ta có:   Khái niệm tương tác giữa dữ liệu   Kiểu dữ liệu quyết định các tương tác có thể giữa dữ liệu.  Nói cách khác, có rất nhiều loại tương tác có thể xảy ra giữa dữ liệu (phép toán, phép nối chuỗi, v.v.), và chúng thay đổi dựa vào kiểu dữ liệu.    Ví dụ:    3 9.1 8.5    Ví dụ code tương tác giữa dữ liệu   Ta biết cả a và b đều có kiểu int . Vì vậy, cộng chúng lại là có lý và được phép.  Tương tự, c và d đều là float , vì vậy phép cộng là hợp lệ.  Dòng cuối cùng thú vị hơn một chút, vì ta vẫn có thể thực hiện phép cộng giữa int và float .   Ta cũng có thể cộng hai hay nhiều str với nhau. Việc này ghép chúng lại thành một chuỗi mới. Ví dụ:    HelloJack Hello Jane    Ví dụ code phép nối chuỗi    s1 + s2 là một tương tác hợp lệ và sẽ ghép chúng lại thành một chuỗi mới. Tương tự với s1 + s3 .  Ta thấy chuỗi s2 và s3 có một chi tiết khác nhau. Sự khác biệt này được làm rõ qua phép nối chuỗi.   Nhưng ta không thể cộng int với str . Làm vậy sẽ xuất hiện lỗi :   Có thể bạn sẽ hứng thú      Liên kết Python nối int với chuỗi  \"Python how to add int to string\"         TypeError Cell In [1], line 3 ... TypeError: unsupported operand type(s) for +: 'int' and 'str'    Ví dụ code tương tác dữ liệu không hợp lệ   Phép + là một tương tác không hợp lệ cho hai kiểu dữ liệu int và str .        Basic Programming Part 6: Data Types  Video phần 06    "
 },
 {
   "id": "sec-data-type-2",
@@ -529,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Chú Ý",
   "number": "6.2",
   "title": "",
-  "body": " Chú ý xác định kiểu dữ liệu  Python là một ngôn ngữ dynamically typed. Điều này nghĩa là khi một biết được khai báo hoặc cập nhật, kiểu dữ liệu của nó được xác định, hoặc tái xác định, một cách tự động .  "
+  "body": " Chú ý xác định kiểu dữ liệu  Python là một ngôn ngữ dynamically typed. Điều này nghĩa là khi một biến được khai báo hoặc cập nhật, kiểu dữ liệu của nó được xác định, hoặc tái xác định, một cách tự động .  "
 },
 {
   "id": "sec-data-type-10",
@@ -664,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "7",
   "title": "Cấu Trúc Dữ Liệu",
-  "body": " Cấu Trúc Dữ Liệu    Tìm hiểu các cấu trúc dữ liệu.  Quan sát hai ví dụ danh sách và từ điển .      Ví dụ code không dùng danh sách Cho đến nay, biến luôn chứa một giá trị duy nhất. Giả sử ta có một chương trình để chứa 100 số chính phương. Nó có thể trông như sau:   ps1 = 0 ps2 = 1 ps3 = 4 ps4 = 9 # ... ps100 = 9801   Đoạn code trên không thực tế cho lắm. Để giảm số lượng biến, ta có thể sử dụng một đối tượng mới cấu trúc dữ liệu .   Khái niệm cấu trúc dữ liệu    Cấu trúc dữ liệu là một dữ liệu có khả năng chứa cùng một lúc nhiều dữ liệu khác.  Các dữ liệu con của một cấu trúc dữ liệu được gọi là phần tử .  Cấu trúc dữ liệu được xây dựng dựa trên kiểu dữ liệu, vì vậy những kiến thức ở có thể được áp dụng.     Ví dụ code dùng danh sách Từ đó, ta có thể cải thiện chương trình trên như sau:   ps = [0, 1, 4, 9, ..., 9801]   Mặc dù vẫn không mấy thực tế (ta vẫn phải gõ 100 số), phiên bản này tốt hơn trước rất nhiều. Thay vì tạo ra 100 biến khác nhau, ta chỉ cần một biến có khả năng chứa 100 giá trị. (Đây là một danh sách , sẽ được bàn tới dưới đây.)  Mỗi ngôn ngữ lập trình đều có tập hợp các cấu trúc dữ liệu của riêng mình. Mỗi cấu trúc dữ liệu đều có điểm mạnh và điểm yếu của mình.  Bây giờ ta sẽ tìm hiểu hai cấu trúc dữ liệu phổ biến nhất danh sách (mảng) và từ điển .   Chú ý tìm hiểu cấu trúc dữ liệu  Hai tiểu mục sắp tới sẽ chỉ giới thiệu sơ bộ hai đối tượng trên.      Danh Sách (Mảng)   Khái niệm danh sách    Danh sách có thể chứa nhiều giá trị cùng một lúc.  Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu khác nhau .     Có thể bạn sẽ hứng thú      Liên kết Python danh sách vs mảng  \"Python lists vs arrays\"        Chú ý danh sách vs mảng  Trong một vài ngôn ngữ lập trình khác, có một kiểu dữ liệu tên là mảng . Nó hoạt động tương tự một danh sách trong Python.  Python cũng có mảng, nhưng với một cách hoạt động hơi khác so với mảng trong các ngôn ngữ khác. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.  Thông thường thì cái tên mảng được biết đến nhiều hơn danh sách .   Ví dụ:   Thí Nghiệm Vui  Thêm phần tử vào danh sách.     [1 2 3] <class 'list'> [1 2.5 3] <class 'list'> [1 'test' 3] <class 'list'>    Ví dụ code dùng danh sách   Ta khai báo 3 danh sách. Mỗi danh sách có 3 phần tử.  Các phần tử của l1 đều là số nguyên.  Danh sách l2 chứa hai int và một float .  Danh sách l3 có hai int và một str .  Lệnh type() cho ta biết kiểu dữ liệu của chúng là list .    Chú ý dùng danh sách  Có thể thấy, danh sách có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo để tìm hiểu thêm về danh sách.     Từ Điển   Khái niệm từ điển    Từ điển có thể chứa nhiều cặp từ khóa:giá trị (key:value ).  Nó thường được dùng để lưu trữ thông tin miêu tả.    Ví dụ:   Thí Nghiệm Vui  Thêm thông tin miêu tả Steve.     {'name': 'Steve', 'gender': 'male', 'dob': 1980, 'hobbies': ['apples', 'swimming', 'programming'], 5: 'random'} <class 'dict'>    Ví dụ code dùng từ điển   Ta khai báo một từ điển với 5 phần tử là các cặp key:value.  Có thể thấy, các từ khóa và giá trị có thể thuộc các kiểu dữ liệu khác nhau.  Lệnh type() cho ta biết kiểu dữ liệu của nó là dict .    Chú ý dùng từ điển  Một lần nữa, từ điển có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo để tìm hiểu thêm về từ điển.          Basic Programming Part 7: Data Structures  Video phần 07     "
+  "body": " Cấu Trúc Dữ Liệu    Tìm hiểu các cấu trúc dữ liệu.  Quan sát hai ví dụ danh sách và từ điển .      Ví dụ code không dùng danh sách Cho đến nay, biến luôn chứa một giá trị duy nhất. Giả sử ta có một chương trình để chứa 100 số chính phương. Nó có thể trông như sau:   ps1 = 0 ps2 = 1 ps3 = 4 ps4 = 9 # ... ps100 = 9801   Đoạn code trên không thực tế cho lắm. Để giảm số lượng biến, ta có thể sử dụng một đối tượng mới cấu trúc dữ liệu .   Khái niệm cấu trúc dữ liệu    Cấu trúc dữ liệu là một dữ liệu có khả năng chứa cùng một lúc nhiều dữ liệu khác.  Các dữ liệu con của một cấu trúc dữ liệu được gọi là phần tử .  Cấu trúc dữ liệu được xây dựng dựa trên kiểu dữ liệu, vì vậy những kiến thức ở có thể được áp dụng.     Ví dụ code dùng danh sách Từ đó, ta có thể cải thiện chương trình trên như sau:   ps = [0, 1, 4, 9, ..., 9801]   Mặc dù vẫn không mấy thực tế (ta vẫn phải gõ 100 số), phiên bản này tốt hơn trước rất nhiều. Thay vì tạo ra 100 biến khác nhau, ta chỉ cần một biến có khả năng chứa 100 phần tử. (Đây là một danh sách , sẽ được bàn tới dưới đây.)  Mỗi ngôn ngữ lập trình đều có tập hợp các cấu trúc dữ liệu của riêng mình. Mỗi cấu trúc dữ liệu đều có những điểm mạnh và điểm yếu.  Bây giờ ta sẽ tìm hiểu hai cấu trúc dữ liệu phổ biến nhất danh sách (mảng) và từ điển .   Chú ý tìm hiểu cấu trúc dữ liệu  Hai tiểu mục sắp tới sẽ chỉ giới thiệu sơ bộ hai đối tượng trên.      Danh Sách (Mảng)   Khái niệm danh sách    Danh sách có thể chứa nhiều phần tử cùng một lúc.  Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu khác nhau .     Có thể bạn sẽ hứng thú      Liên kết Python danh sách vs mảng  \"Python lists vs arrays\"        Chú ý danh sách vs mảng  Trong một vài ngôn ngữ lập trình khác, có một cấu trúc dữ liệu tên là mảng . Nó hoạt động tương tự một danh sách trong Python.  Python cũng có mảng, nhưng nó lại khác so với danh sách. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.  Thông thường thì cái tên mảng được biết đến nhiều hơn là danh sách .   Ví dụ:   Thí Nghiệm Vui  Thêm phần tử vào danh sách.     [1 2 3] <class 'list'> [1 2.5 3] <class 'list'> [1 'test' 3] <class 'list'>    Ví dụ code dùng danh sách   Ta khai báo 3 danh sách. Mỗi danh sách có 3 phần tử.  Các phần tử của l1 đều là số nguyên.  Danh sách l2 chứa hai int và một float .  Danh sách l3 có hai int và một str .  Lệnh type() cho ta biết kiểu dữ liệu của chúng là list .    Chú ý dùng danh sách  Có thể thấy, danh sách có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo để tìm hiểu thêm về danh sách.     Từ Điển   Khái niệm từ điển    Từ điển có thể chứa nhiều cặp từ khóa:giá trị (key:value ).  Nó thường được dùng để lưu trữ thông tin miêu tả.    Ví dụ:   Thí Nghiệm Vui  Thêm thông tin miêu tả Steve.     {'name': 'Steve', 'gender': 'male', 'dob': 1980, 'hobbies': ['apples', 'swimming', 'programming'], 5: 'random'} <class 'dict'>    Ví dụ code dùng từ điển   Ta khai báo một từ điển với 5 phần tử là các cặp key:value.  Có thể thấy, các từ khóa và giá trị có thể thuộc các kiểu dữ liệu khác nhau.  Lệnh type() cho ta biết kiểu dữ liệu của nó là dict .    Chú ý dùng từ điển  Một lần nữa, từ điển có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo để tìm hiểu thêm về từ điển.          Basic Programming Part 7: Data Structures  Video phần 07     "
 },
 {
   "id": "sec-data-structure-2",
@@ -727,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Khái Niệm",
   "number": "7.3",
   "title": "",
-  "body": " Khái niệm danh sách    Danh sách có thể chứa nhiều giá trị cùng một lúc.  Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu khác nhau .   "
+  "body": " Khái niệm danh sách    Danh sách có thể chứa nhiều phần tử cùng một lúc.  Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu khác nhau .   "
 },
 {
   "id": "subsec-list-4",
@@ -736,7 +745,7 @@ var ptx_lunr_docs = [
   "type": "Chú Ý",
   "number": "7.4",
   "title": "",
-  "body": " Chú ý danh sách vs mảng  Trong một vài ngôn ngữ lập trình khác, có một kiểu dữ liệu tên là mảng . Nó hoạt động tương tự một danh sách trong Python.  Python cũng có mảng, nhưng với một cách hoạt động hơi khác so với mảng trong các ngôn ngữ khác. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.  Thông thường thì cái tên mảng được biết đến nhiều hơn danh sách .  "
+  "body": " Chú ý danh sách vs mảng  Trong một vài ngôn ngữ lập trình khác, có một cấu trúc dữ liệu tên là mảng . Nó hoạt động tương tự một danh sách trong Python.  Python cũng có mảng, nhưng nó lại khác so với danh sách. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.  Thông thường thì cái tên mảng được biết đến nhiều hơn là danh sách .  "
 },
 {
   "id": "subsec-list-8",
@@ -952,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "9",
   "title": "Thuộc Tính",
-  "body": " Thuộc Tính    Tìm hiểu thuộc tính và cách truy cập chúng.     Khái niệm thuộc tính    Thuộc tính là một biến có sẵn chứa thông tin miêu tả về một dữ liệu khác. Nói cách khác, nó là siêu dữ liệu.  Mỗi kiểu dữ liệu đều có một bộ thuộc tính của riêng nó.  Các thuộc tính của một dữ liệu sẽ tự động cập nhật khi dữ liệu đó được cập nhật.     Truy cập thuộc tính  Cú pháp truy cập thuộc tính      Để trình bày thuộc tính, ví dụ sau sử dụng một cấu trúc dữ liệu bên ngoài ma trận, được nhập vào từ thư viện Numpy (Bạn không cần hiểu rõ ví dụ này đâu.):   Có thể bạn sẽ hứng thú      Liên kết thư viện Python  \"what is a Python library\"      Liên kết Numpy  \"what is Numpy\"      Liên kết ma trận  \"what is a matrix\"         6 (2, 3)    Ví dụ code truy cập thuộc tính  Hàm np.matrix()    mat.size trả lại tổng số phần tử của ma trận mang tên mat .   mat.shape trả lại số hàng và số cột của ma trận.   Nhưng kiểu dữ liệu int không có các thuộc tính trên:    AttributeError Cell In [1], line 2 ... AttributeError: 'int' object has no attribute 'size'    Ví dụ code thuộc tính không hợp lệ   Lỗi xuất hiện ở dòng 2, dịch nôm na ta được int không có thuộc tính size .        Basic Programming Part 9: Attributes  Video phần 09    "
+  "body": " Thuộc Tính    Tìm hiểu thuộc tính và cách truy cập chúng.     Khái niệm thuộc tính    Thuộc tính là một biến có sẵn chứa thông tin miêu tả về một dữ liệu khác. Nói cách khác, nó là siêu dữ liệu.  Mỗi kiểu dữ liệu đều có một bộ thuộc tính của riêng nó.  Các thuộc tính của một dữ liệu sẽ tự động cập nhật khi dữ liệu đó được cập nhật.     Truy cập thuộc tính  Cú pháp truy cập thuộc tính       Có thể bạn sẽ hứng thú      Liên kết thư viện Python  \"what is a Python library\"      Liên kết Numpy  \"what is Numpy\"      Liên kết ma trận  \"what is a matrix\"       Để trình bày thuộc tính, ví dụ sau sử dụng một cấu trúc dữ liệu bên ngoài ma trận, được nhập vào từ thư viện Numpy (Bạn không cần hiểu rõ ví dụ này đâu.):    6 (2, 3)    Thí Nghiệm Vui  Thêm phần tử, hàng, hoặc cột vào ma trận và xem thuộc tính được cập nhật.    Ví dụ code truy cập thuộc tính  Hàm np.matrix()    mat.size trả lại tổng số phần tử của ma trận mang tên mat .   mat.shape trả lại số hàng và số cột của ma trận.   Nhưng kiểu dữ liệu int không có các thuộc tính trên:    AttributeError Cell In [1], line 2 ... AttributeError: 'int' object has no attribute 'size'    Ví dụ code thuộc tính không hợp lệ   Lỗi xuất hiện ở dòng 2, dịch nôm na ta được int không có thuộc tính size .        Basic Programming Part 9: Attributes  Video phần 09    "
 },
 {
   "id": "sec-attribute-2",
@@ -991,36 +1000,36 @@ var ptx_lunr_docs = [
   "body": " 6 (2, 3)  "
 },
 {
-  "id": "sec-attribute-9",
+  "id": "sec-attribute-10",
   "level": "2",
-  "url": "sec-attribute.html#sec-attribute-9",
+  "url": "sec-attribute.html#sec-attribute-10",
   "type": "Giải Thích",
   "number": "9.1",
   "title": "",
   "body": " Ví dụ code truy cập thuộc tính  Hàm np.matrix()    mat.size trả lại tổng số phần tử của ma trận mang tên mat .   mat.shape trả lại số hàng và số cột của ma trận.  "
 },
 {
-  "id": "sec-attribute-12",
+  "id": "sec-attribute-13",
   "level": "2",
-  "url": "sec-attribute.html#sec-attribute-12",
+  "url": "sec-attribute.html#sec-attribute-13",
   "type": "Output",
   "number": "9.4",
   "title": "",
   "body": " AttributeError Cell In [1], line 2 ... AttributeError: 'int' object has no attribute 'size'  "
 },
 {
-  "id": "sec-attribute-13",
+  "id": "sec-attribute-14",
   "level": "2",
-  "url": "sec-attribute.html#sec-attribute-13",
+  "url": "sec-attribute.html#sec-attribute-14",
   "type": "Giải Thích",
   "number": "9.2",
   "title": "",
   "body": " Ví dụ code thuộc tính không hợp lệ   Lỗi xuất hiện ở dòng 2, dịch nôm na ta được int không có thuộc tính size .  "
 },
 {
-  "id": "sec-attribute-15",
+  "id": "sec-attribute-16",
   "level": "2",
-  "url": "sec-attribute.html#sec-attribute-15",
+  "url": "sec-attribute.html#sec-attribute-16",
   "type": "Video",
   "number": "9.3",
   "title": "Basic Programming — Part 9: Attributes.",
@@ -1033,7 +1042,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "10",
   "title": "Hàm",
-  "body": " Hàm    Tìm hiểu hàm và cách sử dụng chúng.    Ta lại gặp một khái niệm nữa rất thân thuộc trong toán học hàm . Và nó cũng đóng vai trò thiết yếu trong lập trình.  Giả sử ta có 100 biểu thức toán: Ta nhận ra chúng đều có dạng là đa thức bậc hai. Vậy, ta có thể rút gọn cách trình bày bằng hàm số như sau:   Đó cũng là cốt lõi của hàm trong lập trình.   Khái niệm hàm    Hàm là một đoạn code có thể tái sử dụng được dùng để thực hiện một tác vụ nào đó.  Hàm có thể nhận không, một, hay nhiều hơn dữ liệu đầu vào , còn được gọi là tham số .  Hàm có thể trả lại không, một, hay nhiều hơn dữ liệu đầu ra , còn được gọi là giá trị trả lại .  Thuật ngữ cho việc tạo ra một hàm mới là khai báo hàm .  Thuật ngữ cho việc sử dụng một hàm là gọi hàm .     Chú ý dùng hàm  Ở phần này, ta sẽ không đi sâu vào cú pháp khai báo hàm, mà chỉ tập trung vào việc sử dụng những hàm có sẵn hoặc được cung cấp bởi thư viện.  Để biết thêm về cú pháp khai báo hàm, tham khảo .    Gọi hàm  Cú pháp gọi hàm   Tùy vào cách một hàm được khai báo , ta có hai cách để gọi nó: hoặc    Một ví dụ thân thuộc là hàm print() . Nó có thể được gọi ở bất cứ nơi nào, và với một tập hợp các dữ liệu đầu vào bất kỳ. Và nó đưa dữ liệu ra terminal.    5 2 -2 1 Hello World! 5.5    Ví dụ code hàm print()  Hàm print()   Dòng 1: Ta gọi hàm print() với một dữ liệu đầu vào là 5 .  Dòng 2: Ta không truyền dữ liệu đầu vào, nên print() xuất ra terminal một dòng trắng.  Dòng 3: Ta cho nó hai dữ liệu đầu vào là 2 và -2 .  Dòng 4: Ta truyền cho nó nhiều dữ liệu đầu vào thuộc các kiểu dữ liệu khác nhau.   Một ví dụ nữa là hàm len() . Nó chấp nhận duy nhất một đầu vào là một cấu trúc dữ liệu và trả lại số phần tử.   Thí Nghiệm Vui  Does len() work with a string? len() có hoạt động với str không?     4    Ví dụ code hàm len()  Hàm len()  Hàm len() nhận một cấu trúc dữ liệu và trả lại số phần tử.   Vậy, hàm len() có nhiều yêu cầu hơn print() . Bạn phải gọi hàm này với duy nhất một giá trị đầu vào, và giá trị đó phải là một cấu trúc dữ liệu. Hai ví dụ sau sẽ xuất hiện lỗi:   Thí Nghiệm Vui  Sửa lỗi.     TypeError Cell In [1], line 3 ... TypeError: len() takes exactly one argument (2 given)    Ví dụ code hàm len()  Hàm len()   Hàm len() nhận chính xác một giá trị đầu vào, nhưng lại nhận được hai.   Ví dụ tiếp theo:    TypeError Cell In [1], line 2 ... TypeError: object of type 'int' has no len()    Ví dụ code hàm len()  Hàm len()   Đầu vào của len() phải là một cấu trúc dữ liệu, nhưng nó lại dược gọi với một int .   Ví dụ cuối cùng của ta là hàm upper() . Nó tuân theo cú pháp gọi hàm thứ hai, với đầu vào 1 là một chuỗi ký tự. Và nó trả lại một chuỗi mới với mọi ký tự được viết hoa.   Thí Nghiệm Vui  Đoán hàm có chức năng biến một chuỗi thành viết thường hết.     HELLO FRIEND!    Ví dụ code hàm upper()  Hàm upper()  Hàm upper() trả lại một chuỗi viết hoa mới.   Ví dụ xuất hiện lỗi:    AttributeError Cell In [1], line 2 ... AttributeError: 'int' object has no attribute 'upper'    Ví dụ code hàm upper()  Hàm upper()   Hàm upper() chỉ nhận duy nhất một dữ liệu đầu vào có kiểu str , nhưng lại nhận được kiểu int .  Dịch nôm na miêu tả lỗi, ta được int không có thuộc tính upper .        Basic Programming Part 10: Functions  Video phần 10    "
+  "body": " Hàm    Tìm hiểu hàm và cách sử dụng chúng.    Ta lại gặp một khái niệm nữa rất thân thuộc trong toán học hàm . Và nó cũng đóng vai trò thiết yếu trong lập trình.  Giả sử ta có 100 biểu thức toán: Ta nhận ra chúng đều có dạng là đa thức bậc hai. Vậy, ta có thể rút gọn cách trình bày bằng hàm số như sau:   Đó cũng là cốt lõi của hàm trong lập trình.   Khái niệm hàm    Hàm là một đoạn code có thể tái sử dụng được dùng để thực hiện một tác vụ nào đó.  Hàm có thể nhận không, một, hay nhiều hơn dữ liệu đầu vào , còn được gọi là tham số .  Hàm có thể trả lại không, một, hay nhiều hơn dữ liệu đầu ra , còn được gọi là giá trị trả lại .  Thuật ngữ cho việc tạo ra một hàm mới là khai báo hàm .  Thuật ngữ cho việc sử dụng một hàm là gọi hàm .     Chú ý dùng hàm  Ở phần này, ta sẽ không đi sâu vào cú pháp khai báo hàm, mà chỉ tập trung vào việc sử dụng những hàm có sẵn hoặc được cung cấp bởi thư viện.  Để biết thêm về cú pháp khai báo hàm, tham khảo .    Gọi hàm  Cú pháp gọi hàm   Tùy vào cách một hàm được khai báo , ta có hai cách để gọi nó: hoặc    Một ví dụ thân thuộc là hàm print() . Nó có thể được gọi ở bất cứ nơi nào, và với một tập hợp các dữ liệu đầu vào bất kỳ. Và nó đưa dữ liệu ra terminal.    5 2 -2 1 Hello World! 5.5    Ví dụ code hàm print()  Hàm print()   Dòng 1: Ta gọi hàm print() với một dữ liệu đầu vào là 5 .  Dòng 2: Ta không truyền dữ liệu đầu vào, nên print() xuất ra terminal một dòng trắng.  Dòng 3: Ta cho nó hai dữ liệu đầu vào là 2 và -2 .  Dòng 4: Ta truyền cho nó nhiều dữ liệu đầu vào thuộc các kiểu dữ liệu khác nhau.   Một ví dụ nữa là hàm len() . Nó chấp nhận duy nhất một đầu vào là một cấu trúc dữ liệu và trả lại số phần tử.   Thí Nghiệm Vui   len() có hoạt động với str không?     4    Ví dụ code hàm len()  Hàm len()  Hàm len() nhận một cấu trúc dữ liệu và trả lại số phần tử.   Vậy, hàm len() có nhiều yêu cầu hơn print() . Bạn phải gọi hàm này với duy nhất một giá trị đầu vào, và giá trị đó phải là một cấu trúc dữ liệu. Hai ví dụ sau sẽ xuất hiện lỗi:   Thí Nghiệm Vui  Sửa lỗi.     TypeError Cell In [1], line 3 ... TypeError: len() takes exactly one argument (2 given)    Ví dụ code hàm len()  Hàm len()   Hàm len() chấp nhận chính xác một giá trị đầu vào, nhưng lại nhận được hai.   Ví dụ tiếp theo:    TypeError Cell In [1], line 2 ... TypeError: object of type 'int' has no len()    Ví dụ code hàm len()  Hàm len()   Đầu vào của len() phải là một cấu trúc dữ liệu, nhưng nó lại dược gọi với một int .   Ví dụ cuối cùng của ta là hàm upper() . Nó tuân theo cú pháp gọi hàm thứ hai, với đầu vào 1 là một chuỗi ký tự. Và nó trả lại một chuỗi mới với mọi ký tự được viết hoa.   Thí Nghiệm Vui  Đoán hàm có chức năng biến một chuỗi thành in thường.     HELLO FRIEND!    Ví dụ code hàm upper()  Hàm upper()  Hàm upper() trả lại một chuỗi mới được in hoa.   Ví dụ xuất hiện lỗi:    AttributeError Cell In [1], line 2 ... AttributeError: 'int' object has no attribute 'upper'    Ví dụ code hàm upper()  Hàm upper()   Hàm upper() chỉ nhận duy nhất một dữ liệu đầu vào có kiểu str , nhưng lại nhận được kiểu int .  Dịch nôm na miêu tả lỗi, ta được int không có thuộc tính upper .        Basic Programming Part 10: Functions  Video phần 10    "
 },
 {
   "id": "sec-function-2",
@@ -1141,7 +1150,7 @@ var ptx_lunr_docs = [
   "type": "Giải Thích",
   "number": "10.3",
   "title": "",
-  "body": " Ví dụ code hàm len()  Hàm len()   Hàm len() nhận chính xác một giá trị đầu vào, nhưng lại nhận được hai.  "
+  "body": " Ví dụ code hàm len()  Hàm len()   Hàm len() chấp nhận chính xác một giá trị đầu vào, nhưng lại nhận được hai.  "
 },
 {
   "id": "sec-function-25",
@@ -1177,7 +1186,7 @@ var ptx_lunr_docs = [
   "type": "Giải Thích",
   "number": "10.5",
   "title": "",
-  "body": " Ví dụ code hàm upper()  Hàm upper()  Hàm upper() trả lại một chuỗi viết hoa mới.  "
+  "body": " Ví dụ code hàm upper()  Hàm upper()  Hàm upper() trả lại một chuỗi mới được in hoa.  "
 },
 {
   "id": "sec-function-34",
@@ -1213,7 +1222,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "11",
   "title": "Lỗi",
-  "body": " Lỗi    Learn about errors and ways to deal with them.     Congratulations! You have equipped yourself with quite a few programming fundamentals.  Before we continue, to improve your learning journey and experience, you should know how to deal with errors .   Khái quát lỗi  Errors, if any, will be shown in the terminal . Some additional pieces of information about an error are:   The line on which the error is spotted    The type of error    A description of the error        Below are some examples:     Cell In [1], line 3 print(\"This is another string.) ^ SyntaxError: unterminated string literal (detected at line 3)    Ví dụ code lỗi cú pháp   An error is spotted in line 3, which is of type SyntaxError .  Reading the description and taking another look at line 3, we can easily see that we are missing a quotation mark.   Another example:    TypeError Cell In [1], line 3 ... TypeError: unsupported operand type(s) for +: 'int' and 'str'    Ví dụ code lỗi kiểu dữ liệu   An error of type TypeError is spotted at line 3.  The description simply means that addition between an integer and a string is unsupported.   The final example uses an external function from the library Numpy that simply calculates the square root.    TypeError Cell In [1], line 2 ... TypeError: ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''    Ví dụ code lỗi kiểu dữ liệu   An error of type TypeError is spotted at line 2.  The description might be long, but essentially it reads a string cannot be passed into the function sqrt .   But what should you do if you are even more confused after reading the terminal?    Cách Sửa Lỗi  There is no programmer, however skilled, who is able to memorize every potential error. It's totally normal for a senior programmer to look up errors on the Internet, even ones they've fixed before. Of course, the more errors they deal with, the more experience they accumulate.  Coming up are some of my personal experiences in fixing errors. You can try them out one after another:     Fix it In the case the error is easily understood, you can just fix it. Otherwise, we continue with the next step.     Search it on the Internet You can look it up by copy-pasting its description onto Google.   Chú ý tra cứu mạng  You should include the programming language being used as a keyword to increase efficiency, for instance, python unterminated string literal... .    Lưu ý tài liệu  You can refer to documentation in your language of choice. But it is commonly the case that English resources are the best in terms of availability and being up-to-date.   The majority of errors you might run into have already been solved by others. Thus, we can quickly read online posts and discussions and learn their solutions. Some of the most popular forums are Stack Overflow , Github , Stack Exchange , Reddit .  Here, if you run into another one, or if you are still unable to fix it, you can repeat the process, or proceed to step 3 respectively.     Describe it yourself It seems others' solutions don't apply to you when using the provided description. In that case, why don't you try to detail it using your own words? Describe what you are trying to achieve, with which data types, with which language, and maybe your suspicion of why the error occurs, Not working? Let's move to the next approach.     Use artificial intelligence (AI) If possible, you should try taking advantage of coding AIs such as ChatGPT or Github Copilot to fix errors. This is becoming an increasingly popular and effective approach.     Make a post When all other means have failed, it's time for you to request help from other human programmers. You can ask people you know or go onto online programming forums and compose a post detailing your problem.   Chú ý văn hóa mạng Make sure to study online etiquette to know how to behave appropriately when using such forums. Because you are looking for others' help, being respectful is vital.            Basic Programming Part 11: Errors & How To Fix Them  Video phần 11     "
+  "body": " Lỗi    Tìm hiểu lỗi và cách giải quyết chúng.     Xin chúc mừng! Bạn đã trang bị cho bản thân kha khá kiến thức cốt lõi về lập trình rồi đó.  Trước khi tiếp tục với những khái niệm khó hơn, bạn nên học cách giải quyết lỗi . Việc này giúp cải thiện quá trình và trải nghiệm của bạn.   Khái quát lỗi  Lỗi, nếu có, sẽ xuất hiện ở terminal . Một vài thông tin bổ sung đi kèm với lỗi bao gồm:   Dòng phát hiện lỗi    Kiểu của lỗi    Miêu tả về lỗi           Dưới đây là một vài ví dụ:   Thí Nghiệm Vui  Chạy các ví dụ và đọc lỗi.  Sau đó, bạn thử sửa chúng nhé.     Cell In [1], line 3 print(\"This is another string.) ^ SyntaxError: unterminated string literal (detected at line 3)    Ví dụ code lỗi cú pháp   Lỗi được phát hiện ở dòng 3, có kiểu SyntaxError (lỗi cú pháp).  Đọc miêu tả và nhìn lại dòng 3, ta dễ dàng thấy rằng ta đang thiếu mất một dấu ngoặc kép.   Ví dụ tiếp theo:    TypeError Cell In [1], line 3 ... TypeError: unsupported operand type(s) for +: 'int' and 'str'    Ví dụ code lỗi kiểu dữ liệu   Một lỗi kiểu TypeError (lỗi về kiểu dữ liệu) được phát hiện ở dòng 3.  Dễ thấy miêu tả của lỗi nghĩa là phép cộng giữa số nguyên và chuỗi ký tự không được hỗ trợ.   Ví dụ cuối cùng sử dụng hàm sqrt() được nhập từ thư viện ngoài Numpy. Nó tính toán và trả lại căn bậc hai.    TypeError Cell In [1], line 2 ... TypeError: ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''    Ví dụ code lỗi kiểu dữ liệu   Lỗi kiểu TypeError được phát hiện ở dòng 2.  Miêu tả có thể hơi dài dòng, nhưng về cơ bản nó đang nói rằng một chuỗi ký tự không thể được truyền vào hàm sqrt .   Vậy nếu bạn đọc lỗi nhưng vẫn cảm thấy khó hiểu và không biết cách sửa, thì bạn nên làm gì?    Cách Sửa Lỗi  Không một lập trình viên nào, kỳ cựu đến mấy, có khả năng nhớ mọi lỗi có thể xảy ra. Có những lỗi họ đã gặp và sửa vài lần rồi, nhưng vẫn không thể nhớ hoàn toàn cách sửa nó. Nhưng, một điều chắc chắn là kinh nghiệm của họ ngày càng tăng, và khả năng giải quyết lỗi ngày càng nhanh nhẹn và hiệu quả.  Tiếp đến là một vài những kinh nghiệm cá nhân của tôi khi gặp lỗi. Bạn có thể thử các cách tiếp cận sau:   1. Sửa lỗi Trường hợp gặp lỗi dễ hiểu, bạn chỉ việc sửa nó. Nếu không, chuyển sang bước tiếp theo.   2. Tra trên mạng Sao chép và dán miêu tả của lỗi lên Google.   Chia sẻ tra cứu mạng  Bạn nên kèm theo từ khóa là tên ngôn ngữ lập trình đang sử dụng để tăng hiệu quả. Ví dụ như python unterminated string literal... .    Chia sẻ tài liệu  Bạn có thể tham khảo tài liệu bằng tiếng Việt hoặc bất kì ngôn ngữ nào bạn muốn. Nhưng thông thường thì các tài liệu tiếng Anh có độ có sẵn và tính cập nhật cao nhất.   Phần lớn các lỗi mà bạn có thể gặp phải đều đã có người trải qua trước đó rồi. Bạn có thể nhanh chóng đọc những bài đăng bàn luận về và tham khảo cách giải quyết của họ. Một vài diễn đàn phổ biến nhất là Stack Overflow , Github , Stack Exchange , Reddit .  Đến đây, nếu bạn vẫn chưa giải quyết được, hoặc nếu lỗi mới xuất hiện, bạn có thể lặp lại quá trình, hoặc chuyển sang bước 3.   3. Tự miêu tả lỗi khi tra Có vẻ nếu sử dụng miêu tả chi tiết của lỗi, những cách giải của người khác không có hiệu quả với bạn. Vậy thì ta thử tự mình miêu tả lỗi xem sao. Ta miêu tả mình đang làm gì, với kiểu dữ liệu nào, lỗi gặp khi nào, với ngôn ngữ lập trình nào, v.v. Nếu vẫn chưa được, ta lại chuyển sang bước tiếp theo.   4. Sử dụng trí tuệ nhân tạo (AI) Nếu có thể, bạn nên thử tận dụng trí tuệ nhân tạo như ChatGPT hoặc Github Copilot . Đây là một phương pháp phổ biến gần đây, mang tính hiệu quả cao.   5. Đăng bài về lỗi Khi mọi phương pháp trên đều đã thất bại, thì đã đến lúc bạn tìm kiếm sự giúp đỡ trực tiếp từ mọi người. Bạn có thể hỏi người quen, hoặc lên những diễn đàn công nghệ và đăng bài viết về vấn đề mình đang gặp phải.   Chia sẻ văn hóa mạng  Hãy chắc chắn rằng bạn biết về các văn hóa ứng xử trên mạng . Vì bạn đang mong muốn sự giúp đỡ của người khác, một thái độ tôn trọng và văn minh là quan trọng thiết yếu.          Basic Programming Part 11: Errors & How To Fix Them     "
 },
 {
   "id": "sec-error-2",
@@ -1222,7 +1231,7 @@ var ptx_lunr_docs = [
   "type": "Mục Tiêu",
   "number": "11",
   "title": "",
-  "body": "  Learn about errors and ways to deal with them.   "
+  "body": "  Tìm hiểu lỗi và cách giải quyết chúng.   "
 },
 {
   "id": "sec-error-3-2",
@@ -1231,7 +1240,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "errors "
+  "body": "lỗi "
 },
 {
   "id": "sec-error-3-3",
@@ -1240,70 +1249,142 @@ var ptx_lunr_docs = [
   "type": "Chú Ý",
   "number": "11.1",
   "title": "",
-  "body": " Khái quát lỗi  Errors, if any, will be shown in the terminal . Some additional pieces of information about an error are:   The line on which the error is spotted    The type of error    A description of the error        Below are some examples:  "
+  "body": " Khái quát lỗi  Lỗi, nếu có, sẽ xuất hiện ở terminal . Một vài thông tin bổ sung đi kèm với lỗi bao gồm:   Dòng phát hiện lỗi    Kiểu của lỗi    Miêu tả về lỗi          "
 },
 {
-  "id": "sec-error-3-5",
+  "id": "sec-error-3-7",
   "level": "2",
-  "url": "sec-error.html#sec-error-3-5",
+  "url": "sec-error.html#sec-error-3-7",
   "type": "Output",
   "number": "11.2",
   "title": "",
   "body": " Cell In [1], line 3 print(\"This is another string.) ^ SyntaxError: unterminated string literal (detected at line 3)  "
 },
 {
-  "id": "sec-error-3-6",
+  "id": "sec-error-3-8",
   "level": "2",
-  "url": "sec-error.html#sec-error-3-6",
+  "url": "sec-error.html#sec-error-3-8",
   "type": "Giải Thích",
   "number": "11.1",
   "title": "",
-  "body": " Ví dụ code lỗi cú pháp   An error is spotted in line 3, which is of type SyntaxError .  Reading the description and taking another look at line 3, we can easily see that we are missing a quotation mark.  "
+  "body": " Ví dụ code lỗi cú pháp   Lỗi được phát hiện ở dòng 3, có kiểu SyntaxError (lỗi cú pháp).  Đọc miêu tả và nhìn lại dòng 3, ta dễ dàng thấy rằng ta đang thiếu mất một dấu ngoặc kép.  "
 },
 {
-  "id": "sec-error-3-9",
+  "id": "sec-error-3-11",
   "level": "2",
-  "url": "sec-error.html#sec-error-3-9",
+  "url": "sec-error.html#sec-error-3-11",
   "type": "Output",
   "number": "11.3",
   "title": "",
   "body": " TypeError Cell In [1], line 3 ... TypeError: unsupported operand type(s) for +: 'int' and 'str'  "
 },
 {
-  "id": "sec-error-3-10",
+  "id": "sec-error-3-12",
   "level": "2",
-  "url": "sec-error.html#sec-error-3-10",
+  "url": "sec-error.html#sec-error-3-12",
   "type": "Giải Thích",
   "number": "11.2",
   "title": "",
-  "body": " Ví dụ code lỗi kiểu dữ liệu   An error of type TypeError is spotted at line 3.  The description simply means that addition between an integer and a string is unsupported.  "
+  "body": " Ví dụ code lỗi kiểu dữ liệu   Một lỗi kiểu TypeError (lỗi về kiểu dữ liệu) được phát hiện ở dòng 3.  Dễ thấy miêu tả của lỗi nghĩa là phép cộng giữa số nguyên và chuỗi ký tự không được hỗ trợ.  "
 },
 {
-  "id": "sec-error-3-13",
+  "id": "sec-error-3-15",
   "level": "2",
-  "url": "sec-error.html#sec-error-3-13",
+  "url": "sec-error.html#sec-error-3-15",
   "type": "Output",
   "number": "11.4",
   "title": "",
   "body": " TypeError Cell In [1], line 2 ... TypeError: ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''  "
 },
 {
-  "id": "sec-error-3-14",
+  "id": "sec-error-3-16",
   "level": "2",
-  "url": "sec-error.html#sec-error-3-14",
+  "url": "sec-error.html#sec-error-3-16",
   "type": "Giải Thích",
   "number": "11.3",
   "title": "",
-  "body": " Ví dụ code lỗi kiểu dữ liệu   An error of type TypeError is spotted at line 2.  The description might be long, but essentially it reads a string cannot be passed into the function sqrt .  "
+  "body": " Ví dụ code lỗi kiểu dữ liệu   Lỗi kiểu TypeError được phát hiện ở dòng 2.  Miêu tả có thể hơi dài dòng, nhưng về cơ bản nó đang nói rằng một chuỗi ký tự không thể được truyền vào hàm sqrt .  "
 },
 {
-  "id": "subsec-fix-error-3",
+  "id": "subsec-fix-error-4",
   "level": "2",
-  "url": "sec-error.html#subsec-fix-error-3",
+  "url": "sec-error.html#subsec-fix-error-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Fix it Search it on the Internet Stack Overflow Github Stack Exchange Reddit Describe it yourself Use artificial intelligence (AI) ChatGPT Github Copilot Make a post etiquette "
+  "body": "1. Sửa lỗi "
+},
+{
+  "id": "subsec-fix-error-5",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. Tra trên mạng "
+},
+{
+  "id": "subsec-fix-error-6",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-6",
+  "type": "Chia Sẻ",
+  "number": "11.5",
+  "title": "",
+  "body": " Chia sẻ tra cứu mạng  Bạn nên kèm theo từ khóa là tên ngôn ngữ lập trình đang sử dụng để tăng hiệu quả. Ví dụ như python unterminated string literal... .  "
+},
+{
+  "id": "subsec-fix-error-7",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-7",
+  "type": "Chia Sẻ",
+  "number": "11.6",
+  "title": "",
+  "body": " Chia sẻ tài liệu  Bạn có thể tham khảo tài liệu bằng tiếng Việt hoặc bất kì ngôn ngữ nào bạn muốn. Nhưng thông thường thì các tài liệu tiếng Anh có độ có sẵn và tính cập nhật cao nhất.  "
+},
+{
+  "id": "subsec-fix-error-8",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Stack Overflow Github Stack Exchange Reddit "
+},
+{
+  "id": "subsec-fix-error-10",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. Tự miêu tả lỗi khi tra "
+},
+{
+  "id": "subsec-fix-error-11",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. Sử dụng trí tuệ nhân tạo (AI) ChatGPT Github Copilot "
+},
+{
+  "id": "subsec-fix-error-12",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. Đăng bài về lỗi "
+},
+{
+  "id": "subsec-fix-error-13",
+  "level": "2",
+  "url": "sec-error.html#subsec-fix-error-13",
+  "type": "Chia Sẻ",
+  "number": "11.7",
+  "title": "",
+  "body": " Chia sẻ văn hóa mạng  Hãy chắc chắn rằng bạn biết về các văn hóa ứng xử trên mạng . Vì bạn đang mong muốn sự giúp đỡ của người khác, một thái độ tôn trọng và văn minh là quan trọng thiết yếu.  "
 },
 {
   "id": "sec-error-5-2",
@@ -1312,7 +1393,7 @@ var ptx_lunr_docs = [
   "type": "Video",
   "number": "11.4",
   "title": "Basic Programming — Part 11: Errors &amp; How To Fix Them.",
-  "body": " Basic Programming Part 11: Errors & How To Fix Them  Video phần 11   "
+  "body": " Basic Programming Part 11: Errors & How To Fix Them   "
 },
 {
   "id": "sec-personal-experience",
@@ -1321,7 +1402,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "12",
   "title": "Kinh Nghiệm Cá Nhân",
-  "body": " Kinh Nghiệm Cá Nhân    I'll bring up some insights and interesting topics that are worth knowing before you go into more advanced fundamentals.  This section is a bit longer than usual, so you don't have to read it all in one go. You can even skip the text and just watch the video.     Coming up are some of the many lessons I've learned throughout my journey as a programmer. Before we start, I'd like to have some words with you.  Honestly, if I could restart my journey as a programmer, I'd still do things all the same. It is thanks to the lessons I've learned from being inexperienced that I am who I am today. Others I learned by reading about people's mistakes on the Internet and avoiding making them, which is why I thought this section's a good idea.  If your first exposure to programming is this article, then it's likely that your starting mindset will be very different from mine, in a good way of course.  Truthfully though, I'd like you to make a lot of mistakes still, which is why I won't write about step-by-step guides on how to avoid them, but instead my personal opinions. This is actually how my parents raised me, for which I'm extremely grateful. Basically, they didn't keep me away from making mistakes, which would mean I wasn't learning anything. Instead, they taught me about self-reflection and how to get the most learning out of mistakes.  Okay then, I hope this section will be useful for you!    Start Simple  I think when I first got into programming, I cared too much about choosing a programming language to learn. My Youtube feed and recommendations always had those topics mentioned in . My inexperienced self would think those were important things to consider, and I'd watch every video that showed up to see people's opinions. But doing all that only made me scared of actually learning to code because I'd start asking myself questions like:   What if I learn the wrong language and it gets obsolete in the future?    What if language A is a better choice than language B a few years from now?    How long would it take me to master this language?        At one point, I learned to think in a different way. For instance, there's a period when I was very into game development, and it kinda went like this:   Okay. I wanna make a game, so I'm gonna look up game engines for beginners on Google.   After a few articles and videos, I ended up with Godot an open-source game engine that's been gaining popularity, has a big and supportive community, and sufficient documentation.   Okay, now do I wanna use GDScript (Godot's built-in language which has beginner-friendly syntax), or C# (supported by Godot for advanced customization which requires more skill).   Well, that question only took me 10 seconds to answer. I ain't about to learn C# to make no games.  After that, it was really just a constant cycle of studying online materials and experimenting with stuff.  Because I already had some ideas in mind, I got straight into making them and learning necessary concepts as I went, but never more than I needed. If I got stuck, it'd mean I had some online research to do. Otherwise, I was doing just fine with whatever knowledge I had, even if my solutions weren't the most effective or beautiful.  Personally, I think it's good that I did that instead of watching a 12-hour course covering every little thing about game development and making somebody else's idea.   Starting simple can also be applied to choosing a code editor or IDE (integrated development environment). I chose the Godot engine also because it comes with a built-in coding environment. Until now, I think I've tried 5 IDEs at most, and I've been sticking with VSCode for a while because, again, it's beginner-friendly.  The code cells provided in this article are very minimal and might be slightly inconvenient, but they're everything you need to start, aren't they?   You can choose a programming language and a code editor\/IDE by thinking simply. Start by coming up with a small and achievable idea and then look for suitable tools by asking the Internet.     The Tutorial Hell  The tutorial hell is something every programmer has experienced at least once in their life. It's when you are constantly watching videos and reading articles teaching you to do something, but you never actually sit down and type away at a computer.  The reason for this phenomenon could be a lack of motivation or ideas, procrastination, poor social media management, It's also because there's an abundance of online resources and contents about coding, which can be excessive sometimes.  Whenever this happens to me, I'd force myself to put down the phone and turn on my computer. Then I'd open up the browser and code editor and start looking for something very easy to do and also interesting enough. This whole process takes at most 5 minutes, but it always gets me to begin writing some code, whatever it may be about.   Just do something. You learn by doing, not by mindlessly consuming content.     Have Fun  Since stress and burn-outs are gonna be unavoidable sometimes, I think it's incredibly important to always have fun with the process. There are always annoying error messages showing up one after another, getting stuck while following step-by-step installation guides, understanding nothing about a new concept, and so on. And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not for you.  Honestly, these kinds of stress occur in every creative discipline and to everybody. Some days are good, some days are bad. So, why not just enjoy the process and have fun along the way?  Know that even if you think you're not making any progress, you definitely are. The author of Atomic Habits James Clear associates this feeling with the Value of Disappointment . Basically, your progress is not a linear line always going up that you can feel every day. Instead, it's more of an exponential curve that starts slow and gradually picks up the speed. Though there are days when you feel like it's not going anywhere, there are also days when something just clicks, and you're on a roll.  If you get stuck, maybe find a new simple goal and learn a new language? You've learned the fundamentals, which are applicable to most modern programming languages. So as you learn the 2nd, the 3rd language, and so on, you're discovering new possibilities, and your potential is only ever going up.   So long as you find joy in the process, you can always get back to it and do better than ever before.  If you keep learning and doing, you will improve without a doubt.     Be Open-Minded  There are always gonna be new interesting things to learn. So keep an open mind and be eager to learn them.  In coding communities, there are often these conventions and rules of thumb such as how to name variables, how to format code, how to organize files, So people learn them to improve efficiency and cooperation. And depending on the community, purpose, and choice of programming language, standards are gonna vary. Thus, you should be objective and neutral when entering new environments and meeting new people, since you have to learn their game.  As a beginner, only you will ever read your own code. So, it's good to create a good balance between learning good habits and having freedom. Basically, you should always try to improve your code, but also take it easy. There's no need to be able to produce beautiful or efficient code right off the bat, cause that'd be super stressful.  Experienced programmers often share best practices. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to different situations, not make you a close-minded coder who always does things the same way.   You should always be open to new ideas.  You should keep a balance between building good habits and trying new things.     Some Technical Pointers   I'll try my best to make this short and easy to understand.    Use A Simple Virtual Environment  Let's say you decide to install Python on your machine to make a game. So you do just that you download and install Python version 3.11.6 and Pygame (the Python library for making games). And everything works just fine.  Fast forward, now you wanna make some cool animations with Python. So you ask the Internet and Manim shows up. And you follow its installation guide and are very eager to get started. At one point, it says something along the lines of Manim needs Python version 3.12.1 to work... Not a problem? All you have to do is update Python and everything's good to go again.  However, when you go back to your Pygame projects, which were running just fine before, there are errors. Looking them up, you find out that Pygame doesn't work with Python version 3.12.1 yet. So do you downgrade Python to continue developing games at the expense of Manim, or do you forsake the games you've been so passionate about?  A worse case is when you accidentally install both versions of Python on your machine and have them run simultaneously. Now this is really gonna mess you and your PC up as conflicts upon conflicts show up.  So, a straightforward solution is to use a virtual environment, which prevents the not-so-hypothetical predicament above. It helps manage programming packages and dependencies on a per-environment basis, meaning you can have multiple environments unrelated to one another. Maybe one for game development, and one for animating?   Look for and use a simple virtual environment, which helps prevent conflicts between incompatible programming packages and dependencies.     Learn To Use Command-Line Interfaces  When the time comes for you to explore different languages and tools on your own, you will have to use command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the lower-level counterparts of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.  But don't worry, you don't have to take a course on this. You will gradually learn the common commands as you go. Detailed guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key anyways.  Honestly, when I use PyPI (or PIP, which is a package manager for Python) all I know is how to install, update, and uninstall stuff. And I use the CMD for navigating files, switching between administration modes, and using virtual environments. That's it, nothing else really.  Finally, if errors show up when using CLIs, you just need to apply exactly what you've learned in the previous section.   As you explore on your own, you will naturally learn to use command-line interfaces.           Basic Programming Part 12: My Experiences  Video phần 12     "
+  "body": " Kinh Nghiệm Cá Nhân    Tôi muốn chia sẻ với bạn một vài chủ đề thú vị và đáng biết trước khi bạn tiếp tục với những khái niệm phức tạp hơn.  Phần này có chút dài dòng, nên bạn có thể chọn ra những gì bạn thấy thú vị để đọc. Hoặc bạn cũng có thể chỉ xem video và bỏ qua văn bản.          Basic Programming Part 12: My Experiences  Video phần 12        Tiếp đến là một số trong rất nhiều bài học tôi đã học được trong sự nghiệp của mình. Trước khi ta bắt đầu, tôi có vài lời muốn nói với bạn.  Thật sự mà nói thì, nếu có thể bắt đầu lại hành trình học code, tôi vẫn sẽ làm mọi thứ đúng như vậy. Chính là nhờ những bài học rút ra từ sự thiếu kinh nghiệm mà tôi được như ngày hôm nay. Ngoài ra, tôi cũng thường hay tham khảo những sai lầm được đăng trên Internet và từ đó tránh mắc phải chúng. Chính vì thế mà tôi nghĩ đề mục này là một ý tưởng hay.  Nếu bài viết này là nơi bạn tiếp xúc với lập trình lần đầu tiên, thì khả năng cao là bạn sẽ có một cách tiếp cận rất khác tôi, tất nhiên là theo hướng tốt.  Thú thật, tôi muốn bạn mắc thật nhiều lỗi, nên bài viết này không phải là một hướng dẫn về cách tránh sai lầm, mà chỉ là ý kiến cá nhân của tôi. Đây chính là cách bố mẹ đã dạy dỗ tôi, và tôi rất biết ơn họ. Về cơ bản, họ không giúp tôi tránh xa lỗi lầm, vì điều đó có nghĩa là tôi không học được gì cả. Thay vào đó, họ dạy tôi học hỏi từ những sai lầm một cách hiệu quả nhất.  Được rồi, tôi hy vọng bạn sẽ thấy bài viết này hữu ích.    Khởi Đầu Đơn Giản   Bạn có thể chọn một ngôn ngữ lập trình, trình soạn thảo, hay IDE bằng cách suy nghĩ đơn giản.  Hãy bắt đầu bằng việc nảy ra một ý tưởng nhỏ và có thể thực hiện được. Sau đó, hỏi Internet và tìm kiếm các công cụ và tài liệu học tập phù hợp.   Khi tôi mới bước chân vào lập trình, tôi đã quan tâm quá nhiều đến việc chọn một ngôn ngữ lập trình để học. Youtube hay đề xuất cho tôi những chủ đề được nhắc đến trong . Vì thiếu kinh nghiệm, tôi luôn nghĩ chúng là những điều quan trọng cần được cân nhắc, và tôi sẽ cày mọi video để xem ý kiến của mọi người. Nhưng, việc này chỉ khiến tôi ngày càng sợ việc học code, vì tôi sẽ thường xuyên hỏi bản thân những câu hỏi như:   Nếu như mình học sai ngôn ngữ và nó trở nên lỗi thời trong tương lai thì sao?    Nếu như A trở thành lựa chọn tốt hơn B vài năm kể từ bây giờ thì sao?    Mình sẽ mất bao lâu để làm chủ ngôn ngữ này?   v.v.    Đến một lúc nào đó, tôi đã học suy nghĩ theo một hướng khác. Để ví dụ, có một khoảng thời gian tôi rất hứng thú với game development, và nó diễn ra như thế này:   OK, mình muốn làm game. Thế thì tra Google game engines for beginners nào.   Sau một vài bài viết và video, tôi tìm thấy Godot một game engine mã nguồn mở đang ngày càng phổ biến, có cộng đồng lớn ủng hộ, và đầy đủ tài liệu.   OK, bây giờ thì mình muốn dùng GDScript (ngôn ngữ có sẵn của Godot, có cú pháp thân thiện người dùng), hay là C# (một ngôn ngữ phổ biến hơn, có cú pháp bậc thấp hơn)?   Chà, tôi chỉ mất 10 giây để trả lời câu hỏi đó. Có c*t bố mày mới học C# để làm game.   Sau đó, nó thực sự chỉ là tham khảo tài liệu trên mạng và thử nghiệm nhiều thứ, lặp đi lặp lại.  Có sẵn ý tưởng trong đầu, tôi chỉ việc bắt tay vào thực hiện và học những khái niệm cần thiết trong quá trình, nhưng không bao giờ hơn mức cần thiết. Nếu gặp khó khăn có nghĩa là tôi phải học thêm cái gì đó. Còn không thì tôi cứ tiếp tục với lượng kiến thức mình có, ngay cả khi cách làm của tôi không quá đẹp đẽ hay hiệu quả.  Cá nhân tôi nghĩ phong cách đó hợp với mình. Tôi không muốn ngồi xem một video dài 12 tiếng bao gồm mọi chi tiết nhỏ nhặt về phát triển game, để rồi cuối cùng làm một trò chơi là ý tưởng của người khác.   Bắt đầu đơn giản cũng có thể được áp dụng để chọn một trình soạn thảo và biên dịch code. Cho đến nay, chắc tôi đã thử cùng lắm là 5 IDE (integrated development environments), và tôi gắn bó với VSCode nhiều nhất vì, một lần nữa, nó thân thiện người dùng.  Các ô code được cung cấp ở đây có thể rất khiêm tốn và hơi bất tiện, nhưng chúng là tất cả những gì bạn cần để bắt đầu, phải không nào?    Tutorial Hell   Làm gì cũng được, miễn là làm gì đó. Bạn học bằng cách thực hành, chứ không phải tiêu thụ mạng xã hội.   Mọi lập trình viên đều đã từng trải qua tutorial hell . Đó là khi bạn liên tục xem video và đọc các bài viết hướng dẫn bạn làm gì đó, nhưng bạn không bao giờ thực sự ngồi xuống và code.  Nguyên nhân của hiện tượng này có thể là sự thiếu động lực, thiếu ý tưởng, sự trì hoãn, kỹ năng quản lý sử dụng mạng xã hội kém, v.v. Một phần là do có rất nhiều nội dung về code trên mạng, đôi khi nhiều hơn cần thiết.  Khi cảm thấy mình đang trải nghiệm turoial hell , tôi sẽ buộc mình phải đặt điện thoại xuống và bật máy tính lên. Rồi tôi mở Google và VSCode và bắt đầu tìm kiếm thứ gì đó thật dễ làm mà cũng đủ thú vị. Toàn bộ quá trình này tốn cùng lắm là 5 phút, nhưng nó luôn thành công khiến tôi viết code, bất kể là về cái gì.    Tận Hưởng   Miễn là bạn tìm thấy niềm vui trong quá trình, bạn luôn có thể quay lại và làm tốt hơn bao giờ hết.  Nếu bạn tiếp tục học và làm, bạn chắc chắn sẽ tiến bộ.   Đôi khi, bị căng thẳng hay kiệt sức là điều không thể tránh khỏi. Vì vậy, tôi nghĩ việc tận hưởng quá trình là vô cùng quan trọng.  Đừng lo, chắc chắn bạn sẽ phải trải qua:  lỗi, lỗi, và lỗi  bị kẹt khi làm theo hướng dẫn từng bước  không hiểu gì cả khi học khái niệm mới  v.v.  Và sẽ có những lúc bạn cảm thấy mình đang chả tiến bộ gì cả, rồi bạn nghi ngờ bản thân và tự hỏi liệu lập trình phải chăng là một ý tưởng tồi.  Thành thật mà nói, những kiểu căng thẳng này xảy ra trong mọi lĩnh vực sáng tạo và đối với tất cả mọi người. Có ngày bạn cảm thấy tốt, có ngày thì không. Thế thì, thà cứ tận hưởng và vui chơi trong suốt quá trình, phải không nào?  Hãy hiểu rằng, ngay cả khi bản thân nghĩ mình đang không tiến bộ, thì bạn đang luôn luôn tiến bộ. Tác giả của quyển Atomic Habits James Clear liên kết cảm giác này với Thung lũng Thất vọng . Về cơ bản, sự tiến bộ không phải là một đường thẳng tuyến tính luôn đi lên mà bạn có thể cảm thấy mỗi ngày. Thay vào đó, nó giống như một đường cong lũy tiến. Nó bắt đầu chậm, nhưng dần dần sẽ tăng tốc độ. Mặc dù có những ngày bạn cảm thấy không đâu vào đâu cả, cũng có những ngày mọi thứ lại đâu vào đó, và bạn cảm giác mình đang phát triển rất nhanh.  Nếu bạn bị kẹt, sao không thử tìm một mục tiêu mới đơn giản và học một ngôn ngữ mới? Bạn đã học hết những kiến thức cốt lõi, có thể được áp dụng cho hầu hết các ngôn ngữ lập trình hiện đại. Vì vậy, khi bạn học ngôn ngữ thứ hai, thứ ba, v.v., bạn đang khám phá những khả năng mới và tăng tiềm năng bản thân.    Khách Quan   Hãy luôn cởi mở với những ý tưởng mới.  Bạn nên giữ cân bằng giữa việc xây dựng thói quen tốt và thử những thứ mới.   Luôn có những thứ mới mẻ và thú vị để học hỏi. Vì vậy, hãy giữ một tâm trí cởi mở và ham học.  Trong các cộng đồng lập trình, ta thường hay thấy những quy ước hay quy tắc ngón tay cái như:  cách đặt tên biến  cách định dạng code  cách sắp xếp thư mục  v.v.  Mọi người tuân theo chúng để nâng cao hiệu quả và hợp tác. Và tùy thuộc vào cộng đồng, mục đích, hay ngôn ngữ lập trình, các tiêu chuẩn sẽ thay đổi. Vì vậy, bạn nên giữ một thái độ khách quan và trung lập khi bước vào một môi trường mới và gặp gỡ mọi người, vì bạn làm quen với trò chơi của họ.  Đối với người mới, sẽ chẳng có ai khác ngoài bạn đọc code mà bạn viết. Vì vậy, việc cân bằng thói quen và sự tự do là một ý tưởng tốt. Bạn nên cố gắng cải thiện cách viết code của mình, nhưng cũng nên từ từ và không cố quá. Việc viết code một cách đẹp đẽ hay hiệu quả ngay lập tức là không cần thiết, và cũng sẽ cực kỳ căng thẳng.  Các lập trình viên kỳ cựu thường hay chia sẻ thói quen tốt của họ. Những chia sẻ này có thể rất có ích, nhưng cũng có thể gây hại nếu bạn lạm dụng chúng mà không thực sự hiểu biết. Mục đích của việc học thói quen của người khác là giúp bạn phân tích và thích nghi với tình huống mới, chứ không phải biến bạn thành một coder bảo thủ, luôn làm mọi thứ theo một cách.    Một Số Gợi Ý Chuyên Môn       Dùng Một Môi Trường Ảo Cơ Bản   Tìm hiểu và sử dụng một môi trường ảo đơn giản. Nó giúp phòng ngừa sự không thích giữa các thư viện và gói phụ thuộc.   Giả sử bạn muốn làm game với Python. Nên bạn tải và cài đặt Python bản 3.11.6 và Pygame (thư viện để làm game của Python). Và có vẻ mọi thứ đều hoạt động tốt.  Một thời gian sau... Tự nhiên bạn muốn làm animation với Python. Nên bạn hỏi Internet, và Manim xuất hiện. Bạn hào hứng làm theo hướng dẫn cài đặt của nó và rất háo hức để bắt đầu. Nhưng, tại một lúc nào đó, CLI thông báo dòng chữ Manim cần Python phiên bản 3.12.1 để hoạt động... Không thành vấn đề? Bạn chỉ việc cập nhật Python và mọi thứ lại hoạt động ngon lành.  However, when you go back to your Pygame projects, which were running just fine before, there are errors. Looking them up, you find out that Pygame doesn't work with Python version 3.12.1 yet. So do you downgrade Python to continue developing games at the expense of Manim, or do you forsake the games you've been so passionate about? Tuy nhiên, khi bạn muốn quay trở lại với các dự án Pygame vốn đang chạy bình thường trước đó, thì bạn thấy lỗi xuất hiện. Lên mạng tìm kiếm lý do, bạn nhận ra Pygame chưa tương thích với Python bản 3.12.1.  Vậy, bạn sẽ làm gì? Liệu bạn có hạ cấp Python để có thể tiếp tục làm game và sẽ từ bỏ Manim? Hay bạn sẽ từ bỏ những dự án game tâm huyết của mình?  Tệ hơn nữa là trường hợp bạn vô tình cài đặt cả hai phiên bản của Python và để chúng chạy đồng thời. Lúc này, chúng sẽ xung đột với nhau và làm rối tung máy tính của bạn.  Vậy, một giải pháp đơn giản là sử dụng môi trường ảo, thứ sẽ giúp phòng ngừa tình huống trên. Nhiệm vụ của nó là quản lý các tập tin và gói phụ thuộc và sắp xếp chúng vào những môi trường riêng biệt. Điều này nghĩa là bạn có thể có nhiều môi trường phát triển không liên quan đến nhau.  Bây giờ, bạn có thể thiết lập hai môi trường riêng biệt một cái cài đặt Python 3.11.6 và Pygame, và cái còn lại sử dụng Python 3.12.1 và Manim. Vấn đề đã được giải quyết!    Biết Một Ít Giao Diện Dòng Lệnh (CLI)   Khi tự mình khám phá thế giới của lập trình, bạn sẽ dần dần học cách sử dụng giao diện dòng lệnh.   Khi bạn tự mình khám phá các ngôn ngữ và công cụ khác, bạn sẽ phải thường xuyên sử dụng giao diện dòng lệnh (CLI). Về cơ bản, CLI là phiên bản bậc thấp hơn của giao diện người dùng (UI). Trên Windows, hai CLI có sẵn là Command Prompt (CMD) và Windows PowerShell.  Nhưng đừng lo, bạn không cần phải tìm một khóa học về CLI đâu. Bạn sẽ dần dần học được những câu lệnh thường dùng xuyên suốt quá trình. Đằng nào các hướng dẫn trên mạng cũng luôn có sẵn các câu lệnh, và bạn chỉ việc sao chép, dán, và chạy chúng bằng CLI.  Thú thực, khi tôi dùng PyPI (hoặc PIP, một trình quản lý thư viện cho Python), tất cả những gì tôi biết là cách cài đặt, cập nhật, và gỡ cài đặt. Ngoài ra, tôi sử dụng CMD để điều hướng thư mục, chuyển đổi chế độ quản trị, và sử dụng môi trường ảo. Tất cả chỉ có vậy thôi.  Cuối cùng, nếu có lỗi xuất hiện khi sử dụng CLI, bạn chỉ việc áp dụng chính xác những gì được học ở phần trước.    "
 },
 {
   "id": "sec-personal-experience-2",
@@ -1330,79 +1411,79 @@ var ptx_lunr_docs = [
   "type": "Mục Tiêu",
   "number": "12",
   "title": "",
-  "body": "  I'll bring up some insights and interesting topics that are worth knowing before you go into more advanced fundamentals.  This section is a bit longer than usual, so you don't have to read it all in one go. You can even skip the text and just watch the video.   "
+  "body": "  Tôi muốn chia sẻ với bạn một vài chủ đề thú vị và đáng biết trước khi bạn tiếp tục với những khái niệm phức tạp hơn.  Phần này có chút dài dòng, nên bạn có thể chọn ra những gì bạn thấy thú vị để đọc. Hoặc bạn cũng có thể chỉ xem video và bỏ qua văn bản.   "
 },
 {
-  "id": "subsec-pe-start-simple-8",
+  "id": "sec-personal-experience-3-2",
   "level": "2",
-  "url": "sec-personal-experience.html#subsec-pe-start-simple-8",
+  "url": "sec-personal-experience.html#sec-personal-experience-3-2",
+  "type": "Video",
+  "number": "12.1",
+  "title": "Basic Programming — Part 12: My Experiences.",
+  "body": " Basic Programming Part 12: My Experiences  Video phần 12   "
+},
+{
+  "id": "subsec-pe-start-simple-2",
+  "level": "2",
+  "url": "sec-personal-experience.html#subsec-pe-start-simple-2",
   "type": "TL;DR",
   "number": "12.1",
   "title": "",
-  "body": " You can choose a programming language and a code editor\/IDE by thinking simply. Start by coming up with a small and achievable idea and then look for suitable tools by asking the Internet.  "
+  "body": " Bạn có thể chọn một ngôn ngữ lập trình, trình soạn thảo, hay IDE bằng cách suy nghĩ đơn giản.  Hãy bắt đầu bằng việc nảy ra một ý tưởng nhỏ và có thể thực hiện được. Sau đó, hỏi Internet và tìm kiếm các công cụ và tài liệu học tập phù hợp.  "
 },
 {
-  "id": "subsec-pe-tutorial-hell-5",
+  "id": "subsec-pe-tutorial-hell-2",
   "level": "2",
-  "url": "sec-personal-experience.html#subsec-pe-tutorial-hell-5",
+  "url": "sec-personal-experience.html#subsec-pe-tutorial-hell-2",
   "type": "TL;DR",
   "number": "12.2",
   "title": "",
-  "body": " Just do something. You learn by doing, not by mindlessly consuming content.  "
+  "body": " Làm gì cũng được, miễn là làm gì đó. Bạn học bằng cách thực hành, chứ không phải tiêu thụ mạng xã hội.  "
 },
 {
-  "id": "subsec-pe-have-fun-4",
+  "id": "subsec-pe-have-fun-2",
   "level": "2",
-  "url": "sec-personal-experience.html#subsec-pe-have-fun-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "sec-personal-experience.html#subsec-pe-have-fun-2",
+  "type": "TL;DR",
+  "number": "12.3",
   "title": "",
-  "body": "Value of Disappointment "
+  "body": " Miễn là bạn tìm thấy niềm vui trong quá trình, bạn luôn có thể quay lại và làm tốt hơn bao giờ hết.  Nếu bạn tiếp tục học và làm, bạn chắc chắn sẽ tiến bộ.  "
 },
 {
   "id": "subsec-pe-have-fun-6",
   "level": "2",
   "url": "sec-personal-experience.html#subsec-pe-have-fun-6",
-  "type": "TL;DR",
-  "number": "12.3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": " So long as you find joy in the process, you can always get back to it and do better than ever before.  If you keep learning and doing, you will improve without a doubt.  "
+  "body": "Thung lũng Thất vọng "
 },
 {
-  "id": "subsec-pe-open-minded-6",
+  "id": "subsec-pe-open-minded-2",
   "level": "2",
-  "url": "sec-personal-experience.html#subsec-pe-open-minded-6",
+  "url": "sec-personal-experience.html#subsec-pe-open-minded-2",
   "type": "TL;DR",
   "number": "12.4",
   "title": "",
-  "body": " You should always be open to new ideas.  You should keep a balance between building good habits and trying new things.  "
+  "body": " Hãy luôn cởi mở với những ý tưởng mới.  Bạn nên giữ cân bằng giữa việc xây dựng thói quen tốt và thử những thứ mới.  "
 },
 {
-  "id": "subsubsec-pe-virtual-environment-7",
+  "id": "subsubsec-pe-virtual-environment-2",
   "level": "2",
-  "url": "sec-personal-experience.html#subsubsec-pe-virtual-environment-7",
+  "url": "sec-personal-experience.html#subsubsec-pe-virtual-environment-2",
   "type": "TL;DR",
   "number": "12.5",
   "title": "",
-  "body": " Look for and use a simple virtual environment, which helps prevent conflicts between incompatible programming packages and dependencies.  "
+  "body": " Tìm hiểu và sử dụng một môi trường ảo đơn giản. Nó giúp phòng ngừa sự không thích giữa các thư viện và gói phụ thuộc.  "
 },
 {
-  "id": "subsubsec-pe-cli-6",
+  "id": "subsubsec-pe-cli-2",
   "level": "2",
-  "url": "sec-personal-experience.html#subsubsec-pe-cli-6",
+  "url": "sec-personal-experience.html#subsubsec-pe-cli-2",
   "type": "TL;DR",
   "number": "12.6",
   "title": "",
-  "body": " As you explore on your own, you will naturally learn to use command-line interfaces.  "
-},
-{
-  "id": "sec-personal-experience-9-2",
-  "level": "2",
-  "url": "sec-personal-experience.html#sec-personal-experience-9-2",
-  "type": "Video",
-  "number": "12.1",
-  "title": "Basic Programming — Part 12: My Experiences.",
-  "body": " Basic Programming Part 12: My Experiences  Video phần 12   "
+  "body": " Khi tự mình khám phá thế giới của lập trình, bạn sẽ dần dần học cách sử dụng giao diện dòng lệnh.  "
 },
 {
   "id": "sec-conditional",
@@ -1537,7 +1618,7 @@ var ptx_lunr_docs = [
   "type": "Phụ Lục",
   "number": "A",
   "title": "Sân Chơi",
-  "body": " Sân Chơi   Nhờ PreTeXt , phụ lục này giúp bạn thử nghiệm với một vài ngôn ngữ lập trình. Qua đó, bạn sẽ có một cái nhìn tốt hơn về ý tưởng rằng dù cú pháp của các ngôn ngữ có thể hơi, hoặc rất, khác nhau, thì các khái niệm cốt lõi vẫn luôn hiện hữu .  Một cách thú vị để thử một ngôn ngữ là tra mạng những ví dụ code, ví dụ như python code examples . Ngày nay, có rất nhiều trang web tích hợp môi trường lập trình và biên dịch. Bạn có thể dùng chúng, hoặc bạn cũng có thể sao chép và dán chúng vào đây để chạy.    Python  Python là một trong những ngôn ngữ lập trình hiện đại phổ biến nhất. Nó là một ngôn ngữ bậc cao và đa mục đích.   Liên kết ví dụ Python  Search for Python code examples.    Dưới đây là một môi trường Python phức tạp hơn một tí. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút CodeLens kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.   # This is a Python cell # Write and run your Python code here print(\"Hello world!\")     Javascript  Hầu hết mọi trang web hiện đại đều có mã Javascript. Tác dụng chính của nó là cung cấp tính tương tác cho trang web.   Liên kết ví dụ Javascript  Search for Javascript code examples.    \/\/ This is a Javascript cell \/\/ Write and run your Javascript code here alert(\"Hello world!\");    Output của code Javascript có thể sẽ không xuất hiện ở dưới. Thay vào đó, hãy mở bảng Element Inspect bằng cách chuột phải trên trang web và chọn Inspect . Sau đó, mở tab Console . Khi chạy Javascript thì output sẽ xuất hiện ở đó.     HTML  Về mặt kỹ thuật, HTML (HyperText Markup Language) không phải là một ngôn ngữ lập trình, mà là một ngôn ngữ đánh dấu . Mặc vậy, việc thí nghiệm với HTML, hoặc các ngôn ngữ đánh dấu khác, có nhiều lợi ích, đặc biệt đối với người mới bắt đầu. (P.S. Article này được viết bằng PreTeXt , một ngôn ngữ đánh dấu.)   Có thể bạn sẽ hứng thú   Liên kết ngôn ngữ đánh dấu  \"what is a markup language\"     Liên kết ví dụ HTML  Search for HTML code examples.      Sage  Sage là một phần của SageMath, một hệ thống phần mềm toán học mã nguồn mở. Nó được phát triển dựa trên Python, nên phần lớn cú pháp của chúng giống nhau.   Liên kết ví dụ SageMath  Search for SageMath code examples.     "
+  "body": " Sân Chơi   Nhờ PreTeXt , phụ lục này giúp bạn thử nghiệm với một vài ngôn ngữ lập trình. Qua đó, bạn sẽ có một cái nhìn tốt hơn về ý tưởng rằng dù cú pháp của các ngôn ngữ có thể hơi, hoặc rất, khác nhau, thì các khái niệm cốt lõi vẫn luôn hiện hữu .  Một cách thú vị để thử một ngôn ngữ là tra mạng những ví dụ code, ví dụ như python code examples . Ngày nay, có rất nhiều trang web tích hợp môi trường lập trình và biên dịch. Bạn có thể dùng chúng, hoặc bạn cũng có thể sao chép và dán chúng vào đây để chạy.    Python  Python là một trong những ngôn ngữ lập trình hiện đại phổ biến nhất. Nó là một ngôn ngữ bậc cao và đa mục đích.   Liên kết ví dụ Python  Search for Python code examples.    Dưới đây là một môi trường Python phức tạp hơn một tí. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút CodeLens kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.   # This is a Python cell # Write and run your Python code here print(\"Hello world!\")     Thật ra, phiên bản này còn có một lợi ích nữa. Nó chấp nhận user input, không như phiên bản đơn giản hơn.   # This is a Python cell # Write and run your Python code here s = input(\"Your input:\") print(s)     Javascript  Hầu hết mọi trang web hiện đại đều có mã Javascript. Tác dụng chính của nó là cung cấp tính tương tác cho trang web.   Liên kết ví dụ Javascript  Search for Javascript code examples.    \/\/ This is a Javascript cell \/\/ Write and run your Javascript code here alert(\"Hello world!\");    Output của code Javascript có thể sẽ không xuất hiện ở dưới. Thay vào đó, hãy mở bảng Element Inspect bằng cách chuột phải trên trang web và chọn Inspect . Sau đó, mở tab Console . Khi chạy Javascript thì output sẽ xuất hiện ở đó.     HTML  Về mặt kỹ thuật, HTML (HyperText Markup Language) không phải là một ngôn ngữ lập trình, mà là một ngôn ngữ đánh dấu . Mặc vậy, việc thí nghiệm với HTML, hoặc các ngôn ngữ đánh dấu khác, có nhiều lợi ích, đặc biệt đối với người mới bắt đầu. (P.S. Article này được viết bằng PreTeXt , một ngôn ngữ đánh dấu.)   Có thể bạn sẽ hứng thú   Liên kết ngôn ngữ đánh dấu  \"what is a markup language\"     Liên kết ví dụ HTML  Search for HTML code examples.      Sage  Sage là một phần của SageMath, một hệ thống phần mềm toán học mã nguồn mở. Nó được phát triển dựa trên Python, nên phần lớn cú pháp của chúng giống nhau.   Liên kết ví dụ SageMath  Search for SageMath code examples.     "
 },
 {
   "id": "subsec-javascript-play-5",
@@ -1579,7 +1660,7 @@ var ptx_lunr_docs = [
   "id": "backmatter-5",
   "level": "1",
   "url": "backmatter-5.html",
-  "type": "Index",
+  "type": "Tra Cứu",
   "number": "",
   "title": "Đề Mục",
   "body": " Đề Mục   "
@@ -1588,9 +1669,9 @@ var ptx_lunr_docs = [
   "id": "colophon",
   "level": "1",
   "url": "colophon.html",
-  "type": "Colophon",
+  "type": "Mặt Sau",
   "number": "",
-  "title": "Colophon",
+  "title": "Mặt Sau",
   "body": " Được viết bằng PreTeXt . Được triển khai bằng Github Pages.  Ngôn ngữ:   English   Tiếng Việt    "
 }
 ]

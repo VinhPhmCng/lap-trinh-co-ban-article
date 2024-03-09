@@ -1,0 +1,56 @@
+= Lập Trình Cơ Bản: Cho Người Mới Bắt Đầu
+Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
+:toc: auto
+:toc-title: Mục Lục
+:hide-uri-scheme:
+
+== Thông tin Dự án ✨
+
+Article được viết với hệ thống soạn thảo https://pretextbook.org/index.html[PreTeXt].
+
+Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trình mà không đi sâu vào chi tiết.
+
+
+=== Ngôn ngữ khả dụng
+
+.Ấn để mở rộng
+[%collapsible]
+====
+* Tiếng Việt
+* https://github.com/VinhPhmCng/basic-programming-article[English]
+====
+
+
+=== Triển khai hiện tại: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
+
+
+== Công cụ và tài nguyên để làm video 🔨
+
+. Video editing 🎞️
+* https://kdenlive.org/en/[Kdenlive]
+
+. Animation ✨
+* https://www.manim.community/[Manim CE]
+* https://motioncanvas.io/[Motion Canvas]
+
+. Media 👀
+* https://playground.com/[Playground]
+* https://giphy.com/[Giphy]
+* https://getyarn.io/[Yarn]
+* https://devicon.dev/[Devicon]
+* https://fontawesome.com/[Fontawesome]
+* https://www.bensound.com/[Bensound]
+* https://pixabay.com/[Pixabay]
+
+. Voice-overs 🎤
+* https://elevenlabs.io/[ElevenLabs]
+
+
+== Đóng góp 🤝
+
+The project is currently not open to PR.
+
+
+== License 🔑
+
+link:COPYING[GNU Free Documentation License] © VPC

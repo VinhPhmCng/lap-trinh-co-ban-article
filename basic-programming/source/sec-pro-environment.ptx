@@ -121,8 +121,12 @@ See the file COPYING for copying conditions.
     Môi trường này chạy tương tự, nhưng nó bổ sung thêm hai chức năng. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút <q>CodeLens</q> kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.
   </p>
 
+  <p>
+    Thật ra, nó còn một lợi ích nhỏ nữa. Tham khảo <xref ref="appendix-playground" text="title"/> nếu bạn có hứng thú.
+  </p>
+
   <insight>
-    <idx><h>Lưu ý</h><h>chọn môi trường lập trình</h></idx>
+    <idx><h>Chia sẻ</h><h>chọn môi trường lập trình</h></idx>
     <p>
       Tùy vào khái niệm đang nói đến, môi trường phù hợp hơn để trình bày nó sẽ được sử dụng.
     </p>
@@ -134,8 +138,8 @@ See the file COPYING for copying conditions.
       <ul>
         <li>
           <p>
-            <idx><h>Liên kết</h><h>khảo sát IDEs phổ biến năm 2023</h></idx>
-            <url href="https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment" visual="survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment">stackoverflow's 2023 survey on the most popular IDEs</url>
+            <idx><h>Liên kết</h><h>khảo sát IDE phổ biến năm 2023</h></idx>
+            <url href="https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment" visual="survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment">stackoverflow's 2023 survey on the most popular IDE</url>
           </p>
         </li>
       </ul>
@@ -145,22 +149,22 @@ See the file COPYING for copying conditions.
   <note>
     <idx><h>Chú ý</h><h>thay đổi code</h></idx>
     <p>
-      Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal mới được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.
+      Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.
     </p>
   </note>
 
   <p>
-    Trong quyển sách này, để đảm bảo <term>sự đơn giản</term>, môi trường lập trình của chúng ta được hạn chế xuống những thành phần đó. Những môi trường lập trình phức tạp hơn sẽ có rất nhiều chức năng giúp các lập trình viên sáng tạo, nhưng đối với người mới bắt đầu, chúng là không cần thiết. Ngoài ra, cài đặt những công cụ nâng cao thường rất phức tạp, vì thế dễ làm bạn nản lòng.
+    Trong quyển sách này, để đảm bảo <term>sự đơn giản</term>, môi trường lập trình của chúng ta được hạn chế xuống những thành phần đó. Những môi trường lập trình phức tạp hơn có rất nhiều chức năng giúp các lập trình viên sáng tạo, nhưng đối với người mới bắt đầu, chúng là không cần thiết. Ngoài ra, cài đặt những công cụ nâng cao thường rất phức tạp, vì thế dễ làm bạn nản lòng.
   </p>
 
   <p>
-    Những đoạn code ví dụ được cung cấp có thể được chạy trực tiếp hoặc cắt, dán, và chạy ở các ô code trong <xref ref="appendix-playground" text="title"/>. Chúng cũng có thể được biên dịch và chạy ở những mỗi trường bên ngoài, nhưng quyển sách này sẽ không hướng dẫn việc đó.
+    Những đoạn code ví dụ được cung cấp có thể được chạy trực tiếp. Hoặc bạn có thể cắt, dán, và chạy chúng ở các ô code trong <xref ref="appendix-playground" text="title"/>. Chúng cũng có thể được biên dịch và chạy ở những môi trường bên ngoài, nhưng quyển sách này sẽ không hướng dẫn việc đó.
   </p>
 
   <note>
     <idx><h>Chú ý</h><h>ô code nối tiếp</h></idx>
     <p>
-      Những ô code trong quyển sách này có thể nối tiếp những ô code ngay trước nó. Việc này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.
+      Một ô code có thể nối tiếp những ô code ở trước nó. Chức năng này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.
     </p>
   </note>
 

@@ -349,7 +349,7 @@ var ptx_lunr_docs = [
   "type": "Phần",
   "number": "4",
   "title": "Ghi Chú",
-  "body": " Ghi Chú    Nhận biết và sử dụng ghi chú trong code.    Khi viết code, có những lúc bạn muốn sử dụng văn bản thường, thay vì code. Có thể bạn muốn để lại ghi chú hay giải thích cho một thuật toán nào đó, hay ghi chép lại luồng suy nghĩ của bản thân khi đó.  Khi code ngày càng dài và phức tạp hơn, những ghi chú này bổ sung ngữ cảnh cần thiết cho bạn, hoặc cho người khác đang đọc code của bạn.   Khái niệm ghi chú    Ghi chú là những mẩu văn bản thường, không được chạy bởi trình biên dịch.  Để viết một ghi chú trong Python, sử dụng dấu thăng # . Những gì ở sau nó (trên cùng dòng) sẽ được coi là văn bản thô.     Có thể bạn sẽ hứng thú:      Liên kết các cú pháp ghi chú  \"comments in different programming languages\"      Liên kết ghi chú nhiều dòng  \"multiline comments\"        Chia sẻ tắt code  Ghi chú cũng được sử dụng để tạm thời vô hiệu hóa một dòng code.   Ví dụ:    Thí Nghiệm Vui  Xóa dấu # ở dòng 5 và chạy lại đoạn code.    This is code More code    Ví dụ code ghi chú   Dòng 1 là một ghi chú dùng để chú thích.  Dòng 3 và 7 là code bình thường.  Dòng 5 là một ghi chú dùng để tắt code.        Basic Programming Part 4: Comments  Video phần 04  Coming soon.    "
+  "body": " Ghi Chú    Nhận biết và sử dụng ghi chú trong code.    Khi viết code, có những lúc bạn muốn sử dụng văn bản thường, thay vì code. Có thể bạn muốn để lại ghi chú hay giải thích cho một thuật toán nào đó, hay ghi chép lại luồng suy nghĩ của bản thân khi đó.  Khi code ngày càng dài và phức tạp hơn, những ghi chú này bổ sung ngữ cảnh cần thiết cho bạn, hoặc cho người khác đang đọc code của bạn.   Khái niệm ghi chú    Ghi chú là những mẩu văn bản thường, không được chạy bởi trình biên dịch.  Để viết một ghi chú trong Python, sử dụng dấu thăng # . Những gì ở sau nó (trên cùng dòng) sẽ được coi là văn bản thô.     Có thể bạn sẽ hứng thú:      Liên kết các cú pháp ghi chú  \"comments in different programming languages\"      Liên kết ghi chú nhiều dòng  \"multiline comments\"        Chia sẻ tắt code  Ghi chú cũng được sử dụng để tạm thời vô hiệu hóa một dòng code.   Ví dụ:    Thí Nghiệm Vui  Xóa dấu # ở dòng 5 và chạy lại đoạn code.    This is code More code    Ví dụ code ghi chú   Dòng 1 là một ghi chú dùng để chú thích.  Dòng 3 và 7 là code bình thường.  Dòng 5 là một ghi chú dùng để tắt code.        Basic Programming Part 4: Comments  Video phần 04    "
 },
 {
   "id": "sec-comment-2",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Video",
   "number": "4.2",
   "title": "Basic Programming — Part 4: Comments.",
-  "body": " Basic Programming Part 4: Comments  Video phần 04  Coming soon.   "
+  "body": " Basic Programming Part 4: Comments  Video phần 04   "
 },
 {
   "id": "sec-variable",

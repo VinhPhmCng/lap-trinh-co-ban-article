@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Data Structures</title>
+<title>Cấu Trúc Dữ Liệu</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="article">
@@ -94,13 +94,13 @@ sagecell.makeSagecell({
   "languages": [
     "python"
   ],
-  "evalButtonText": "Run Code (Python)"
+  "evalButtonText": "Chạy Code (Python)"
 });
 </script><link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha512-dubtf8xMHSQlExGRQ5R7toxHLgSDZ0K7AunqPWHXmJQ8XyVIG19S1T95gBxlAeGOK02P4Da2RTnQz0Za0H0ebQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.css" integrity="sha512-cbQXwDFK7lj2Fqfkuxbo5iD1dSbLlJGXGpfTDqbggqjHJeyzx88I3rfwjS38WJag/ihH7lzuGlGHpDBymLirZQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.css" integrity="sha512-nXlJLUeqPMp1Q3+Bd8Qds8tXeRVQscMscwysJm821C++9w6WtsFbJjPenZ8cQVMXyqSAismveQJc0C1splFDCA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.js" integrity="sha512-93uCmm0q+qO5Lb1huDqr7tywS8A2TFA+1/WHvyiWaK6/pvsFl6USnILagntBx8JnVbQH5s3n0vQZY6xNthNfKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Run Code (Sage)';
+<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Chạy Code (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
@@ -151,12 +151,12 @@ eBookConfig.enable_chatcodes =  false;
 <link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.2.15/prefix-runestone.f64dcc3632d7a0c3.css">
 </head>
 <body class="pretext article ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a class="assistive" href="#ptx-content">Đi đến nội dung chính</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="basic-programming.html"><span class="title">Basic Programming:</span> <span class="subtitle">For Complete Beginners</span></a></h1>
+<h1 class="heading"><a href="basic-programming.html"><span class="title">Lập Trình Cơ Bản:</span> <span class="subtitle">Dành Cho Người Mới Bắt Đầu</span></a></h1>
 <p class="byline">Devinh</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Mục Lục"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Mục Lục</span></button><a class="index-button button" href="backmatter-5.html" title="Tra Cứu"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Tra Cứu</span></a><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -167,7 +167,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-data-type.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="basic-programming.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-operator.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-data-type.html" title="Trước"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Trc</span></a><a class="up-button button" href="basic-programming.html" title="Lên"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Lên</span></a><a class="next-button button" href="sec-operator.html" title="Tiếp"><span class="name">Tiếp</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -177,72 +177,72 @@ eBookConfig.enable_chatcodes =  false;
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter">
-<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-abstract"><div class="toc-title-box"><a href="frontmatter.html#frontmatter-2" class="internal"><span class="title">License</span></a></div></li></ul>
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Mặt Trước</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-abstract"><div class="toc-title-box"><a href="frontmatter.html#frontmatter-2" class="internal"><span class="title">Bản Quyền</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-introduction.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<div class="toc-title-box"><a href="sec-introduction.html" class="internal"><span class="codenumber">1</span> <span class="title">Lời Mở Đầu</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-how-to-follow-along" class="internal"><span class="codenumber">1.1</span> <span class="title">How To Follow Along</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-support" class="internal"><span class="codenumber">1.2</span> <span class="title">Support This Project</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-what-is-programming" class="internal"><span class="codenumber">1.3</span> <span class="title">What Is Programming?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-how-to-follow-along" class="internal"><span class="codenumber">1.1</span> <span class="title">Hướng Dẫn Sử Dụng</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-support" class="internal"><span class="codenumber">1.2</span> <span class="title">Ủng Hộ Dự Án</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-what-is-programming" class="internal"><span class="codenumber">1.3</span> <span class="title">Lập Trình Là Gì?</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pro-environment.html" class="internal"><span class="codenumber">2</span> <span class="title">Our Programming Environment</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pro-language.html" class="internal"><span class="codenumber">3</span> <span class="title">Programming Languages</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-comment.html" class="internal"><span class="codenumber">4</span> <span class="title">Comments</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-variable.html" class="internal"><span class="codenumber">5</span> <span class="title">Variables</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-type.html" class="internal"><span class="codenumber">6</span> <span class="title">Data Types</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pro-environment.html" class="internal"><span class="codenumber">2</span> <span class="title">Môi Trường Lập Trình</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pro-language.html" class="internal"><span class="codenumber">3</span> <span class="title">Ngôn Ngữ Lập Trình</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-comment.html" class="internal"><span class="codenumber">4</span> <span class="title">Ghi Chú</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-variable.html" class="internal"><span class="codenumber">5</span> <span class="title">Biến</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-type.html" class="internal"><span class="codenumber">6</span> <span class="title">Kiểu Dữ Liệu</span></a></div></li>
 <li class="toc-item toc-section active">
-<div class="toc-title-box"><a href="sec-data-structure.html" class="internal"><span class="codenumber">7</span> <span class="title">Data Structures</span></a></div>
+<div class="toc-title-box"><a href="sec-data-structure.html" class="internal"><span class="codenumber">7</span> <span class="title">Cấu Trúc Dữ Liệu</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-structure.html#subsec-list" class="internal"><span class="codenumber">7.1</span> <span class="title">Lists (Arrays)</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-structure.html#subsec-dictionary" class="internal"><span class="codenumber">7.2</span> <span class="title">Dictionaries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-structure.html#subsec-list" class="internal"><span class="codenumber">7.1</span> <span class="title">Danh Sách (Mảng)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-structure.html#subsec-dictionary" class="internal"><span class="codenumber">7.2</span> <span class="title">Từ Điển</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-operator.html" class="internal"><span class="codenumber">8</span> <span class="title">Operators</span></a></div>
+<div class="toc-title-box"><a href="sec-operator.html" class="internal"><span class="codenumber">8</span> <span class="title">Toán Tử</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-arithmetic" class="internal"><span class="codenumber">8.1</span> <span class="title">Arithmetic Operators</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-assignment" class="internal"><span class="codenumber">8.2</span> <span class="title">Assignment Operators</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-relational" class="internal"><span class="codenumber">8.3</span> <span class="title">Relational Operators</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-logical" class="internal"><span class="codenumber">8.4</span> <span class="title">Logical Operators</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-arithmetic" class="internal"><span class="codenumber">8.1</span> <span class="title">Toán Tử Số Học</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-assignment" class="internal"><span class="codenumber">8.2</span> <span class="title">Toán Tử Gán</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-relational" class="internal"><span class="codenumber">8.3</span> <span class="title">Toán Tử Quan Hệ</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-operator.html#subsec-op-logical" class="internal"><span class="codenumber">8.4</span> <span class="title">Toán Tử Logic</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-attribute.html" class="internal"><span class="codenumber">9</span> <span class="title">Attributes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-function.html" class="internal"><span class="codenumber">10</span> <span class="title">Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-attribute.html" class="internal"><span class="codenumber">9</span> <span class="title">Thuộc Tính</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-function.html" class="internal"><span class="codenumber">10</span> <span class="title">Hàm</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-error.html" class="internal"><span class="codenumber">11</span> <span class="title">Errors</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-error.html#subsec-fix-error" class="internal"><span class="codenumber">11.1</span> <span class="title">How To Fix Errors</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-error.html" class="internal"><span class="codenumber">11</span> <span class="title">Lỗi</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-error.html#subsec-fix-error" class="internal"><span class="codenumber">11.1</span> <span class="title">Cách Sửa Lỗi</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-personal-experience.html" class="internal"><span class="codenumber">12</span> <span class="title">Personal Experiences</span></a></div>
+<div class="toc-title-box"><a href="sec-personal-experience.html" class="internal"><span class="codenumber">12</span> <span class="title">Kinh Nghiệm Cá Nhân</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-start-simple" class="internal"><span class="codenumber">12.1</span> <span class="title">Start Simple</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-tutorial-hell" class="internal"><span class="codenumber">12.2</span> <span class="title">The Tutorial Hell</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-have-fun" class="internal"><span class="codenumber">12.3</span> <span class="title">Have Fun</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-open-minded" class="internal"><span class="codenumber">12.4</span> <span class="title">Be Open-Minded</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-start-simple" class="internal"><span class="codenumber">12.1</span> <span class="title">Khởi Đầu Đơn Giản</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-tutorial-hell" class="internal"><span class="codenumber">12.2</span> <span class="title">Tutorial Hell</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-have-fun" class="internal"><span class="codenumber">12.3</span> <span class="title">Tận Hưởng</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-open-minded" class="internal"><span class="codenumber">12.4</span> <span class="title">Khách Quan</span></a></div></li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-tech-pointer" class="internal"><span class="codenumber">12.5</span> <span class="title">Some Technical Pointers</span></a></div>
+<div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-tech-pointer" class="internal"><span class="codenumber">12.5</span> <span class="title">Một Số Gợi Ý Chuyên Môn</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-virtual-environment" class="internal"><span class="codenumber">12.5.1</span> <span class="title">Use A Simple Virtual Environment</span></a></div></li>
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-cli" class="internal"><span class="codenumber">12.5.2</span> <span class="title">Know A Bit About Command-Line Interfaces</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-virtual-environment" class="internal"><span class="codenumber">12.5.1</span> <span class="title">Dùng Một Môi Trường Ảo Cơ Bản</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-cli" class="internal"><span class="codenumber">12.5.2</span> <span class="title">Biết Một Ít Giao Diện Dòng Lệnh (CLI)</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conditional.html" class="internal"><span class="codenumber">13</span> <span class="title">Conditional Statements</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-loop.html" class="internal"><span class="codenumber">14</span> <span class="title">Loops</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scope.html" class="internal"><span class="codenumber">15</span> <span class="title">Scopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-declare-function.html" class="internal"><span class="codenumber">16</span> <span class="title">Declaring Functions</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-class.html" class="internal"><span class="codenumber">17</span> <span class="title">Classes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-list.html" class="internal"><span class="codenumber">18</span> <span class="title">Using Lists</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-dictionary.html" class="internal"><span class="codenumber">19</span> <span class="title">Using Dictionaries</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conditional.html" class="internal"><span class="codenumber">13</span> <span class="title">Câu Lệnh Điều Kiện</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-loop.html" class="internal"><span class="codenumber">14</span> <span class="title">Vòng Lặp</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scope.html" class="internal"><span class="codenumber">15</span> <span class="title">Phạm Vi</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-declare-function.html" class="internal"><span class="codenumber">16</span> <span class="title">Khai Báo Hàm</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-class.html" class="internal"><span class="codenumber">17</span> <span class="title">Lớp</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-list.html" class="internal"><span class="codenumber">18</span> <span class="title">Sử Dụng Danh Sách</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-dictionary.html" class="internal"><span class="codenumber">19</span> <span class="title">Sử Dụng Từ Điển</span></a></div></li>
 <li class="toc-item toc-backmatter">
-<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Phụ Lục</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-appendix">
-<div class="toc-title-box"><a href="appendix-playground.html" class="internal"><span class="codenumber">A</span> <span class="title">Playground</span></a></div>
+<div class="toc-title-box"><a href="appendix-playground.html" class="internal"><span class="codenumber">A</span> <span class="title">Sân Chơi</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-python-play" class="internal"><span class="codenumber">A.1</span> <span class="title">Python</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-javascript-play" class="internal"><span class="codenumber">A.2</span> <span class="title">Javascript</span></a></div></li>
@@ -250,44 +250,45 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-sage-play" class="internal"><span class="codenumber">A.4</span> <span class="title">Sage</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-whats-next.html" class="internal"><span class="codenumber">B</span> <span class="title">What’s Next?</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-whats-next.html" class="internal"><span class="codenumber">B</span> <span class="title">Tiếp Tục Hành Trình</span></a></div></li>
 <li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-gfdl.html" class="internal"><span class="codenumber">C</span> <span class="title">GNU Free Documentation License</span></a></div></li>
-<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Đề Mục</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon.html" class="internal"><span class="title">Mặt Sau</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-data-structure"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">7</span><span class="space"> </span><span class="title">Data Structures</span>
+<span class="type">Phần</span><span class="space"> </span><span class="codenumber">7</span><span class="space"> </span><span class="title">Cấu Trúc Dữ Liệu</span>
 </h2>
-<article class="objectives goal-like" id="sec-data-structure-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<article class="objectives goal-like" id="sec-data-structure-2"><h3 class="heading"><span class="type">Mục Tiêu</span></h3>
 <ul class="disc">
-<li id="sec-data-structure-2-1-1"><div class="para" id="p-derived-sec-data-structure-2-1-1">Learn about data structures.</div></li>
-<li id="sec-data-structure-2-1-2"><div class="para" id="p-derived-sec-data-structure-2-1-2">See two examples—<dfn class="terminology">lists</dfn> and <dfn class="terminology">dictionaries</dfn>.</div></li>
-</ul></article><section class="introduction" id="sec-data-structure-3"><div class="para" id="sec-data-structure-3-1"> Up until now, variables have been storing one singular value. Suppose we have a program that stores 100 perfect square numbers. It might look like this:</div> <div class="code-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><pre class="program"><code class="language-py">ps1 = 0
+<li id="sec-data-structure-2-1-1"><div class="para" id="p-derived-sec-data-structure-2-1-1">Tìm hiểu các cấu trúc dữ liệu.</div></li>
+<li id="sec-data-structure-2-1-2"><div class="para" id="p-derived-sec-data-structure-2-1-2">Quan sát hai ví dụ—<dfn class="terminology">danh sách</dfn> và <dfn class="terminology">từ điển</dfn>.</div></li>
+</ul></article><section class="introduction" id="sec-data-structure-3"><div class="para" id="sec-data-structure-3-1"> Cho đến nay, biến luôn chứa một giá trị duy nhất. Giả sử ta có một chương trình để chứa 100 số chính phương. Nó có thể trông như sau:</div> <div class="code-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><pre class="program"><code class="language-py">ps1 = 0
 ps2 = 1
 ps3 = 4
 ps4 = 9
 # ...
 ps100 = 9801
-</code></pre></div> <div class="para" id="sec-data-structure-3-3">This is highly impractical. So, to reduce the number of variables, we can make use of a new object—<dfn class="terminology">a data structure</dfn>.</div> <article class="definition definition-like" id="def-data-structure"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.1</span><span class="period">.</span>
+</code></pre></div> <div class="para" id="sec-data-structure-3-3">Đoạn code trên không thực tế cho lắm. Để giảm số lượng biến, ta có thể sử dụng một đối tượng mới—<dfn class="terminology">cấu trúc dữ liệu</dfn>.</div> <article class="definition definition-like" id="def-data-structure"><h3 class="heading">
+<span class="type">Khái Niệm</span><span class="space"> </span><span class="codenumber">7.1</span><span class="period">.</span>
 </h3> <div class="para" id="def-data-structure-2-1">
-<dfn class="terminology">A data structure</dfn> is a special data that acts as a storage for multiple other pieces of data.</div> <div class="para" id="def-data-structure-2-2">Each piece of “sub-data” stored by a data structure is called an <dfn class="terminology">element</dfn>.</div> <div class="para" id="def-data-structure-2-3">Data structures are <em class="emphasis">built on top of</em> data types, meaning concepts in <a href="sec-data-type.html" class="internal" title="Section 6: Data Types">Section 6</a> can be applied to them.</div></article> <div class="para" id="sec-data-structure-3-5"> Then, we can re-implement our program as follows:</div> <div class="code-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><pre class="program"><code class="language-py">ps = [0, 1, 4, 9, ..., 9801]
-</code></pre></div> <div class="para" id="sec-data-structure-3-7">Even though this is still impractical (we’re typing 100 numbers), it’s significantly better than before. Instead of creating 100 different variables, we create just one that holds 100 values. (This is a <dfn class="terminology">list</dfn>, which is discussed below.)</div> <div class="para" id="sec-data-structure-3-8">Every programming language has its own set of built-in data structures, all of which are different in some way and have their pros and cons.</div> <div class="para" id="sec-data-structure-3-9">For now, we will take a look at two of the most used data structures—<dfn class="terminology">lists (arrays)</dfn> and <dfn class="terminology">dictionaries</dfn>.</div> <article class="note remark-like" id="sec-data-structure-3-10"><h3 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">7.2</span><span class="period">.</span>
-</h3> <div class="para" id="sec-data-structure-3-10-2">The following sub-sections will only <em class="emphasis">briefly introduce</em> these two objects. </div></article></section><section class="subsection" id="subsec-list"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.1</span><span class="space"> </span><span class="title">Lists (Arrays)</span>
+<dfn class="terminology">Cấu trúc dữ liệu</dfn> là một dữ liệu có khả năng chứa cùng một lúc nhiều dữ liệu khác.</div> <div class="para" id="def-data-structure-2-2">Các dữ liệu “con” của một cấu trúc dữ liệu được gọi là <dfn class="terminology">phần tử</dfn>.</div> <div class="para" id="def-data-structure-2-3">Cấu trúc dữ liệu được xây dựng <em class="emphasis">dựa trên</em> kiểu dữ liệu, vì vậy những kiến thức ở <a href="sec-data-type.html" class="internal" title="Phần 6: Kiểu Dữ Liệu">Phần 6</a> có thể được áp dụng.</div></article> <div class="para" id="sec-data-structure-3-5"> Từ đó, ta có thể cải thiện chương trình trên như sau:</div> <div class="code-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><pre class="program"><code class="language-py">ps = [0, 1, 4, 9, ..., 9801]
+</code></pre></div> <div class="para" id="sec-data-structure-3-7">Mặc dù vẫn không mấy thực tế (ta vẫn phải gõ 100 số), phiên bản này tốt hơn trước rất nhiều. Thay vì tạo ra 100 biến khác nhau, ta chỉ cần một biến có khả năng chứa 100 phần tử. (Đây là một <dfn class="terminology">danh sách</dfn>, sẽ được bàn tới dưới đây.)</div> <div class="para" id="sec-data-structure-3-8">Mỗi ngôn ngữ lập trình đều có tập hợp các cấu trúc dữ liệu của riêng mình. Mỗi cấu trúc dữ liệu đều có những điểm mạnh và điểm yếu.</div> <div class="para" id="sec-data-structure-3-9">Bây giờ ta sẽ tìm hiểu hai cấu trúc dữ liệu phổ biến nhất—<dfn class="terminology">danh sách (mảng)</dfn> và <dfn class="terminology">từ điển</dfn>.</div> <article class="note remark-like" id="sec-data-structure-3-10"><h3 class="heading">
+<span class="type">Chú Ý</span><span class="space"> </span><span class="codenumber">7.2</span><span class="period">.</span>
+</h3> <div class="para" id="sec-data-structure-3-10-2">Hai tiểu mục sắp tới sẽ chỉ <em class="emphasis">giới thiệu sơ bộ</em> hai đối tượng trên. </div></article></section><section class="subsection" id="subsec-list"><h3 class="heading hide-type">
+<span class="type">Mục</span><span class="space"> </span><span class="codenumber">7.1</span><span class="space"> </span><span class="title">Danh Sách (Mảng)</span>
 </h3>
 <article class="definition definition-like" id="def-list"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.3</span><span class="period">.</span>
-</h4> <div class="para" id="def-list-2-1">A <dfn class="terminology">list</dfn> can store multiple values at once.</div> <div class="para" id="def-list-2-2">Elements of a Pythonic list can be of <em class="emphasis">different</em> data types.</div></article><aside class="aside aside-like" id="subsec-list-3"><h4 class="heading"><span class="title">Topic(s) you might be interested in.</span></h4>
+<span class="type">Khái Niệm</span><span class="space"> </span><span class="codenumber">7.3</span><span class="period">.</span>
+</h4> <div class="para" id="def-list-2-1">
+<dfn class="terminology">Danh sách</dfn> có thể chứa nhiều phần tử cùng một lúc.</div> <div class="para" id="def-list-2-2">Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu <em class="emphasis">khác nhau</em>.</div></article><aside class="aside aside-like" id="subsec-list-3"><h4 class="heading"><span class="title">Có thể bạn sẽ hứng thú.</span></h4>
 <div class="para logical" id="subsec-list-3-2"><ul class="disc"><li id="subsec-list-3-2-1-1"><div class="para" id="subsec-list-3-2-1-1-1"> <a class="external" href="https://www.google.com/search?q=Python+lists+vs+arrays" target="_blank">"Python lists vs arrays"</a><a class="xref" id="subsec-list-3-2-1-1-1-3" href="" data-knowl="./knowl/fn/subsec-list-3-2-1-1-1-3.html" title="Footnote 7.1"><sup> 1 </sup></a>
 </div></li></ul></div></aside><article class="note remark-like" id="subsec-list-4"><h4 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">7.4</span><span class="period">.</span>
-</h4> <div class="para" id="subsec-list-4-2">In some other programming languages, there’s a data structure called <dfn class="terminology">array</dfn>, which works the same as a list in Python.</div> <div class="para" id="subsec-list-4-3">Python also has arrays, though with a different implementation from some others’. This goes to show that in different languages, data structures can have the same name but different implementations, and vice versa.</div> <div class="para" id="subsec-list-4-4">Generally, the term “array” is more well-known than “list”.</div></article><div class="para" id="subsec-list-5">For example:</div>
-<aside class="aside aside-like" id="subsec-list-6"><h4 class="heading"><span class="title">Try It Out.</span></h4>
-<div class="para" id="subsec-list-6-2">Try adding more elements to the lists.</div></aside><pre id="subsec-list-7" class="ptx-sagecell sagecell-python"><script type="text/x-sage">li1 = [1, 2, 3]
+<span class="type">Chú Ý</span><span class="space"> </span><span class="codenumber">7.4</span><span class="period">.</span>
+</h4> <div class="para" id="subsec-list-4-2">Trong một vài ngôn ngữ lập trình khác, có một cấu trúc dữ liệu tên là <dfn class="terminology">mảng</dfn>. Nó hoạt động tương tự một danh sách trong Python.</div> <div class="para" id="subsec-list-4-3">Python cũng có mảng, nhưng nó lại khác so với danh sách. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.</div> <div class="para" id="subsec-list-4-4">Thông thường thì cái tên “mảng” được biết đến nhiều hơn là “danh sách”.</div></article><div class="para" id="subsec-list-5">Ví dụ:</div>
+<aside class="aside aside-like" id="subsec-list-6"><h4 class="heading"><span class="title">Thí Nghiệm Vui.</span></h4>
+<div class="para" id="subsec-list-6-2">Thêm phần tử vào danh sách.</div></aside><pre id="subsec-list-7" class="ptx-sagecell sagecell-python"><script type="text/x-sage">li1 = [1, 2, 3]
 li2 = [1, 2.5, 3]
 li3 = [1, "test", 3]
 
@@ -301,17 +302,18 @@ print(li3, type(li3))
 [1 2.5 3] &lt;class 'list'&gt;
 [1 'test' 3] &lt;class 'list'&gt;
 </pre></article></details><article class="investigation project-like" id="subsec-list-9"><h4 class="heading">
-<span class="type">Explanation</span><span class="space"> </span><span class="codenumber">7.1</span><span class="period">.</span>
-</h4> <div class="para" id="subsec-list-9-2"></div> <div class="para" id="subsec-list-9-3">We declare 3 lists, each of which has 3 elements.</div> <div class="para" id="subsec-list-9-4">The elements of <code class="code-inline tex2jax_ignore">l1</code> are all integers.</div> <div class="para" id="subsec-list-9-5">The list <code class="code-inline tex2jax_ignore">l2</code> stores two integers and a float.</div> <div class="para" id="subsec-list-9-6">The list <code class="code-inline tex2jax_ignore">l3</code> has two integers and a string.</div> <div class="para" id="subsec-list-9-7">The command <code class="code-inline tex2jax_ignore">type()</code> lets us know their data type is <code class="code-inline tex2jax_ignore">list</code>.</div></article><article class="note remark-like" id="subsec-list-10"><h4 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">7.6</span><span class="period">.</span>
-</h4> <div class="para" id="subsec-list-10-2">As you can already see, lists have yet another distinct syntax. But we won’t go into their syntax and usage yet. Refer to <a href="sec-using-list.html" class="internal" title="Section 18: Using Lists">Section 18</a> for further discussion about lists.</div></article></section><section class="subsection" id="subsec-dictionary"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.2</span><span class="space"> </span><span class="title">Dictionaries</span>
+<span class="type">Giải Thích</span><span class="space"> </span><span class="codenumber">7.1</span><span class="period">.</span>
+</h4> <div class="para" id="subsec-list-9-2"></div> <div class="para" id="subsec-list-9-3">Ta khai báo 3 danh sách. Mỗi danh sách có 3 phần tử.</div> <div class="para" id="subsec-list-9-4">Các phần tử của <code class="code-inline tex2jax_ignore">l1</code> đều là số nguyên.</div> <div class="para" id="subsec-list-9-5">Danh sách <code class="code-inline tex2jax_ignore">l2</code> chứa hai <code class="code-inline tex2jax_ignore">int</code> và một <code class="code-inline tex2jax_ignore">float</code>.</div> <div class="para" id="subsec-list-9-6">Danh sách <code class="code-inline tex2jax_ignore">l3</code> có hai <code class="code-inline tex2jax_ignore">int</code> và một <code class="code-inline tex2jax_ignore">str</code>.</div> <div class="para" id="subsec-list-9-7">Lệnh <code class="code-inline tex2jax_ignore">type()</code> cho ta biết kiểu dữ liệu của chúng là <code class="code-inline tex2jax_ignore">list</code>.</div></article><article class="note remark-like" id="subsec-list-10"><h4 class="heading">
+<span class="type">Chú Ý</span><span class="space"> </span><span class="codenumber">7.6</span><span class="period">.</span>
+</h4> <div class="para" id="subsec-list-10-2">Có thể thấy, danh sách có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo <a href="sec-using-list.html" class="internal" title="Phần 18: Sử Dụng Danh Sách">Phần 18</a> để tìm hiểu thêm về danh sách.</div></article></section><section class="subsection" id="subsec-dictionary"><h3 class="heading hide-type">
+<span class="type">Mục</span><span class="space"> </span><span class="codenumber">7.2</span><span class="space"> </span><span class="title">Từ Điển</span>
 </h3>
 <article class="definition definition-like" id="def-dictionary"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.7</span><span class="period">.</span>
-</h4> <div class="para" id="def-dictionary-2-1">A <dfn class="terminology">dictionary</dfn> can store multiple pairs of <dfn class="terminology">key:value</dfn>.</div> <div class="para" id="def-dictionary-2-2">It’s often used to store descriptive information.</div></article><div class="para" id="subsec-dictionary-3">For example:</div>
-<aside class="aside aside-like" id="subsec-dictionary-4"><h4 class="heading"><span class="title">Try It Out.</span></h4>
-<div class="para" id="subsec-dictionary-4-2">Try adding more information about Steve.</div></aside><pre id="subsec-dictionary-5" class="ptx-sagecell sagecell-python"><script type="text/x-sage">info_of_student = {
+<span class="type">Khái Niệm</span><span class="space"> </span><span class="codenumber">7.7</span><span class="period">.</span>
+</h4> <div class="para" id="def-dictionary-2-1">
+<dfn class="terminology">Từ điển</dfn> có thể chứa nhiều cặp <dfn class="terminology">từ khóa:giá trị (key:value</dfn>).</div> <div class="para" id="def-dictionary-2-2">Nó thường được dùng để lưu trữ thông tin miêu tả.</div></article><div class="para" id="subsec-dictionary-3">Ví dụ:</div>
+<aside class="aside aside-like" id="subsec-dictionary-4"><h4 class="heading"><span class="title">Thí Nghiệm Vui.</span></h4>
+<div class="para" id="subsec-dictionary-4-2">Thêm thông tin miêu tả Steve.</div></aside><pre id="subsec-dictionary-5" class="ptx-sagecell sagecell-python"><script type="text/x-sage">info_of_student = {
   "name": "Steve",
   "gender": "male",
   "dob": 1980, 
@@ -327,15 +329,15 @@ print(type(info_of_student))
 </h4></summary><article class="problem example-like"><pre class="code-block tex2jax_ignore">{'name': 'Steve', 'gender': 'male', 'dob': 1980, 'hobbies': ['apples', 'swimming', 'programming'], 5: 'random'}
 &lt;class 'dict'&gt;
 </pre></article></details><article class="investigation project-like" id="subsec-dictionary-7"><h4 class="heading">
-<span class="type">Explanation</span><span class="space"> </span><span class="codenumber">7.2</span><span class="period">.</span>
-</h4> <div class="para" id="subsec-dictionary-7-2"></div> <div class="para" id="subsec-dictionary-7-3">We declare a dictionary with 5 elements which are pairs of key:value.</div> <div class="para" id="subsec-dictionary-7-4">As you can see, the keys and values can have different data types.</div> <div class="para" id="subsec-dictionary-7-5">The command <code class="code-inline tex2jax_ignore">type()</code> lets us know its data type is <code class="code-inline tex2jax_ignore">dict</code>.</div></article><article class="note remark-like" id="subsec-dictionary-8"><h4 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">7.9</span><span class="period">.</span>
-</h4> <div class="para" id="subsec-dictionary-8-2">Dictionaries have yet another distinct syntax. Again, we won’t go into their syntax and usage yet. Refer to <a href="sec-using-dictionary.html" class="internal" title="Section 19: Using Dictionaries">Section 19</a> for further discussion about dictionaries.</div></article></section><section class="conclusion" id="sec-data-structure-6"><div class="para logical" id="sec-data-structure-6-1"><pre class="code-display tex2jax_ignore">
+<span class="type">Giải Thích</span><span class="space"> </span><span class="codenumber">7.2</span><span class="period">.</span>
+</h4> <div class="para" id="subsec-dictionary-7-2"></div> <div class="para" id="subsec-dictionary-7-3">Ta khai báo một từ điển với 5 phần tử là các cặp key:value.</div> <div class="para" id="subsec-dictionary-7-4">Có thể thấy, các từ khóa và giá trị có thể thuộc các kiểu dữ liệu khác nhau.</div> <div class="para" id="subsec-dictionary-7-5">Lệnh <code class="code-inline tex2jax_ignore">type()</code> cho ta biết kiểu dữ liệu của nó là <code class="code-inline tex2jax_ignore">dict</code>.</div></article><article class="note remark-like" id="subsec-dictionary-8"><h4 class="heading">
+<span class="type">Chú Ý</span><span class="space"> </span><span class="codenumber">7.9</span><span class="period">.</span>
+</h4> <div class="para" id="subsec-dictionary-8-2">Một lần nữa, từ điển có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo <a href="sec-using-dictionary.html" class="internal" title="Phần 19: Sử Dụng Từ Điển">Phần 19</a> để tìm hiểu thêm về từ điển.</div></article></section><section class="conclusion" id="sec-data-structure-6"><div class="para logical" id="sec-data-structure-6-1"><pre class="code-display tex2jax_ignore">
       </pre></div> <article class="exploration project-like" id="sec-data-structure-6-2"><h3 class="heading">
 <span class="type">Video</span><span class="space"> </span><span class="codenumber">7.3</span><span class="period">.</span><span class="space"> </span><span class="title">Basic Programming — Part 7: Data Structures.</span>
 </h3>  <div class="para" id="sec-data-structure-6-2-3">Coming soon.</div> <div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed?listType=playlist&amp;list=PLBLdRr-v59vwnKvmvLtcgmAnsb2K1Ta_M&amp;modestbranding=1&amp;rel=0" id="sec-data-structure-6-2-4"></iframe></div></article></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-data-type.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-operator.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-data-type.html" title="Trước"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Trc</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-operator.html" title="Tiếp"><span class="name">Tiếp</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
